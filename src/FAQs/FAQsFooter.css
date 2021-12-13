@@ -1,0 +1,34 @@
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__left {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+}
+.footer__left > h2 {
+  font-size: calc(50 / 3963 * 100vw);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin-left: calc(61 / 3963 * 100vw);
+  color: #e5e5e5;
+}
+.footer__right {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+}
+.icon__container > .MuiSvgIcon-root {
+  height: calc(150 / 2167 * 100vh);
+  width: calc(150 / 3963 * 100vw);
+}
+.icon__container {
+  padding: calc(10 / 3963 * 100vw);
+  margin-right: calc(90 / 3963 * 100vw);
+  cursor: pointer;
+}
+.icon__container :hover {
+  background: rgba(171, 171, 171, 0.3);
+}

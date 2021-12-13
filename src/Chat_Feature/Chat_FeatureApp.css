@@ -1,0 +1,13 @@
+.app {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+}
+.app__body {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+}
+.app__sidebar-chat {
+  display: flex;
+}

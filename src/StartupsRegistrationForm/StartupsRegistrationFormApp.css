@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.App{
+  text-align: center;
+}
+
+.container{
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: center;
+}
+
+.sub-container{
+  /* background-color: aquamarine; */
+  width: 1440px;
+}
+
+.main-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  margin: 47px 0 23px 0;
+}
+
+.sub-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.underline{
+  height: 3px;
+  width: 400px;
+  background-color: rgba(49, 154, 150, 1);
+  position: relative;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+  margin: 8px;
+}
+
+.green-circle-left{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 29px;
+  top: 182px;
+  border-radius: 25px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.black-circle-left{
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  left: 89px;
+  top: 145px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.green-circle-right{
+  position: absolute;
+  height: 132px;
+  width: 70px;
+  right: 0px;
+  top: 145px;
+  border-radius: 66px 0 0 66px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.black-circle-right{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 112px;
+  top: 237px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.green-circle-bottom-big{
+  position: absolute;
+  height: 132px;
+  width: 132px;
+  right: 142px;
+  top: 1466px;
+  border-radius: 66px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.green-circle-bottom-small{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 310px;
+  top: 1666px;
+  border-radius: 15px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.black-circle-bottom{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 290px;
+  top: 1580px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 1);
+}

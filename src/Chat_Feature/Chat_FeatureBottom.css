@@ -1,0 +1,8 @@
+.bottom {
+  display: flex;
+  flex: 1;
+  background-color: #000000;
+  width: 100%;
+  height: calc(73 / 903 * 100%);
+  flex-direction: column;
+}

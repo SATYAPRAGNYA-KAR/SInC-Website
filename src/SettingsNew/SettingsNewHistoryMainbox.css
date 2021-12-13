@@ -1,0 +1,8 @@
+.historymainbox {
+  width: calc(792 / 1440 * 100vw);
+  height: calc(681 / 1024 * 100vh);
+  border-radius: calc(8 / 1440 * 100vw);
+  background-color: hsla(249, 19%, 14%, 0.1);
+  margin-left: calc(53 / 1440 * 100vw);
+  margin-top: calc(22 / 1024 * 100vh);
+}

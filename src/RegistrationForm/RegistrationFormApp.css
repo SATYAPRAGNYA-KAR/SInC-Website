@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+}
+
+.header{
+  height: 113px;
+  background-color: black;
+  z-index: 100;
+}
+
+.black-circle-left{
+  width: 40px;
+  height:40px;
+  border-radius: 20px;
+  background-color: black;
+  position: absolute;
+  left: 29px;
+  top: 164px;
+}
+
+.green-circle-left{
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  left: 91px;
+  top: 194px;
+  border-radius: 35px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.black-circle-right{
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  right: 63px;
+  top: 220px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.green-circle-right-small{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 125px;
+  top: 174px;
+  border-radius: 15px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.green-circle-right-big{
+  position: absolute;
+  height: 132px;
+  width: 132px;
+  right: -26px;
+  top: 87px;
+  border-radius: 66px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.green-circle-bottom-big{
+  position: absolute;
+  height: 132px;
+  width: 132px;
+  right: -35px;
+  top: 1850px;
+  border-radius: 66px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.green-circle-bottom-small{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 70px;
+  top: 2082px;
+  border-radius: 15px;
+  background: rgba(49, 154, 150, 1);
+}
+
+.black-circle-bottom{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 128px;
+  top: 2000px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.intro {
+  text-align: center;
+}
+
+.main-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  margin: 47px 0 23px 0;
+}
+
+.sub-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+  /* border-bottom: 3px solid rgba(49, 154, 150, 1); */
+}
+
+.underline{
+  height: 3px;
+  width: 400px;
+  background-color: rgba(49, 154, 150, 1);
+  position: relative;
+  left: 50%;
+  position: relative;
+  top: 30%;
+  transform: translate(-50%, 0);
+  margin: 8px;
+
+}
+
+.para-1{
+  margin: 20px 70px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 20px 140px;
+}
+
+.box-1{
+  margin: 38px 170px 60px 170px;
+  /* font-family: Montserrat; */
+  text-align: left;
+  color: #000000;
+  border: 3px solid #319A96;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 25px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.box-2 > span{
+  font-size: 32px;
+  margin: 0 120px;
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 39px;
+  background: rgba(193, 225, 223, 1);
+  padding: 26px;
+  border-radius: 20px;
+}
+
+/* how to add footer at the bottom of screen? */
+/* .footer{
+  height: 73px;
+  background-color: black;
+} */

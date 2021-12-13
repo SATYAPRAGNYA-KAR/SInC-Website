@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.body__head {
+  display: flex;
+}
+.body__head > .MuiSvgIcon-root {
+  width: calc(50 / 1440 * 100vw);
+  height: calc(50 / 900 * 100vh);
+  margin-top: calc(25.67 / 900 * 100vh);
+  margin-left: calc(55 / 1440 * 100vw);
+}
+.body__head > h2 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(27 / 900 * 100vh);
+  font-size: calc(24 / 1440 * 100vw);
+  font-weight: 600;
+}
+.body__content {
+  display: flex;
+}
+.mainbox {
+  height: calc(603 / 900 * 100vh);
+  width: calc(929 / 1440 * 100vw);
+  background-color: #424242;
+  margin-left: calc(89 / 1440 * 100vw);
+  margin-top: calc(16 / 900 * 100vh);
+  border-radius: calc(10 / 1440 * 100vw);
+}

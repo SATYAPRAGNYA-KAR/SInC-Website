@@ -1,0 +1,65 @@
+.get-in-touch{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+margin-bottom: 10px;
+color: #000000;
+}
+
+label{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+
+}
+
+textarea{
+    font-family: Montserrat;
+    height: 115px;
+    width: 90%;
+    align-self: center;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    margin: 8px 0 22px 0;
+}
+
+input{
+    font-family: Montserrat;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 8px 0 22px 0;
+}
+
+.submit-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: -10px;
+}
+
+#submitbutton{
+    width: 167px;
+    height: 45px;
+background: #42413D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+align-self: center;
+justify-self: center;
+}

@@ -1,0 +1,190 @@
+.deletemainbox {
+  display: flex;
+  width: calc(792 / 1440 * 100vw);
+  height: calc(681 / 1024 * 100vh);
+  border-radius: calc(8 / 1440 * 100vw);
+  background-color: hsla(249, 19%, 14%, 0.1);
+  margin-left: calc(53 / 1440 * 100vw);
+  margin-top: calc(22 / 1024 * 100vh);
+}
+.deletemainbox__left {
+  flex-direction: column;
+}
+.profile {
+  display: flex;
+}
+.profile > h2 {
+  font-size: calc(15 / 1440 * 100vw);
+  margin-left: calc(30 / 1440 * 100vw);
+  margin-top: calc(40 / 1024 * 100vh);
+}
+.profile > .MuiSvgIcon-root {
+  margin-top: calc(40 / 1024 * 100vh);
+  margin-left: calc(300 / 1440 * 100vw);
+}
+.change {
+  display: flex;
+}
+.change > h2 {
+  font-size: calc(15 / 1440 * 100vw);
+  margin-left: calc(30 / 1440 * 100vw);
+  margin-top: calc(70 / 1024 * 100vh);
+}
+.change > .MuiSvgIcon-root {
+  margin-top: calc(70 / 1024 * 100vh);
+  margin-left: calc(255 / 1440 * 100vw);
+}
+.payment {
+  display: flex;
+}
+.payment > h2 {
+  font-size: calc(15 / 1440 * 100vw);
+  margin-left: calc(30 / 1440 * 100vw);
+  margin-top: calc(70 / 1024 * 100vh);
+}
+.payment > .MuiSvgIcon-root {
+  margin-top: calc(70 / 1024 * 100vh);
+  margin-left: calc(213 / 1440 * 100vw);
+}
+.notifications {
+  display: flex;
+}
+.notifications > h2 {
+  font-size: calc(15 / 1440 * 100vw);
+  margin-left: calc(30 / 1440 * 100vw);
+  margin-top: calc(70 / 1024 * 100vh);
+}
+.notifications > .MuiSvgIcon-root {
+  margin-top: calc(70 / 1024 * 100vh);
+}
+.dark {
+  display: flex;
+}
+.dark > h2 {
+  font-size: calc(15 / 1440 * 100vw);
+  margin-left: calc(30 / 1440 * 100vw);
+  margin-top: calc(70 / 1024 * 100vh);
+}
+.dark > .MuiSvgIcon-root {
+  margin-top: calc(70 / 1024 * 100vh);
+}
+.profile > .MuiSvgIcon-root:hover {
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.change > .MuiSvgIcon-root:hover {
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.payment > .MuiSvgIcon-root:hover {
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* The switch1 - the box around the slider */
+.switch1 {
+  position: relative;
+  display: inline-block;
+  width: calc(48 / 1440 * 100vw);
+  height: calc(34 / 1024 * 100vh);
+  margin-top: calc(70 / 1024 * 100vh);
+  margin-left: calc(225 / 1440 * 100vw);
+}
+
+/* Hide default HTML checkbox */
+.switch1 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switch2 {
+  position: relative;
+  display: inline-block;
+  width: calc(48 / 1440 * 100vw);
+  height: calc(34 / 1024 * 100vh);
+  margin-top: calc(70 / 1024 * 100vh);
+  margin-left: calc(275 / 1440 * 100vw);
+}
+
+/* Hide default HTML checkbox */
+.switch2 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  width: calc(20 / 1440 * 100vw);
+  height: calc(30 / 1024 * 100vh);
+  left: calc(2 / 1440 * 100vw);
+
+  bottom: calc(2 / 1024 * 100vh);
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 calc(1 / 1440 * 100vw) #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(calc(24 / 1440 * 100vw));
+  -ms-transform: translateX(calc(24 / 1440 * 100vw));
+  transform: translateX(calc(24 / 1440 * 100vw));
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: calc(30 / 1440 * 100vw);
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.deletemainbox__rightbox {
+  height: calc(360 / 1024 * 100vh);
+  width: calc(170 / 1440 * 100vw);
+  border-radius: calc(8 / 1440 * 100vw);
+  border: dashed hsla(9, 75%, 66%, 0.26);
+  margin-left: calc(50 / 1440 * 100vw);
+  margin-top: calc(40 / 1024 * 100vh);
+}
+.left__button {
+  margin-left: calc(50 / 1440 * 100vw);
+  margin-top: calc(210 / 1024 * 100vh);
+  width: calc(135 / 1440 * 100vw);
+  height: calc(50 / 1024 * 100vh);
+  border-radius: calc(8 / 1440 * 100vw);
+  border: solid #ea7c69;
+  color: #ea7c69;
+}
+.right__button {
+  margin-left: calc(10 / 1440 * 100vw);
+  width: calc(135 / 1440 * 100vw);
+  height: calc(50 / 1024 * 100vh);
+  border-radius: calc(8 / 1440 * 100vw);
+  color: #ffffff;
+  background-color: #ea7c69;
+}

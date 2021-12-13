@@ -1,0 +1,27 @@
+.info {
+  display: flex;
+  cursor: pointer;
+}
+.info > .MuiSvgIcon-root {
+  color: #ffffff;
+  height: calc(30 / 900 * 100vh);
+  width: calc(30 / 1440 * 100vw);
+  margin-left: calc(45 / 1440 * 100vw);
+  margin-right: calc(10 / 1440 * 100vw);
+  margin-top: calc(24 / 900 * 100vh);
+}
+.info__content > h2 {
+  color: #ffffff;
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 500;
+  margin-top: calc(19 / 900 * 100vh);
+}
+.info__content > h3 {
+  color: #939393;
+  font-size: calc(12 / 1440 * 100vw);
+  font-weight: 400;
+  margin-bottom: calc(19 / 900 * 100vh);
+}
+.info:hover {
+  background: rgba(171, 171, 171, 0.3);
+}

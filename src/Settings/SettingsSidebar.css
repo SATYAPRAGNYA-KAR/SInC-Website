@@ -1,0 +1,10 @@
+.sidebar {
+  height: calc(603 / 900 * 100vh);
+  width: calc(301 / 1440 * 100vw);
+  background-color: #424242;
+  margin-left: calc(55 / 1440 * 100vw);
+  margin-top: calc(16 / 900 * 100vh);
+  border-radius: calc(10 / 1440 * 100vw);
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,39 @@
+.notification_chat {
+  display: flex;
+  padding-left: calc(18 / 1440 * 100vw);
+  padding-top: calc(13 / 900 * 100vh);
+  padding-right: calc(18 / 1440 * 100vw);
+  padding-bottom: calc(13 / 900 * 100vh);
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+.chat:hover {
+  background: rgba(171, 171, 171, 0.3);
+}
+.chat__total {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.chat__info {
+  margin-left: calc(15 / 1440 * 100vw);
+  color: #ffffff;
+  font-size: calc(12 / 1440 * 100vw);
+}
+.chat__info > h2 {
+  font-weight: 600;
+  margin-bottom: calc(5 / 900 * 100vh);
+}
+.chat__info > p {
+  font-weight: normal;
+}
+.chat__detail > .MuiSvgIcon-root {
+  width: calc(20 / 1440 * 100vw);
+  height: calc(30 / 900 * 100vh);
+  color: #959595;
+}
+.chat__detail > p {
+  color: #9f9f9f;
+  font-size: calc(10 / 1440 * 100vw);
+  text-align: right;
+}

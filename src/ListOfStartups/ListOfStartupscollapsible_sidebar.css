@@ -1,0 +1,16 @@
+.collapsible_sidebar_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collapsible_sidebar{
+    display: flex;
+    align-items: center;
+}
+.collapsible_sidebar_icons{
+    display: flex;
+    align-items: center;
+}
+.collapsible_sidebar_icons > icon{
+    flex: 1;
+}

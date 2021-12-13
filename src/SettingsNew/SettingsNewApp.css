@@ -1,0 +1,182 @@
+.heading {
+  display: flex;
+}
+.heading__left {
+  display: flex;
+  cursor: pointer;
+}
+.heading__left :hover {
+  background-color: #1f1d2b1a;
+}
+.heading__left > .MuiSvgIcon-root {
+  width: calc(40 / 1440 * 100vw);
+  height: calc(40 / 1024 * 100vh);
+  margin-left: calc(256.5 / 1440 * 100vw);
+  margin-top: calc(41 / 1024 * 100vh);
+  color: black;
+}
+
+.heading__left > h2 {
+  margin-top: calc(36 / 1024 * 100vh);
+  color: black;
+}
+.heading__right > .MuiSvgIcon-root {
+  width: calc(17 / 1440 * 100vw);
+  height: calc(17 / 1024 * 100vh);
+  margin-left: calc(168 / 1440 * 100vw);
+  margin-top: calc(55 / 1024 * 100vh);
+}
+.body {
+  display: flex;
+}
+.body__left {
+  display: flex;
+  flex-direction: column;
+  width: calc(200 / 1440 * 100vw);
+  margin-top: calc(100 / 1024 * 100vh);
+}
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.dashboard:hover {
+  background-color: #e6f7ff;
+}
+.dashboard__left {
+  display: flex;
+}
+.dashboard__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.dashboard__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.startups {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.startups:hover {
+  background-color: #e6f7ff;
+}
+.startups__left {
+  display: flex;
+}
+.startups__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.startups__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.aboutus:hover {
+  background-color: #e6f7ff;
+}
+.aboutus__left {
+  display: flex;
+}
+.aboutus__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.aboutus__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.contact:hover {
+  background-color: #e6f7ff;
+}
+.contact__left {
+  display: flex;
+}
+.contact__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.contact__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.settings {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  background-color: #e6f7ff;
+  cursor: pointer;
+}
+.settings:hover {
+  background-color: #e6f7ff;
+}
+.settings__left {
+  display: flex;
+}
+.settings__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.settings__right {
+  display: flex;
+}
+
+.settings__right > hr {
+  width: calc(2 / 1440 * 100vw);
+  height: calc(30 / 1024 * 100vh);
+  background-color: hsla(209, 100%, 55%, 1);
+}
+.help {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.help:hover {
+  background-color: #e6f7ff;
+}
+.help__left {
+  display: flex;
+}
+.help__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.help__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}

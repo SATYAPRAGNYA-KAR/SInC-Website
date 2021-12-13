@@ -1,0 +1,11 @@
+.historysidebar {
+  height: calc(681 / 1024 * 100vh);
+  width: calc(275 / 1440 * 100vw);
+  background-color: #e5e5e5;
+  margin-left: calc(57 / 1440 * 100vw);
+  margin-top: calc(22 / 1024 * 100vh);
+  border-radius: calc(8 / 1440 * 100vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

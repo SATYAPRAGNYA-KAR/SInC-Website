@@ -1,0 +1,69 @@
+.Infocard{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(207,228,237) 80%,rgb(49,154,150)  20%);
+    /* background-color: rgb(207,228,237); */
+    width : 300px;
+    height: 380px;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 15px;
+}
+.Infocard_Discord{
+    width: 100%;
+}
+.Infocard_Discord > span{
+    font-size: larger;
+}
+.Infocard_About{
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+}
+.Infocard_About > h3{
+    text-align: center;
+    align-self: center;
+    align-content: center center; 
+    border-bottom: 2px solid black;
+}
+.Infocard_About > hr{
+    width: 60%;
+    color: black;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.Infocard_Discord{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Infocard_MVP{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+#Infocard_vertical_line{
+    border-right: 2px solid gray;
+}
+.Infocard_MVP_Inside{
+    width: 90%;
+    align-content: center;
+    align-items: center;
+}
+.Infocard_buttons_button{
+    border: 1px solid black;
+    background-color: rgb(49,154,150);
+    display: inline;
+    height: 25px;
+    border-radius: 5px;
+    margin: 2px;
+    width: 250px;
+    padding: auto;
+    font-size: large;
+    margin-bottom: 10px;
+    box-shadow: 2px;
+}

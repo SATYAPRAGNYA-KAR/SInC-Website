@@ -1,0 +1,21 @@
+.notifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.notifications > .MuiSvgIcon-root {
+  color: #ffffff;
+  width: calc(60 / 1440 * 100vw);
+  height: calc(60 / 900 * 100vh);
+  margin-top: calc(10 / 801 * 100vh);
+}
+.notifications > h3 {
+  font-size: calc(12 / 1440 * 100vw);
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: calc(10 / 801 * 100vh);
+}
+.notifications:hover {
+  background: rgba(171, 171, 171, 0.3);
+}

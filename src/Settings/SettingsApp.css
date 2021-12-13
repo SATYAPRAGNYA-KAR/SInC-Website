@@ -1,0 +1,47 @@
+.app {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.app__header {
+  height: calc(100 / 900 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+.app__body {
+  flex: auto;
+}
+.app__footer {
+  height: calc(75 / 900 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+  margin-bottom: 0%;
+  margin-left: 0%;
+}
+.aligned {
+  display: flex;
+}
+.aligned > .MuiSvgIcon-root {
+  width: calc(35 / 1440 * 100vw);
+  height: calc(35 / 900 * 100vh);
+  margin-left: calc(75 / 1440 * 100vw);
+  margin-top: calc(27 / 900 * 100vh);
+  cursor: pointer;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+.aligned > h2 {
+  font-weight: 600;
+  font-size: calc(30 / 900 * 100vh);
+  margin-left: calc(10 / 1440 * 100vw);
+  margin-top: calc(22 / 900 * 100vh);
+  font: "Montserrat", sans-serif;
+}
+.content {
+  display: flex;
+}

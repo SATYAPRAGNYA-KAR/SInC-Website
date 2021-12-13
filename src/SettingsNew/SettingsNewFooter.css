@@ -1,0 +1,6 @@
+.footer {
+  width: 100vw;
+  height: calc(200 / 1024 * 100vh);
+  background-color: #312e81;
+  margin-top: calc(40 / 1024 * 100vh);
+}

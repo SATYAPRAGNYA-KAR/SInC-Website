@@ -1,0 +1,78 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+}
+.header__left > .MuiSvgIcon-root {
+  color: #ffff01;
+  margin-top: calc(28 / 900 * 100vh);
+  margin-left: calc(21 / 1440 * 100vw);
+  width: calc(35 / 1440 * 100vw);
+  height: calc(45 / 900 * 100vh);
+  cursor: pointer;
+}
+.header__left > h2 {
+  color: #ffffff;
+  margin-top: calc(35 / 900 * 100vh);
+  margin-left: calc(15 / 1440 * 100vw);
+  font-size: calc(20 / 900 * 100vh);
+  font-weight: 600;
+}
+img {
+  margin-top: calc(13 / 900 * 100vh);
+  width: calc(30 / 1440 * 100vw);
+  height: calc(40 / 900 * 100vh);
+  cursor: pointer;
+}
+.header__center {
+  display: flex;
+  flex-direction: column;
+}
+.header__center > h2 {
+  color: #ffffff;
+  font-size: calc(20 / 900 * 100vh);
+  font-weight: 500;
+  margin-bottom: calc(16 / 900 * 100vh);
+  margin-left: calc(43 / 1440 * 100vw);
+  cursor: pointer;
+}
+.header__center-top {
+  display: flex;
+}
+.header__center-top > h2 {
+  color: #ffffff;
+  font-size: calc(24 / 1440 * 100vw);
+  font-weight: 500;
+  margin-left: calc(12 / 1440 * 100vw);
+  margin-top: calc(10 / 900 * 100vh);
+}
+.header__right {
+  display: flex;
+}
+.bond > h2 {
+  color: #ffffff;
+  font-size: calc(15 / 1440 * 100vw);
+  font-weight: 400;
+  margin-top: calc(27 / 900 * 100vh);
+  text-align: right;
+}
+.bond > h3 {
+  color: #ffffff;
+  font-size: calc(15 / 1440 * 100vw);
+  font-weight: 400;
+  margin-top: calc(-8 / 900 * 100vh);
+  text-align: right;
+}
+.header__right > .MuiAvatar-root {
+  width: calc(38 / 1440 * 100vw);
+  height: calc(50 / 900 * 100vh);
+  margin-top: calc(24 / 900 * 100vh);
+  margin-right: calc(16 / 1440 * 100vw);
+  margin-left: calc(10 / 1440 * 100vw);
+  border-radius: 50%;
+  border: 2px solid #ffff01;
+  cursor: pointer;
+}

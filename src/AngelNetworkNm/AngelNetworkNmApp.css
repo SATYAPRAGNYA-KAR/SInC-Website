@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.buttons{
+  height: 110px;
+  /* background-color: palevioletred; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.buttons > .button1{
+   flex: 1;
+}
+
+.buttons > .button2{
+  flex: 1;
+}
+
+.buttons > .button3{
+  flex: 1;
+}
+
+.buttons > .button3{
+  margin-right: 20px;
+}
+
+.buttons div{
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: -33px;
+}
+
+.buttons div button{
+  border: none;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+
+.underline{
+  position: relative;
+  top: -8px;
+  padding: 0 5% 0 5%;
+}
+
+.underline > .thin{
+  /* flex: 2; */
+  border-top: 2px solid #000000;
+  position: relative;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+
+}
+
+.underline > .bold{
+  height: 8px;
+  position: relative;
+  left: 72%;
+  align-self:flex-end;
+  width: 27%;
+  background: #000000;
+  border-radius: 18px;
+}
+
+
+.container{
+  background: rgba(218, 218, 218, 0.58);
+  margin: 75px 40px 0 40px;
+  padding: 35px;
+}
+
+.section{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.text{
+  padding: 30px;
+}
+
+.heading{
+  font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(3, 114, 114, 1);
+padding: 0 0 25px 0;
+}
+
+.box{
+  border: 3px solid #037272;
+box-sizing: border-box;
+border-radius: 30px;
+padding: 25px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+}
+
+#section2, #section4{
+  flex-direction: row-reverse;
+}
+
+.image{
+  padding: 30px;
+  align-self: top;
+}
+
+#image4 img{
+  width: 400px;
+}
+
+#section2 img, #section4 img{
+    padding-right: 50px;
+}
+
+#section1 img, #section3 img, #section5 img{
+  padding-left: 50px;
+}

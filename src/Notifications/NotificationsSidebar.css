@@ -1,0 +1,12 @@
+.sidebar {
+  margin-top: calc(22 / 900 * 100vh);
+  margin-left: calc(114 / 1440 * 100vw);
+  height: calc(603 / 900 * 100vh);
+  width: calc(378 / 1440 * 100vw);
+  background-color: #424242;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
