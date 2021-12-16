@@ -6,14 +6,14 @@ import Footer from "./SettingsFooter";
 
 function SettingsApp() {
   return (
-    <div className="app">
-      <div className="app__header">
+    <div className="settingsapp">
+      <div className="settingsapp__header">
         <Header />
       </div>
-      <div className="app__body">
+      <div className="settingsapp__body">
         <Body />
       </div>
-      <div className="app__footer">
+      <div className="settingsapp__footer">
         <Footer />
       </div>
     </div>

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Heebo', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+#startupinsightblackborder {
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+
+.startupinsighttop-heading {
+  position: absolute;
+  width: 884px;
+  height: 277px;
+  left: 8%;
+  top: 190px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 146px;
+
+  color: #000000;
+}
+
+.startupinsightbottom-heading {
+  position: absolute;
+  width: 884px;
+  height: 277px;
+  left: 8%;
+  top: 326px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 146px;
+
+  color: #000000;
+}
+
+.startupinsightright-box {
+  position: absolute;
+  width: 499px;
+  height: 517px;
+  right: 10%;
+  top: 209px;
+
+  background: #dedbdb;
+  border-radius: 5px;
+
+  box-sizing: border-box;
+  padding: 30px 40px 30px 40px;
+  text-align: center;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.startupinsightright-box-register > button {
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin-top: 20px;
+  background-color: #000000;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #d3d3d3;
+}
+
+.startupinsightbottom {
+  padding: 70px 9%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.startupinsightbox1,
+.startupinsightbox2,
+.startupinsightbox3,
+.startupinsightbox4,
+.startupinsightbox5,
+.startupinsightbox6,
+.startupinsightbox7,
+.startupinsightbox8,
+.startupinsightbox9 {
+  width: 33.33%;
+  height: 280px;
+  padding: 30px 10px 20px 30px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.startupinsightbox1,
+.startupinsightbox5,
+.startupinsightbox9 {
+  background: rgba(254, 203, 47, 1);
+}
+
+.startupinsightbox2,
+.startupinsightbox6,
+.startupinsightbox7 {
+  background: black;
+}
+
+.startupinsightbox3,
+.startupinsightbox4,
+.startupinsightbox8 {
+  background: rgba(49, 154, 150, 1);
+}
+
+.startupinsightbox-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+
+.startupinsightbox-symbol {
+  position: relative;
+  left: 85%;
+  top: -22%;
+}
+
+.startupinsightbox-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  margin-top: 10px;
+}

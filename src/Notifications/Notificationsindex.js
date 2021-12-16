@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Notificationsindex.css";
-import App from "./NotificationsApp";
+import NotificationsApp from "./NotificationsApp";
 import reportWebVitals from "./NotificationsreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NotificationsApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

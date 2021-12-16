@@ -5,7 +5,7 @@ import DeleteMainbox from "./SettingsNewDeleteMainbox";
 
 function DeleteHome() {
   return (
-    <div className="deletehome">
+    <div className="settingsnewdeletehome">
       <DeleteSidebar />
       <DeleteMainbox />
     </div>

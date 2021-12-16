@@ -5,7 +5,7 @@ import Mainbox from "./SettingsNewMainbox";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="settingsnewhome">
       <Sidebar />
       <Mainbox />
     </div>

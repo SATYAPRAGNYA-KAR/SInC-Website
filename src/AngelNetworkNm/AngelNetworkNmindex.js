@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./AngelNetworkNmindex.css";
-import App from "./AngelNetworkNmApp";
+import AngelNetworkNmApp from "./AngelNetworkNmApp";
 import reportWebVitals from "./AngelNetworkNmreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AngelNetworkNmApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

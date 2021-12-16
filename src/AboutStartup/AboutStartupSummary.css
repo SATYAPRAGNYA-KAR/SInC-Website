@@ -1,4 +1,4 @@
-.nav{
+.nav {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -10,61 +10,61 @@
   padding-bottom: 0;
   margin-bottom: 0;
 }
-.li-n{
-    text-decoration: none;
-    border-radius: 2px;
-    padding: 6px;
-    flex: 1;
-    align-items: center;
-    text-align: center;
+.li-n {
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 6px;
+  flex: 1;
+  align-items: center;
+  text-align: center;
 }
-.li-n:hover{
-    background-color: rgba(243, 217, 217, 1);
-    /* cursor: grab; */
+.li-n:hover {
+  background-color: rgba(243, 217, 217, 1);
+  /* cursor: grab; */
 }
 
-.li-a{
-    text-decoration: none;
-    border-radius: 2px;
-    padding: 6px;
-    flex: 1;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(243, 217, 217, 1);
+.li-a {
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 6px;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(243, 217, 217, 1);
 }
-#hr{
-    padding: 0;
-    margin: 0;
+#hr {
+  padding: 0;
+  margin: 0;
 }
-.Content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+.aboutstartupsummaryContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
-.Card{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    border: 2px solid black;
-    overflow-wrap: break-word;
-    text-align: center;
-    flex: 1;
-    margin: 20px;
-    padding: 10px;
-    height: 220px;
-    border-radius: 25px;
+.aboutstartupsummaryCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 2px solid black;
+  overflow-wrap: break-word;
+  text-align: center;
+  flex: 1;
+  margin: 20px;
+  padding: 10px;
+  height: 220px;
+  border-radius: 25px;
 }
-.Card:hover{
-    background-color: rgba(243, 217, 217, 1);
-    /* cursor: grab; */
+.aboutstartupsummaryCard:hover {
+  background-color: rgba(243, 217, 217, 1);
+  /* cursor: grab; */
 }
-.img{
-    padding-top: 20px;
+.aboutstartupsummaryimg {
+  padding-top: 20px;
 }
-.Card-Topic{
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 20px;
+.aboutstartupsummaryCard-Topic {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
 }

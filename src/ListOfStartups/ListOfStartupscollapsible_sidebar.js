@@ -7,30 +7,30 @@ import { BiLibrary } from "react-icons/bi";
 
 function collapsible_sidebar() {
   return (
-    <div className="collapsible_sidebar">
-      <div className="collapsible_sidebar_header">
+    <div className="listofstartupscollapsible_sidebar">
+      <div className="listofstartupscollapsible_sidebar_header">
         <BiMenuAltLeft size={30} className="icon" />
         Dashboard
       </div>
-      <div className="collapsible_sidebar_body">
-        <div className="collapsible_sidebar_icons">
-          <AiFillHome className="icon" />
+      <div className="listofstartupscollapsible_sidebar_body">
+        <div className="listofstartupscollapsible_sidebar_icons">
+          <AiFillHome className="listofstartupscollapsible_sidebaricon" />
           Home
         </div>
-        <div className="collapsible_sidebar_icons">
-          <MdExplore className="icon" />
+        <div className="listofstartupscollapsible_sidebar_icons">
+          <MdExplore className="listofstartupscollapsible_sidebaricon" />
           Explore
         </div>
-        <div className="collapsible_sidebar_icons">
-          <BiLibrary className="icon" />
+        <div className="listofstartupscollapsible_sidebar_icons">
+          <BiLibrary className="listofstartupscollapsible_sidebaricon" />
           Library
         </div>
-        <div className="collapsible_sidebar_icons">
-          <AiOutlineHistory className="icon" />
+        <div className="listofstartupscollapsible_sidebar_icons">
+          <AiOutlineHistory className="listofstartupscollapsible_sidebaricon" />
           History
         </div>
-        <div className="collapsible_sidebar_icons"></div>
-        <div className="collapsible_sidebar_icon"></div>
+        <div className="listofstartupscollapsible_sidebar_icons"></div>
+        <div className="listofstartupscollapsible_sidebar_icon"></div>
       </div>
     </div>
   );

@@ -9,52 +9,52 @@ import irr from "./Images/irr.png";
 function Financials() {
   return (
     <div>
-      <div className="Content">
-        <div className="Card">
-          <div className="img">
+      <div className="aboutstartupfinancialsContent">
+        <div className="aboutstartupfinancialsCard">
+          <div className="aboutstartupfinancialsimg">
             <img
               src={fund}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">
+          <div className="aboutstartupfinancialsCard-Topic">
             Rounds of fundraising taken <br />
             Series B
           </div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartupfinancialsCard">
+          <div className="aboutstartupfinancialsimg">
             <img
               src={irr}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">
+          <div className="aboutstartupfinancialsCard-Topic">
             Rate of Return <br />
             (IRR)
           </div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartupfinancialsCard">
+          <div className="aboutstartupfinancialsimg">
             <img
               src={ideas}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Ideas</div>
+          <div className="aboutstartupfinancialsCard-Topic">Ideas</div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartupfinancialsCard">
+          <div className="aboutstartupfinancialsimg">
             <img
               src={contact}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Contact Us</div>
+          <div className="aboutstartupfinancialsCard-Topic">Contact Us</div>
         </div>
       </div>
     </div>

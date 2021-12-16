@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function Privacy() {
   return (
     <Link to="/privacypath" style={{ textDecoration: "none" }}>
-      <div className="privacy">
+      <div className="settingsnewprivacy">
         <PrivacyTipOutlinedIcon />
-        <div className="privacy__content">
+        <div className="settingsnewprivacy__content">
           <h2>Privacy</h2>
           <h3>Change your confidentiality</h3>
         </div>

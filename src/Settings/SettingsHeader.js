@@ -10,13 +10,13 @@ function Header() {
   }, []);
 
   return (
-    <div className="header">
-      <div className="header__left">
+    <div className="settingsheader">
+      <div className="settingsheader__left">
         <MenuIcon />
         <h2>Dashboard</h2>
       </div>
-      <div className="header__center">
-        <div className="header__center-top">
+      <div className="settingsheader__center">
+        <div className="settingsheader__center-top">
           <img
             src="https://media-exp1.licdn.com/dms/image/C510BAQE16x5t0uDm4Q/company-logo_200_200/0/1568468276035?e=2159024400&v=beta&t=Kno3pclqtMRNpav1Lx1hQ4YGsuWKSFHpIISiogua5wc"
             alt="SInC Logo"
@@ -25,8 +25,8 @@ function Header() {
         </div>
         <h2>Mentors | Startups | Initiatives</h2>
       </div>
-      <div className="header__right">
-        <div className="bond">
+      <div className="settingsheader__right">
+        <div className="settingsheaderbond">
           <h2>James</h2>
           <h3>Bond</h3>
         </div>

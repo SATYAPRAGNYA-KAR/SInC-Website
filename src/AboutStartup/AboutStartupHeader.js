@@ -17,39 +17,42 @@ import "./AboutStartupSummary.css";
 function Header() {
   return (
     <div>
-      <div className="Header-TopBar">
+      <div className="aboutstartupHeader-TopBar">
         <img
           src={sinc}
           alt="Logo"
           style={{ height: "40px", width: "40px" }}
-          className="Header-TopBar-Items"
+          className="aboutstartupHeader-TopBar-Items"
         />
         <div>
-          <h2 id="Header-Name" className="Header-TopBar-Items">
+          <h2
+            id="aboutstartupHeader-Name"
+            className="aboutstartupHeader-TopBar-Items"
+          >
             Student Incubation Cell
           </h2>
         </div>
       </div>
-      <div className="Header-InBetween">
+      <div className="aboutstartupHeader-InBetween">
         <img
           src={InBetween}
           alt="Logo"
           style={{ height: "120px", width: "100%" }}
-          className="Header-InBetween"
+          className="aboutstartupHeader-InBetween"
         />
       </div>
-      <div className="Header-Startup">
-        <div className="Header-Startup-Logo">
+      <div className="aboutstartupHeader-Startup">
+        <div className="aboutstartupHeader-Startup-Logo">
           <img
             src={Starbucks}
             alt="Logo"
             style={{ height: "120px", width: "120px" }}
-            className="Header-"
+            className="aboutstartupHeader-"
           />
         </div>
-        <div className="Header-Startup-Contact">
+        <div className="aboutstartupHeader-Startup-Contact">
           <div></div>
-          <div className="Header-Startup-Contact-Content">
+          <div className="aboutstartupHeader-Startup-Contact-Content">
             <div>
               <h1 style={{ margin: "5px" }}>Starbucks</h1>
               <span style={{ margin: "0px" }}>Additional Info</span>
@@ -77,8 +80,8 @@ function Header() {
           </div>
         </div>
       </div>
-      <ul className="nav">
-        <li className="li-a">
+      <ul className="aboutstartupheadernav">
+        <li className="aboutstartupheaderli-a">
           <Link
             to="/"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
@@ -86,7 +89,7 @@ function Header() {
             Summary
           </Link>
         </li>
-        <li className="li-n">
+        <li className="aboutstartupheaderli-n">
           <Link
             to="/Team"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
@@ -94,7 +97,7 @@ function Header() {
             Team
           </Link>
         </li>
-        <li className="li-n">
+        <li className="aboutstartupheaderli-n">
           <Link
             to="/Financials"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
@@ -102,7 +105,7 @@ function Header() {
             Financials
           </Link>
         </li>
-        <li className="li-n">
+        <li className="aboutstartupheaderli-n">
           <Link
             to="/Business"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
@@ -110,7 +113,7 @@ function Header() {
             Business
           </Link>
         </li>
-        <li className="li-n">
+        <li className="aboutstartupheaderli-n">
           <Link
             to="/Products"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
@@ -118,7 +121,7 @@ function Header() {
             Products
           </Link>
         </li>
-        <li className="li-n">
+        <li className="aboutstartupheaderli-n">
           <Link
             to="/Requirements"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
@@ -129,7 +132,7 @@ function Header() {
       </ul>
       <hr
         style={{ height: "4px", color: "red", backgroundColor: "red" }}
-        id="hr"
+        id="aboutstartupheaderhr"
       />
     </div>
   );

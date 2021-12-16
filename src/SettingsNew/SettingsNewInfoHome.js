@@ -5,7 +5,7 @@ import InfoMainbox from "./SettingsNewInfoMainbox";
 
 function InfoHome() {
   return (
-    <div className="infohome">
+    <div className="settingsnewinfohome">
       <InfoSidebar />
       <InfoMainbox />
     </div>

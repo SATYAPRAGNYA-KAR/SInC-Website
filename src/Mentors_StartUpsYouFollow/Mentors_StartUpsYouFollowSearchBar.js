@@ -3,8 +3,8 @@ import "./Mentors_StartUpsYouFollowSearchBar.css";
 import { BiSearchAlt } from "react-icons/bi";
 function SearchBar() {
   return (
-    <div className="SearchBar">
-      <div className="SearchIcon">
+    <div className="mentorsstartupsyoufollowSearchBar">
+      <div className="mentorsstartupsyoufollowSearchIcon">
         <div>
           <BiSearchAlt size={26} />
         </div>

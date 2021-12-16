@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./ListOfStartupsindex.css";
-import App from "./ListOfStartupsApp";
+import ListOfStartupsApp from "./ListOfStartupsApp";
 import reportWebVitals from "./ListOfStartupsreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ListOfStartupsApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

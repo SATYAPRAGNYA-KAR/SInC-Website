@@ -21,88 +21,88 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 function SettingsNewApp() {
   return (
-    <div className="app">
-      <div className="heading">
-        <Link to="/settingsnew/" style={{ textDecoration: "none" }}>
-          <div className="heading__left">
+    <div className="settingsnewapp">
+      <div className="settingsnewheading">
+        <Link to="/settingsnew" style={{ textDecoration: "none" }}>
+          <div className="settingsnewheading__left">
             <SettingsIcon />
             <h2>Settings</h2>
           </div>
         </Link>
-        <div className="heading__right">
+        <div className="settingsnewheading__right">
           <AccountCircleIcon />
         </div>
       </div>
-      <div className="body">
-        <div className="body__left">
-          <div className="dashboard">
-            <div className="dashboard__left">
+      <div className="settingsnewbody">
+        <div className="settingsnewbody__left">
+          <div className="settingsnewdashboard">
+            <div className="settingsnewdashboard__left">
               <SpeedIcon />
               <h4>Dashboard</h4>
             </div>
-            <div className="dashboard__right">
+            <div className="settingsnewdashboard__right">
               <ExpandMoreIcon />
             </div>
           </div>
-          <div className="startups">
-            <div className="startups__left">
+          <div className="settingsnewstartups">
+            <div className="settingsnewstartups__left">
               <GridOnIcon />
               <h4>List of Startups</h4>
             </div>
-            <div className="startups__right">
+            <div className="settingsnewstartups__right">
               <ExpandMoreIcon />
             </div>
           </div>
-          <div className="aboutus">
-            <div className="aboutus__left">
+          <div className="settingsnewaboutus">
+            <div className="settingsnewaboutus__left">
               <MenuBookIcon />
               <h4>About Us</h4>
             </div>
-            <div className="aboutus__right">
+            <div className="settingsnewaboutus__right">
               <ExpandMoreIcon />
             </div>
           </div>
-          <div className="contact">
-            <div className="contact__left">
+          <div className="settingsnewcontact">
+            <div className="settingsnewcontact__left">
               <CheckCircleOutlineIcon />
               <h4>Contact Us</h4>
             </div>
-            <div className="contact__right">
+            <div className="settingsnewcontact__right">
               <ExpandMoreIcon />
             </div>
           </div>
-          <div className="settings">
-            <div className="settings__left">
+          <div className="settingsnewsettings">
+            <div className="settingsnewsettings__left">
               <SettingsIcon />
               <h4>Settings</h4>
             </div>
-            <div className="settings__right">
+            <div className="settingsnewsettings__right">
               <ExpandMoreIcon />
               <hr />
             </div>
           </div>
-          <div className="help">
-            <div className="help__left">
+          <div className="settingsnewhelp">
+            <div className="settingsnewhelp__left">
               <WarningAmberIcon />
               <h4>Help</h4>
             </div>
-            <div className="help__right">
+            <div className="settingsnewhelp__right">
               <ExpandMoreIcon />
             </div>
           </div>
         </div>
-        <div className="body__right">
+        <div className="settingsnewbody__right">
           <Routes>
             <Route path="/settingsnew/privacypath" element={<PrivacyHome />} />
             <Route
               path="/settingsnew/passwordpath"
               element={<PasswordHome />}
             />
-            <Route path="/settingsnew/deletepath" element={<DeleteHome />} />
-            <Route path="/settingsnew/friendpath" element={<FriendHome />} />
-            <Route path="/settingsnew/historypath" element={<HistoryHome />} />
-            <Route path="/settingsnew/infopath" element={<InfoHome />} />
-            <Route path="/settingsnew/" element={<Home />} />
+            <Route path="/deletepath" element={<DeleteHome />} />
+            <Route path="/friendpath" element={<FriendHome />} />
+            <Route path="/historypath" element={<HistoryHome />} />
+            <Route path="/infopath" element={<InfoHome />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </div>
       </div>

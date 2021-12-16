@@ -5,7 +5,7 @@ import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutline
 function Messages() {
   return (
     <div>
-      <div className="messages">
+      <div className="sidenavigationbarmessages">
         <ChatBubbleOutlineOutlinedIcon />
         <h3>Messages</h3>
       </div>

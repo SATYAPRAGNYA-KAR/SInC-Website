@@ -5,7 +5,7 @@ import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
 function Contact() {
   return (
     <div>
-      <div className="contact">
+      <div className="sidenavigationbarcontact">
         <CallOutlinedIcon />
         <h3>Contact Us</h3>
       </div>

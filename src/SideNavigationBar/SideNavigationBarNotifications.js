@@ -5,7 +5,7 @@ import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined
 function Notifications() {
   return (
     <div>
-      <div className="notifications">
+      <div className="sidenavigationbarnotifications">
         <NotificationsOutlinedIcon />
         <h3>Notifications</h3>
       </div>

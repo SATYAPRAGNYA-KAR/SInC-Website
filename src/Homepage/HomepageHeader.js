@@ -1,28 +1,39 @@
 import React from "react";
 import "./HomepageHeader.css";
 import sinc from "./sinc.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="header">
-      <div className="header-left">
+    <div className="homeheader">
+      <div className="homeheader-left">
         <img src={sinc} alt="" style={{ height: "40px", width: "40px" }} />
-        <h2 className="header-content" style={{ marginLeft: "10px" }}>
+        <h2 className="homeheader-content" style={{ marginLeft: "10px" }}>
           Student Incubation Cell
         </h2>
       </div>
-      <div className="header-right">
-        <div className="header-right-left">
-          <span>Home</span>
-          <span>Startup Insight</span>
-          <span>Initiatives</span>
-          <span>Team</span>
+      <div className="homeheader-right">
+        <div className="homeheader-right-left">
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <span style={{ color: "yellow" }}>Home</span>
+          </Link>
+          <Link to="/startupinsight" style={{ textDecoration: "none" }}>
+            <span style={{ color: "white" }}>Startup Insight</span>
+          </Link>
+          <span style={{ color: "white" }}>Initiatives</span>
+          <span style={{ color: "white" }}>Team</span>
         </div>
-        <div className="header-right-right">
-          <span>Contact Us</span>
-          <span>FAQ's</span>
-          <span>Login</span>
-          <span>Register</span>
+        <div className="homeheader-right-right">
+          <Link to="/contactus" style={{ textDecoration: "none" }}>
+            <span style={{ color: "white" }}>Contact Us</span>
+          </Link>
+          <Link to="/faqs" style={{ textDecoration: "none" }}>
+            <span style={{ color: "white" }}>FAQ's</span>
+          </Link>
+          <Link to="/registerpage" style={{ textDecoration: "none" }}>
+            <span style={{ color: "white" }}>Register</span>
+          </Link>
+          <span style={{ color: "white" }}>Login</span>
         </div>
       </div>
     </div>

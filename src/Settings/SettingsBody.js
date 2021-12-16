@@ -5,14 +5,14 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 
 function Body() {
   return (
-    <div className="body">
-      <div className="body__head">
+    <div className="settingsbody">
+      <div className="settingsbody__head">
         <SettingsOutlinedIcon />
         <h2>Settings</h2>
       </div>
-      <div className="body__content">
+      <div className="settingsbody__content">
         <Sidebar />
-        <div className="mainbox"></div>
+        <div className="settingsbodymainbox"></div>
       </div>
     </div>
   );

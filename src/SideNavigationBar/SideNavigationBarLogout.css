@@ -1,24 +1,24 @@
-.logout {
+.sidenavigationbarlogout {
   display: flex;
   cursor: pointer;
   align-items: center;
   justify-content: center;
   margin-top: calc(55 / 801 * 100vh);
 }
-.logout > .MuiSvgIcon-root {
+.sidenavigationbarlogout > .MuiSvgIcon-root {
   color: #319a96;
   width: calc(50 / 1440 * 100vw);
   height: calc(50 / 900 * 100vh);
   margin-top: calc(10 / 801 * 100vh);
   margin-bottom: calc(17 / 801 * 100vh);
 }
-.logout > h3 {
+.sidenavigationbarlogout > h3 {
   font-size: calc(18 / 1440 * 100vw);
   font-weight: 500;
   color: #319a96;
   margin-top: calc(15 / 801 * 100vh);
   margin-bottom: calc(25 / 801 * 100vh);
 }
-.logout:hover {
+.sidenavigationbarlogout:hover {
   background: rgba(171, 171, 171, 0.3);
 }

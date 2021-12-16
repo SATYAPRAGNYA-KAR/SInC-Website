@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-.buttons{
+.angelnetworkinvestorbuttons {
   height: 110px;
   /* background-color: palevioletred; */
   display: flex;
@@ -8,30 +8,30 @@
   /* justify-content: center; */
 }
 
-.buttons > .button1{
-   flex: 1;
-}
-
-.buttons > .button2{
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton1 {
   flex: 1;
 }
 
-.buttons > .button3{
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton2 {
   flex: 1;
 }
 
-.buttons > .button3{
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton3 {
+  flex: 1;
+}
+
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton3 {
   margin-right: 20px;
 }
 
-.buttons div{
+.angelnetworkinvestorbuttons div {
   /* background-color: black; */
   display: flex;
   justify-content: center;
   margin-bottom: -33px;
 }
 
-.buttons div button{
+.angelnetworkinvestorbuttons div button {
   border: none;
   background-color: transparent;
   font-family: Montserrat;
@@ -41,13 +41,13 @@
   line-height: 44px;
 }
 
-.underline{
+.angelnetworkinvestorunderline {
   position: relative;
   top: -8px;
   padding: 0 5% 0 5%;
 }
 
-.underline > .thin{
+.angelnetworkinvestorunderline > .angelnetworkinvestorthin {
   border-top: 2px solid #000000;
   position: relative;
   top: -8px;
@@ -56,7 +56,7 @@
   z-index: 10;
 }
 
-.underline > .bold{
+.angelnetworkinvestorunderline > .angelnetworkinvestorbold {
   height: 8px;
   position: relative;
   width: 28%;
@@ -67,24 +67,23 @@
   transform: translate(-50%, 0);
 }
 
-
-.container{
+.angelnetworkinvestorcontainer {
   background: rgba(218, 218, 218, 0.58);
   margin: 75px 40px 0 40px;
   padding: 35px;
 }
 
-.section{
+.angelnetworkinvestorsection {
   display: flex;
   padding: 10px;
   /* align-items: center; */
 }
 
-.text{
+.angelnetworkinvestortext {
   padding: 30px;
 }
 
-.box{
+.angelnetworkinvestorbox {
   border: 3px solid #037272;
   box-sizing: border-box;
   border-radius: 30px;
@@ -96,47 +95,49 @@
   line-height: 29px;
 }
 
-#section2, #section4{
+#angelnetworkinvestorsection2,
+#angelnetworkinvestorsection4 {
   flex-direction: row-reverse;
 }
 
-#image4 img{
+#angelnetworkinvestorimage4 img {
   padding-left: 60px;
 }
 
-#section2 img, #section4 img{
-    padding-right: 50px;
+#angelnetworkinvestorsection2 img,
+#angelnetworkinvestorsection4 img {
+  padding-right: 50px;
 }
 
-#section1 img{
+#angelnetworkinvestorsection1 img {
   padding-left: 50px;
   padding-right: 50px;
-} 
+}
 
-#section3 img{
+#angelnetworkinvestorsection3 img {
   padding-left: 50px;
 }
 
-#section2 img{
+#angelnetworkinvestorsection2 img {
   position: relative;
   top: 52px;
   left: 40px;
 }
 
-#section1{
+#angelnetworkinvestorsection1 {
   align-items: center;
 }
 
-#section2 {
+#angelnetworkinvestorsection2 {
   align-items: top;
   padding: 0;
 }
 
-#section3{
+#angelnetworkinvestorsection3 {
   padding: 0 10px 0 10px;
 }
 
-#section4{
+#angelnetworkinvestorsection4 {
   padding: 0 10px 0 10px;
   position: relative;
   top: -103.5px;

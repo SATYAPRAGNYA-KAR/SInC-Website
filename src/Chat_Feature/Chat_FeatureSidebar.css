@@ -1,15 +1,15 @@
-.sidebar {
+.chatsidebar {
   display: flex;
   width: calc(439 / 1440 * 100vw);
   flex-direction: column;
   height: calc(730 / 903 * 100vh);
 }
-.sidebar__search {
+.chatsidebar__search {
   display: flex;
   background-color: rgba(49, 154, 150, 0.19);
   width: calc(439 / 1440 * 100vw);
 }
-.sidebar__searchContainer {
+.chatsidebar__searchContainer {
   display: flex;
   align-items: center;
   width: calc(318 / 1440 * 100vw);
@@ -20,7 +20,7 @@
   background-color: #319a96;
   border-radius: 8px;
 }
-.sidebar__searchContainer > .MuiSvgIcon-root {
+.chatsidebar__searchContainer > .MuiSvgIcon-root {
   color: #ffffff;
   height: calc(30 / 903 * 100vh);
   width: calc(27.38 / 1440 * 100vw);
@@ -29,18 +29,18 @@
   padding-top: calc(7.3 / 903 * 100vh);
   padding-bottom: calc(5.48 / 903 * 100vh);
 }
-.sidebar__searchContainer > input {
+.chatsidebar__searchContainer > input {
   background-color: #319a96;
   flex: 1;
 }
-.sidebar__searchContainer > ::placeholder {
+.chatsidebar__searchContainer > ::placeholder {
   color: #ffffff;
   font-family: montserrat;
   font-style: normal;
   font-weight: normal;
 }
 
-.sidebar__chats {
+.chatsidebar__chats {
   background-color: rgba(49, 154, 150, 0.19);
   flex: 1;
   overflow: scroll;

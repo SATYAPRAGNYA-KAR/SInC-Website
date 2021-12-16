@@ -5,14 +5,14 @@ import SidebarChat from "./Chat_FeatureSidebarChat";
 
 function Sidebar() {
   return (
-    <div className="sidebar">
-      <div className="sidebar__search">
-        <div className="sidebar__searchContainer">
+    <div className="chatsidebar">
+      <div className="chatsidebar__search">
+        <div className="chatsidebar__searchContainer">
           <SearchOutlined />
           <input placeholder="Search" type="text" />
         </div>
       </div>
-      <div className="sidebar__chats">
+      <div className="chatsidebar__chats">
         <SidebarChat />
         <SidebarChat />
         <SidebarChat />

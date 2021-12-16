@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function Info() {
   return (
     <Link to="/infopath" style={{ textDecoration: "none" }}>
-      <div className="info">
+      <div className="settingsnewinfo">
         <InfoOutlinedIcon />
-        <div className="info__content">
+        <div className="settingsnewinfo__content">
           <h2>About Us</h2>
           <h3>Find out more about SInC</h3>
         </div>

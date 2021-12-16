@@ -7,32 +7,32 @@
   cursor: pointer;
   border-bottom: 1px solid #f6f6f6;
 }
-.chat:hover {
+.notificationschat:hover {
   background: rgba(171, 171, 171, 0.3);
 }
-.chat__total {
+.notificationschat__total {
   display: flex;
   flex: 1;
   justify-content: space-between;
 }
-.chat__info {
+.notificationschat__info {
   margin-left: calc(15 / 1440 * 100vw);
   color: #ffffff;
   font-size: calc(12 / 1440 * 100vw);
 }
-.chat__info > h2 {
+.notificationschat__info > h2 {
   font-weight: 600;
   margin-bottom: calc(5 / 900 * 100vh);
 }
-.chat__info > p {
+.notificationschat__info > p {
   font-weight: normal;
 }
-.chat__detail > .MuiSvgIcon-root {
+.notificationschat__detail > .MuiSvgIcon-root {
   width: calc(20 / 1440 * 100vw);
   height: calc(30 / 900 * 100vh);
   color: #959595;
 }
-.chat__detail > p {
+.notificationschat__detail > p {
   color: #9f9f9f;
   font-size: calc(10 / 1440 * 100vw);
   text-align: right;

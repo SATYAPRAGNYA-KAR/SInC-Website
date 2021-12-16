@@ -1,7 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-.container{
+.mentorregistrationformcontainer {
   width: 1104px;
   height: 666.11px;
   position: absolute;
@@ -14,10 +13,10 @@
   border-radius: 46.3866px;
 }
 
-.heading{
-  font-family: 'Montserrat', sans-serif;
+.mentorregistrationformheading {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight:bolder; 
+  font-weight: bolder;
   font-size: 55.6639px;
   line-height: 68px;
 
@@ -28,15 +27,15 @@
   z-index: 10;
 }
 
-img{
+img {
   width: 454px;
   position: absolute;
   left: 70px;
   top: 305px;
 }
 
-.small-circle{
-  background-color: #FFF;
+.mentorregistrationformsmall-circle {
+  background-color: #fff;
   width: 22.3px;
   height: 22.3px;
   border-radius: 11.15px;
@@ -45,8 +44,8 @@ img{
   top: 233px;
 }
 
-.big-circle{
-  background-color: #FFF;
+.mentorregistrationformbig-circle {
+  background-color: #fff;
   width: 31.5px;
   height: 31.5px;
   border-radius: 15.75px;
@@ -55,7 +54,7 @@ img{
   top: 279px;
 }
 
-.horizontal-line-1{
+.mentorregistrationformhorizontal-line-1 {
   position: absolute;
   height: 0px;
   width: 94.62857055664062px;
@@ -63,10 +62,11 @@ img{
   top: 44.531005859375px;
   border-radius: nullpx;
   border: 4.1px solid rgba(255, 236, 236, 1);
-  box-shadow: 0px 3.7109243869781494px 3.7109243869781494px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3.7109243869781494px 3.7109243869781494px 0px
+    rgba(0, 0, 0, 0.25);
 }
 
-.horizontal-line-2{
+.mentorregistrationformhorizontal-line-2 {
   position: absolute;
   height: 0px;
   width: 92.77310943603516px;
@@ -74,26 +74,28 @@ img{
   top: 212px;
   border-radius: nullpx;
   border: 4.1px solid rgba(255, 236, 236, 1);
-  box-shadow: 0px 3.7109243869781494px 3.7109243869781494px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3.7109243869781494px 3.7109243869781494px 0px
+    rgba(0, 0, 0, 0.25);
 
   background-color: rgba(255, 236, 236, 1);
 }
 
-.vertical-line-2{
+.mentorregistrationformvertical-line-2 {
   position: absolute;
   height: 0px;
   width: 167px;
   left: 121px;
   top: 128px;
   border: 4.1px solid rgba(255, 236, 236, 1);
-  box-shadow: 0px 3.7109243869781494px 3.7109243869781494px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3.7109243869781494px 3.7109243869781494px 0px
+    rgba(0, 0, 0, 0.25);
   transform: rotate(-90deg);
 
   background-color: rgba(255, 236, 236, 1);
   z-index: 20;
 }
 
-.vertical-line-1{
+.mentorregistrationformvertical-line-1 {
   position: absolute;
   height: 0px;
   width: 167px;

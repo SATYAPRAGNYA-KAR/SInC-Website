@@ -21,7 +21,7 @@
   font-size: calc(20 / 900 * 100vh);
   font-weight: 600;
 }
-#SInC_Logo{
+#SInC_Logo {
   margin-top: calc(13 / 900 * 100vh);
   width: calc(30 / 1440 * 100vw);
   height: calc(40 / 900 * 100vh);
@@ -52,14 +52,14 @@
 .notifications_header__right {
   display: flex;
 }
-.bond > h2 {
+.notificationsbond > h2 {
   color: #ffffff;
   font-size: calc(15 / 1440 * 100vw);
   font-weight: 400;
   margin-top: calc(27 / 900 * 100vh);
   text-align: right;
 }
-.bond > h3 {
+.notificationsbond > h3 {
   color: #ffffff;
   font-size: calc(15 / 1440 * 100vw);
   font-weight: 400;

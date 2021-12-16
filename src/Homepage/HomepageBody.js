@@ -4,11 +4,12 @@ import dn from "./Images/dn.png";
 import about from "./Images/about.png";
 import mission from "./Images/mission.png";
 import vision from "./Images/vision.png";
+import { Link } from "react-router-dom";
 
 function Body() {
   return (
-    <div className="body">
-      <div className="body-tag1">
+    <div className="homebody">
+      <div className="homebody-tag1">
         <h2>Entrepreneurship Challenge</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -19,11 +20,13 @@ function Body() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" className="">
-          Register Now
-        </button>
+        <Link to="registerpage" style={{ textDecoration: "none" }}>
+          <button type="button" className="">
+            Register Now
+          </button>
+        </Link>
       </div>
-      <div className="body-tag2">
+      <div className="homebody-tag2">
         <h2>Fundraiser</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -34,49 +37,51 @@ function Body() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" className="">
-          Contribute
-        </button>
+        <Link to="registerpage" style={{ textDecoration: "none" }}>
+          <button type="button" className="">
+            Contribute
+          </button>
+        </Link>
       </div>
-      <div className="body-tag3">
-        <div className="img">
+      <div className="homebody-tag3">
+        <div className="homebodyimg">
           <img src={dn} className="img" alt="" />
-          <div className="img1">Charvi</div>
-          <div className="img2">SInC Head</div>
+          <div className="homebodyimg1">Charvi</div>
+          <div className="homebodyimg2">SInC Head</div>
         </div>
-        <div className="img-content">
-          <div className="img1">imperdiet dui accumsan sit amet</div>
-          <div className="img2">
+        <div className="homebodyimg-content">
+          <div className="homebodyimg1">imperdiet dui accumsan sit amet</div>
+          <div className="homebodyimg2">
             eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum
             neque egestas congue quisque egestas diam in
           </div>
         </div>
       </div>
-      <div className="body-tag3">
-        <div className="img">
-          <img src={dn} className="img" alt="" />
-          <div className="img1">Charvi</div>
-          <div className="img2">SInC Head</div>
+      <div className="homebody-tag3">
+        <div className="homebodyimg">
+          <img src={dn} className="homebodyimg" alt="" />
+          <div className="homebodyimg1">Charvi</div>
+          <div className="homebodyimg2">SInC Head</div>
         </div>
-        <div className="img-content">
-          <div className="img1">imperdiet dui accumsan sit amet</div>
-          <div className="img2">
+        <div className="homebodyimg-content">
+          <div className="homebodyimg1">imperdiet dui accumsan sit amet</div>
+          <div className="homebodyimg2">
             eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum
             neque egestas congue quisque egestas diam in
           </div>
         </div>
       </div>
-      <div className="body-tag5">
-        <div className="body-tag5-card">
-          <div className="body-tag5-card-img">
+      <div className="homebody-tag5">
+        <div className="homebody-tag5-card">
+          <div className="homebody-tag5-card-img">
             <img
               src={about}
-              className="img"
+              className="homebodyimg"
               alt="About"
               style={{ width: "100%", marginLeft: "20px" }}
             />
           </div>
-          <div className="body-tag5-card-content">
+          <div className="homebody-tag5-card-content">
             <h1>About Us</h1>
             <br />
             <p>
@@ -90,8 +95,8 @@ function Body() {
             </p>
           </div>
         </div>
-        <div className="body-tag5-card">
-          <div className="body-tag5-card-content">
+        <div className="homebody-tag5-card">
+          <div className="homebody-tag5-card-content">
             <h1>Our Mission</h1>
             <br />
             <p>
@@ -104,25 +109,28 @@ function Body() {
               mauris pellentesque
             </p>
           </div>
-          <div className="body-tag5-card-img" style={{ marginRight: "60px" }}>
+          <div
+            className="homebody-tag5-card-img"
+            style={{ marginRight: "60px" }}
+          >
             <img
               src={mission}
-              className="img"
+              className="homebodyimg"
               alt="About"
               style={{ width: "100%" }}
             />
           </div>
         </div>
-        <div className="body-tag5-card">
-          <div className="body-tag5-card-img">
+        <div className="homebody-tag5-card">
+          <div className="homebody-tag5-card-img">
             <img
               src={vision}
-              className="img"
+              className="homebodyimg"
               alt="About"
               style={{ width: "100%" }}
             />
           </div>
-          <div className="body-tag5-card-content">
+          <div className="homebody-tag5-card-content">
             <h1>Our Vision</h1>
             <br />
             <p>

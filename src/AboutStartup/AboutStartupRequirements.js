@@ -9,46 +9,52 @@ import connect from "./Images/connect.png";
 function Requirements() {
   return (
     <div>
-      <div className="Content">
-        <div className="Card">
-          <div className="img">
+      <div className="aboutstartuprequirementsContent">
+        <div className="aboutstartuprequirementsCard">
+          <div className="aboutstartuprequirementsimg">
             <img
               src={intern}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Intern Role</div>
+          <div className="aboutstartuprequirementsCard-Topic">Intern Role</div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartuprequirementsCard">
+          <div className="aboutstartuprequirementsimg">
             <img
               src={mentor}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Mentoring Requirement</div>
+          <div className="aboutstartuprequirementsCard-Topic">
+            Mentoring Requirement
+          </div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartuprequirementsCard">
+          <div className="aboutstartuprequirementsimg">
             <img
               src={funding}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Funding Requirement</div>
+          <div className="aboutstartuprequirementsCard-Topic">
+            Funding Requirement
+          </div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartuprequirementsCard">
+          <div className="aboutstartuprequirementsimg">
             <img
               src={connect}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Connect with us!</div>
+          <div className="aboutstartuprequirementsCard-Topic">
+            Connect with us!
+          </div>
         </div>
       </div>
     </div>

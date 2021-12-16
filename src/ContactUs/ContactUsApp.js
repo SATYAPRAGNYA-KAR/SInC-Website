@@ -15,7 +15,7 @@ import socialtree from "./images/socialtree.png";
 function ContactUsApp() {
   return (
     <div
-      className="App"
+      className="contactusApp"
       style={{
         backgroundImage: `url(${bphone})`,
         // backgroundPosition: 'center',
@@ -26,20 +26,20 @@ function ContactUsApp() {
       <Header />
       <div className="contact-us-heading">Contact Us</div>
       <div className="contact-us-box">
-        <div className="content-left">
-          <div className="left-heading">Address</div>
-          <div className="left-body">
+        <div className="contactuscontent-left">
+          <div className="contactusleft-heading">Address</div>
+          <div className="contactusleft-body">
             Student Incubation Cell, Indian Institute of Technology-Delhi, Hauz
             Khas, New Delhi-110016
           </div>
 
-          <div className="left-heading">Let's Talk</div>
-          <div className="left-body">+234 081-1236-4568</div>
+          <div className="contactusleft-heading">Let's Talk</div>
+          <div className="contactusleft-body">+234 081-1236-4568</div>
 
-          <div className="left-heading">General Support</div>
-          <div className="left-body">sinciitd@gmail.com</div>
+          <div className="contactusleft-heading">General Support</div>
+          <div className="contactusleft-body">sinciitd@gmail.com</div>
 
-          <div className="social-media">
+          <div className="contactussocial-media">
             <a href="https://www.facebook.com/sinciitd">
               <img src={facebook} alt="facebook icon" />
             </a>
@@ -55,13 +55,13 @@ function ContactUsApp() {
           </div>
 
           <img
-            className="socialtree"
+            className="contactussocialtree"
             src={socialtree}
             alt="A tree of all social media handles"
           />
         </div>
 
-        <div className="right-box">
+        <div className="contactusright-box">
           <Form />
         </div>
       </div>

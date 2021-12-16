@@ -7,7 +7,7 @@ import Webinar from "./NotificationsWebinar";
 
 function Sidebar() {
   return (
-    <div className="sidebar">
+    <div className="notificationssidebar">
       <Follower />
       <Error />
       <Webinar />

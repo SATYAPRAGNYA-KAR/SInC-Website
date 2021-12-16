@@ -27,7 +27,7 @@ function Header() {
         <h2>Mentors | Startups | Initiatives</h2>
       </div>
       <div className="notifications_header__right">
-        <div className="bond">
+        <div className="notificationsbond">
           <h2>James</h2>
           <h3>Bond</h3>
         </div>

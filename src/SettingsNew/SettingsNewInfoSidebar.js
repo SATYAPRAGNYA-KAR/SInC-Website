@@ -9,7 +9,7 @@ import InfoHighlighted from "./SettingsNewInfoHighlighted";
 
 function InfoSidebar() {
   return (
-    <div className="infosidebar">
+    <div className="settingsnewinfosidebar">
       <Privacy />
       <Password />
       <Delete />

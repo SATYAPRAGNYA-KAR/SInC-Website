@@ -4,9 +4,9 @@ import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined
 
 function Friend() {
   return (
-    <div className="friend">
+    <div className="settingsfriend">
       <AccountCircleOutlinedIcon />
-      <div className="friend__content">
+      <div className="settingsfriend__content">
         <h2>Invite your Friend</h2>
         <h3>Customize your List</h3>
       </div>

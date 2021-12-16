@@ -9,7 +9,7 @@ import Info from "./SettingsNewInfo";
 
 function HistorySidebar() {
   return (
-    <div className="historysidebar">
+    <div className="settingsnewhistorysidebar">
       <Privacy />
       <Password />
       <Delete />

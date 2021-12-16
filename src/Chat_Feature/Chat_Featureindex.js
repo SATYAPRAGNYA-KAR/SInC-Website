@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Chat_Featureindex.css";
-import App from "./Chat_FeatureApp";
+import ChatApp from "./Chat_FeatureApp";
 import reportWebVitals from "./Chat_FeaturereportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChatApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -4,9 +4,9 @@ import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 
 function Info() {
   return (
-    <div className="info">
+    <div className="settingsinfo">
       <InfoOutlinedIcon />
-      <div className="info__content">
+      <div className="settingsinfo__content">
         <h2>About Us</h2>
         <h3>Find out more about SInC</h3>
       </div>

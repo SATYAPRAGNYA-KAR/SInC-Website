@@ -9,7 +9,7 @@ import Info from "./SettingsNewInfo";
 
 function DeleteSidebar() {
   return (
-    <div className="deletesidebar">
+    <div className="settingsnewdeletesidebar">
       <Privacy />
       <Password />
       <DeleteHighlighted />

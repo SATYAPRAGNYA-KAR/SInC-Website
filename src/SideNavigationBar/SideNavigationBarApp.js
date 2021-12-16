@@ -11,8 +11,8 @@ import Logout from "./SideNavigationBarLogout";
 
 function SideNavigationBarApp() {
   return (
-    <div className="app">
-      <div className="side">
+    <div className="sidenavigationbarapp">
+      <div className="sidenavigationbarside">
         <Profile />
         <Follower />
         <Messages />

@@ -3,55 +3,57 @@ import businessDeal from "./businessDeal.png";
 import rocket from "./rocket.png";
 import invertedCommas from "./invertedCommas.png";
 import Header from "./IITDAngelNetworkHeader";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import {Link } from 'react-router-dom';
 
 function IITDAngelNetworkApp() {
   return (
-    <div className="App">
+    <div className="iitdangelnetworkApp">
       <Header />
-      <div className="main-heading">IITD Angel Network</div>
-      <div className="boxes">
-        <div className="box1">
-          <div className="box-text">
-            <div className="box-text-heading">Introduction</div>
-            <div className="box-text-content">
+      <div className="iitdangelnetworkmain-heading">IITD Angel Network</div>
+      <div className="iitdangelnetworkboxes">
+        <div className="iitdangelnetworkbox1">
+          <div className="iitdangelnetworkbox-text">
+            <div className="iitdangelnetworkbox-text-heading">Introduction</div>
+            <div className="iitdangelnetworkbox-text-content">
               An initiative to connect the IITD Startup Community (Mentors,
               Investors and startups) and bridge the gap between the ones
               seeking help and the ones willing to help.
             </div>
           </div>
-          <div className="box1-image">
+          <div className="iitdangelnetworkbox1-image">
             <img src={businessDeal} alt="Two people shaking hands" />
           </div>
         </div>
-        <div className="box2">
-          <div className="box-text">
-            <div className="box-text-heading">
+        <div className="iitdangelnetworkbox2">
+          <div className="iitdangelnetworkbox-text">
+            <div className="iitdangelnetworkbox-text-heading">
               Relation with Entrepreneurship Kickstart
             </div>
-            <div className="box-text-content">
+            <div className="iitdangelnetworkbox-text-content">
               Alumni in the IITD Angel Network interested in helping startups at
               nascent stages can help us to implement the initiative by being a
               mentor, or donating to nurturing funds. Mentioned below is a
               detailed description.
             </div>
           </div>
-          <div className="box2-image">
+          <div className="iitdangelnetworkbox2-image">
             <img src={rocket} alt="Two people shaking hands" />
           </div>
         </div>
       </div>
-      <div className="inviting-our-alumni">
+      <div className="iitdangelnetworkinviting-our-alumni">
         Inviting our alumni to be a part of of the initiative that is going to
         change the way entrepreneurship is looked at in the campus.
       </div>
 
-      <div className="line-under-quotes">
+      <div className="iitdangelnetworkline-under-quotes">
         <img
-          className="opening-quotes"
+          className="iitdangelnetworkopening-quotes"
           src={invertedCommas}
           alt="beginning inverted commas"
         />
-        <div className="the-line">
+        <div className="iitdangelnetworkthe-line">
           IT’S NOT ABOUT IDEAS,
           <br />
           IT’S ABOUT MAKING
@@ -59,11 +61,14 @@ function IITDAngelNetworkApp() {
           IDEAS HAPPEN.
         </div>
         <img
-          className="closing-quotes"
+          className="iitdangelnetworkclosing-quotes"
           src={invertedCommas}
           alt="ending inverted commas"
         />
       </div>
+      <Link to='/angelnetworkmentor'>
+        <ExpandMoreIcon />
+      </Link>
     </div>
   );
 }

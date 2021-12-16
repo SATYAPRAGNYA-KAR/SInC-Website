@@ -2,7 +2,7 @@ import React from "react";
 import "./SettingsNewPrivacyMainbox.css";
 
 function PrivacyMainbox() {
-  return <div className="privacymainbox"></div>;
+  return <div className="settingsnewprivacymainbox"></div>;
 }
 
 export default PrivacyMainbox;

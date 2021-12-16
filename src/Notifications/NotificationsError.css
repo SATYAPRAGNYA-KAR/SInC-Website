@@ -1,4 +1,4 @@
-.error {
+.notificationserror {
   display: flex;
   padding-left: calc(18 / 1440 * 100vw);
   padding-top: calc(13 / 900 * 100vh);
@@ -7,40 +7,40 @@
   cursor: pointer;
   border-bottom: 1px solid #f6f6f6;
 }
-.error:hover {
+.notificationserror:hover {
   background: rgba(171, 171, 171, 0.3);
 }
-.error__total {
+.notificationserror__total {
   display: flex;
   flex: 1;
   justify-content: space-between;
 }
-.error > .MuiSvgIcon-root {
+.notificationserror > .MuiSvgIcon-root {
   color: #ff5151;
   width: calc(47.5 / 1440 * 100vw);
   height: calc(47.5 / 900 * 100vh);
   margin-top: calc(7 / 900 * 100vh);
   margin-left: calc(-9 / 1440 * 100vw);
 }
-.error__info {
+.notificationserror__info {
   margin-left: calc(15 / 1440 * 100vw);
   color: #ffffff;
   font-size: calc(12 / 1440 * 100vw);
 }
-.error__info > h2 {
+.notificationserror__info > h2 {
   font-weight: 600;
   margin-bottom: calc(5 / 900 * 100vh);
 }
-.error__info > p {
+.notificationserror__info > p {
   font-weight: normal;
 }
 
-.error__detail > .MuiSvgIcon-root {
+.notificationserror__detail > .MuiSvgIcon-root {
   width: calc(20 / 1440 * 100vw);
   height: calc(30 / 900 * 100vh);
   color: #959595;
 }
-.error__detail > p {
+.notificationserror__detail > p {
   color: #9f9f9f;
   font-size: calc(10 / 1440 * 100vw);
   text-align: right;

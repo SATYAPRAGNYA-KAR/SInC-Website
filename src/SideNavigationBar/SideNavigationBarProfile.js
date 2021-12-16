@@ -4,7 +4,7 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 
 function Profile() {
   return (
-    <div className="profile">
+    <div className="sidenavigationbarprofile">
       <PersonOutlineOutlinedIcon />
       <h3>View Profile</h3>
     </div>

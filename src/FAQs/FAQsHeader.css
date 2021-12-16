@@ -1,46 +1,45 @@
-.header {
+.faqsheader {
   width: 100vw;
   display: flex;
   justify-content: space-between;
 }
-.header__left {
+.faqsheader__left {
   display: flex;
   align-items: center;
 }
-.header__left > h2 {
+.faqsheader__left > h2 {
   color: #ffffff;
   font-size: calc(95.67 / 3963 * 100vw);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: calc(40 / 3963 * 100vw);
 }
-img {
+.faqsheaderimg__container > img {
   width: calc(230 / 3963 * 100vw);
   height: calc(250 / 2167 * 100vh);
 }
-.img__container {
+.faqsheaderimg__container {
   padding: calc(10 / 3963 * 100vw);
   cursor: pointer;
 }
-.header__right {
+.faqsheader__right {
   display: flex;
   align-items: center;
 }
-.header__right > h4 {
-  color: #ffffff;
+.faqsheader__right > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
   cursor: pointer;
 }
-.header__right > hr {
+.faqsheader__right > hr {
   width: calc(200 / 3963 * 100vw);
   transform: rotate(-90deg);
   background-color: #ffffff;
   height: calc(5 / 2167 * 100vh);
   margin-left: calc(-100 / 3963 * 100vw);
 }
-h4:hover,
-.img__container:hover {
+.faqsheader__right > h4:hover,
+.faqsheaderimg__container:hover {
   background: rgba(171, 171, 171, 0.3);
 }

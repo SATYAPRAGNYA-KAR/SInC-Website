@@ -7,21 +7,21 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="footer__left">
+    <div className="faqsfooter">
+      <div className="faqsfooter__left">
         <h2>IIT Delhi, Hauz Khas, New Delhi</h2>
       </div>
-      <div className="footer__right">
-        <div className="icon__container">
+      <div className="faqsfooter__right">
+        <div className="faqsfootericon__container">
           <FacebookIcon />
         </div>
-        <div className="icon__container">
+        <div className="faqsfootericon__container">
           <TwitterIcon />
         </div>
-        <div className="icon__container">
+        <div className="faqsfootericon__container">
           <InstagramIcon />
         </div>
-        <div className="icon__container">
+        <div className="faqsfootericon__container">
           <LinkedInIcon />
         </div>
       </div>

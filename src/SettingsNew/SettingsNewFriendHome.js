@@ -5,7 +5,7 @@ import FriendMainbox from "./SettingsNewFriendMainbox";
 
 function FriendHome() {
   return (
-    <div className="friendhome">
+    <div className="settingsnewfriendhome">
       <FriendSidebar />
       <FriendMainbox />
     </div>

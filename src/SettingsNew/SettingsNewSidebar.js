@@ -9,7 +9,7 @@ import Info from "./SettingsNewInfo";
 
 function Sidebar() {
   return (
-    <div className="sidebar">
+    <div className="settingsnewsidebar">
       <Privacy />
       <Password />
       <Delete />

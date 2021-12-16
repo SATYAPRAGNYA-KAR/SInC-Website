@@ -1,50 +1,50 @@
-.SearchBar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    width: 40%;
-    margin: 0 auto;
+.mentorsstartupsyoufollowSearchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 40%;
+  margin: 0 auto;
 }
-.SearchBar > input {
-    flex: 1;
-    background-color: #1a1a1a;
-    height: 32px;
-    color: #f1f1f1;
-    border-top: 2px solid yellow;
-    border-bottom: 2px solid yellow;
+.mentorsstartupsyoufollowSearchBar > input {
+  flex: 1;
+  background-color: #1a1a1a;
+  height: 32px;
+  color: #f1f1f1;
+  border-top: 2px solid yellow;
+  border-bottom: 2px solid yellow;
 }
-.SearchIcon{  
-    color: yellow;
-    background-color: #1a1a1a;
-    height: 34px;
-    width: 34px;
-    border-top: 2px solid yellow;
-    border-bottom: 2px solid yellow;
-    border-left: 2px solid yellow;
-    margin: 0 auto;
-    align-items: center;
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 6px;
+.mentorsstartupsyoufollowSearchIcon {
+  color: yellow;
+  background-color: #1a1a1a;
+  height: 34px;
+  width: 34px;
+  border-top: 2px solid yellow;
+  border-bottom: 2px solid yellow;
+  border-left: 2px solid yellow;
+  margin: 0 auto;
+  align-items: center;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
 }
-.SearchIcon > div{
-    height: 26px;
-    width: 26px;
-    margin: 4px;
+.mentorsstartupsyoufollowSearchIcon > div {
+  height: 26px;
+  width: 26px;
+  margin: 4px;
 }
-.Search{
-    border: 2px solid yellow;
-    background-color: yellow;
-    color: #1a1a1a;
-    width: 15%;
-    height: 32px;
-    border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
+.mentorsstartupsyoufollowSearch {
+  border: 2px solid yellow;
+  background-color: yellow;
+  color: #1a1a1a;
+  width: 15%;
+  height: 32px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
 }
-.Search > div{
-    width: 90%;
-    height: 60%;
-    margin-top: 5%;
-    margin-left: 5%;
-    text-align: center;
+.mentorsstartupsyoufollowSearch > div {
+  width: 90%;
+  height: 60%;
+  margin-top: 5%;
+  margin-left: 5%;
+  text-align: center;
 }

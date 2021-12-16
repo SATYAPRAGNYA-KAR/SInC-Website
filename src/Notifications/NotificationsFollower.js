@@ -10,14 +10,14 @@ function Follower() {
   }, []);
 
   return (
-    <div className="follower">
+    <div className="notificationsfollower">
       <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
-      <div className="follower__total">
-        <div className="follower__info">
+      <div className="notificationsfollower__total">
+        <div className="notificationsfollower__info">
           <h2>New Follower</h2>
           <p>Deepak Nanda followed you</p>
         </div>
-        <div className="follower__detail">
+        <div className="notificationsfollower__detail">
           <DeleteOutlineIcon />
           <p>
             14 May

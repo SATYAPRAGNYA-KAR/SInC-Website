@@ -9,7 +9,7 @@ import Info from "./SettingsNewInfo";
 
 function PrivacySidebar() {
   return (
-    <div className="privacysidebar">
+    <div className="settingsnewprivacysidebar">
       <PrivacyHighlighted />
       <Password />
       <Delete />

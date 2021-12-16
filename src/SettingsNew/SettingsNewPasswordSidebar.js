@@ -9,7 +9,7 @@ import Info from "./SettingsNewInfo";
 
 function PasswordSidebar() {
   return (
-    <div className="passwordsidebar">
+    <div className="settingsnewpasswordsidebar">
       <Privacy />
       <PasswordHighlighted />
       <Delete />

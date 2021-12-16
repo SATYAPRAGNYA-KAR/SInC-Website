@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Settingsindex.css";
-import App from "./SettingsApp";
+import SettingsApp from "./SettingsApp";
 import reportWebVitals from "./SettingsreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SettingsApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

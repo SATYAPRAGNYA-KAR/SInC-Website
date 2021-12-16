@@ -1,4 +1,4 @@
-.follower {
+.notificationsfollower {
   display: flex;
   padding-left: calc(18 / 1440 * 100vw);
   padding-top: calc(13 / 900 * 100vh);
@@ -7,32 +7,32 @@
   cursor: pointer;
   border-bottom: 1px solid #f6f6f6;
 }
-.follower:hover {
+.notificationsfollower:hover {
   background: rgba(171, 171, 171, 0.3);
 }
-.follower__total {
+.notificationsfollower__total {
   display: flex;
   flex: 1;
   justify-content: space-between;
 }
-.follower__info {
+.notificationsfollower__info {
   margin-left: calc(15 / 1440 * 100vw);
   color: #ffffff;
   font-size: calc(12 / 1440 * 100vw);
 }
-.follower__info > h2 {
+.notificationsfollower__info > h2 {
   font-weight: 600;
   margin-bottom: calc(5 / 900 * 100vh);
 }
-.follower__info > p {
+.notificationsfollower__info > p {
   font-weight: normal;
 }
-.follower__detail > .MuiSvgIcon-root {
+.notificationsfollower__detail > .MuiSvgIcon-root {
   width: calc(20 / 1440 * 100vw);
   height: calc(30 / 900 * 100vh);
   color: #959595;
 }
-.follower__detail > p {
+.notificationsfollower__detail > p {
   color: #9f9f9f;
   font-size: calc(10 / 1440 * 100vw);
   text-align: right;

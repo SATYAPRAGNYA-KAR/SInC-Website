@@ -1,8 +1,8 @@
-.history {
+.settingsnewhistory {
   display: flex;
   cursor: pointer;
 }
-.history > .MuiSvgIcon-root {
+.settingsnewhistory > .MuiSvgIcon-root {
   color: #abbbc2;
   height: calc(16 / 1024 * 100vh);
   width: calc(16 / 1440 * 100vw);
@@ -10,21 +10,21 @@
   margin-right: calc(8 / 1440 * 100vw);
   margin-top: calc(30 / 1024 * 100vh);
 }
-.history__content > h2 {
+.settingsnewhistory__content > h2 {
   color: #000000;
   font-size: calc(14 / 1440 * 100vw);
   font-weight: 500;
   margin-top: calc(24 / 1024 * 100vh);
 }
-.history__content > h3 {
+.settingsnewhistory__content > h3 {
   color: #abbbc2;
   font-size: calc(12 / 1440 * 100vw);
   font-weight: 400;
   margin-bottom: calc(24 / 1024 * 100vh);
 }
-.history:hover {
+.settingsnewhistory:hover {
   background: hsla(9, 75%, 66%, 0.26);
 }
-.history :hover h2 {
+.settingsnewhistory :hover h2 {
   color: #ea7c69;
 }

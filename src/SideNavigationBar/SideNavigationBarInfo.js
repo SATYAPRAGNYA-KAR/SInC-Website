@@ -5,7 +5,7 @@ import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 function Info() {
   return (
     <div>
-      <div className="info">
+      <div className="sidenavigationbarinfo">
         <InfoOutlinedIcon />
         <h3>About SInC</h3>
       </div>

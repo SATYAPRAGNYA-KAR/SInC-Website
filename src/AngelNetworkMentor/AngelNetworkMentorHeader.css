@@ -1,60 +1,60 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1a1a1a;
-    color: #f1f1f1;
-    padding: 10px;
-    position: sticky;
-    top : 0px;
-    z-index: 999;
-    background-color: #1a1a1a;
-    height: 113px;
+.angelnetworkmentorheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
+  height: 113px;
 }
 
-.Dashboard{
-    display: flex;
-    align-items: center;
+.angelnetworkmentorheaderDashboard {
+  display: flex;
+  align-items: center;
 }
-.Dashboard_dashboard{
-    text-align: top;
+.angelnetworkmentorheaderDashboard_dashboard {
+  text-align: top;
 }
-.Logo{
-    width: 40%;
-    align-items: center;
+.angelnetworkmentorheaderLogo {
+  width: 40%;
+  align-items: center;
 }
-.CellName > span{
-    padding-bottom: 4px;
+.angelnetworkmentorheaderCellName > span {
+  padding-bottom: 4px;
 }
-.CellName{
-    text-align: center;
+.angelnetworkmentorheaderCellName {
+  text-align: center;
 }
-.Work{
-    text-align: center;
+.angelnetworkmentorheaderWork {
+  text-align: center;
 }
-.Icon{
-    color: yellow;
-    align-items: baseline;
+.angelnetworkmentorheaderIcon {
+  color: yellow;
+  align-items: baseline;
 }
-.Avatar{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
+.angelnetworkmentorheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
-.PersonAvatar{
-    align-items: center;
-    align-content: center;
-    text-align: center;
+.angelnetworkmentorheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
-.CellName{
-    align-content: center;
-    align-items: center;
-    text-align: center;
+.angelnetworkmentorheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
-.CellName > img{
-    width:20px;
-    height:20px;
+.angelnetworkmentorheaderCellName > img {
+  width: 20px;
+  height: 20px;
 }
-.CellName > h4{
-    margin: auto;
+.angelnetworkmentorheaderCellName > h4 {
+  margin: auto;
 }

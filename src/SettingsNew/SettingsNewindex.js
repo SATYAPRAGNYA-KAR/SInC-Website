@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './SettingsNewindex.css';
-import App from './SettingsNewApp';
-import reportWebVitals from './SettingsNewreportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./SettingsNewindex.css";
+import SettingsNewApp from "./SettingsNewApp";
+import reportWebVitals from "./SettingsNewreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SettingsNewApp />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

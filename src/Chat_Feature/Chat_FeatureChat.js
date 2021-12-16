@@ -17,13 +17,13 @@ function Chat() {
     setInput("");
   };
   return (
-    <div className="chat">
-      <div className="chat__body">
+    <div className="chatchat">
+      <div className="chatchat__body">
         <Avatar
-          className="class_one"
+          className="chatchatclass_one"
           src={`https://avatars.dicebear.com/api/human/${seed}.svg`}
         />
-        <p className="chat__message ">
+        <p className="chatchat__message ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           dictum justo in tellus convallis, at aliquet justo facilisis. Ut id
           velit vehicula, pulvinar sem vitae, hendrerit ipsum. Phasellus varius
@@ -34,10 +34,10 @@ function Chat() {
         </p>
 
         <Avatar
-          className="class_two"
+          className="chatchatclass_two"
           src={`https://avatars.dicebear.com/api/human/${seed}.svg`}
         />
-        <p className="chat__receiver">
+        <p className="chatchat__receiver">
           Cras volutpat nisl tincidunt quam molestie tristique. Nam sit amet
           ullamcorper lectus, ac accumsan lectus. Sed aliquet mauris et nisl
           euismod, quis blandit ligula dapibus. Morbi ut fringilla nisl, at
@@ -51,7 +51,7 @@ function Chat() {
           Nulla sed libero ipsum.
         </p>
         <Avatar
-          className="class_one"
+          className="chatchatclass_one"
           src={`https://avatars.dicebear.com/api/human/${seed}.svg`}
         />
         <p className="chat__message">
@@ -71,10 +71,10 @@ function Chat() {
           condimentum. Suspendisse consectetur vitae leo vel euismod.
         </p>
         <Avatar
-          className="class_one"
+          className="chatchatclass_one"
           src={`https://avatars.dicebear.com/api/human/${seed}.svg`}
         />
-        <p className="chat__message">
+        <p className="chatchat__message">
           Vestibulum sagittis finibus leo, a convallis purus scelerisque quis.
           Quisque condimentum ex fringilla tellus porta varius. Nullam at
           blandit magna. Donec eget mi dolor. Donec eu lacinia tellus, eget
@@ -83,10 +83,10 @@ function Chat() {
           mauris. Cras tincidunt tempor rhoncus. Cras semper imperdiet lacinia.
         </p>
         <Avatar
-          className="class_two"
+          className="chatchatclass_two"
           src={`https://avatars.dicebear.com/api/human/${seed}.svg`}
         />
-        <p className="chat__receiver">
+        <p className="chatchat__receiver">
           Mauris at commodo felis. Nam vestibulum eleifend tempor. Pellentesque
           malesuada commodo eros vitae viverra. Sed vestibulum tempus lorem, at
           sollicitudin orci bibendum nec. Integer faucibus pulvinar ligula, quis
@@ -99,9 +99,9 @@ function Chat() {
           iaculis. Quisque feugiat elementum vestibulum.
         </p>
       </div>
-      <div className="chat__footer">
+      <div className="chatchat__footer">
         <form>
-          <div className="input__container">
+          <div className="chatchatinput__container">
             <IconButton>
               <AttachFileIcon />
             </IconButton>

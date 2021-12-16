@@ -4,9 +4,9 @@ import VpnKeyOutlinedIcon from "@mui/icons-material/VpnKeyOutlined";
 
 function Password() {
   return (
-    <div className="password">
+    <div className="settingspassword">
       <VpnKeyOutlinedIcon />
-      <div className="password__content">
+      <div className="settingspassword__content">
         <h2>Password Settings</h2>
         <h3>Configure Password, PIN, etc.</h3>
       </div>

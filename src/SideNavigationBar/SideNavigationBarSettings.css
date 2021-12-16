@@ -1,21 +1,21 @@
-.settings {
+.sidenavigationbarsettings {
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
 }
-.settings > .MuiSvgIcon-root {
+.sidenavigationbarsettings > .MuiSvgIcon-root {
   color: #ffffff;
   width: calc(60 / 1440 * 100vw);
   height: calc(60 / 900 * 100vh);
   margin-top: calc(10 / 801 * 100vh);
 }
-.settings > h3 {
+.sidenavigationbarsettings > h3 {
   font-size: calc(12 / 1440 * 100vw);
   font-weight: 500;
   color: #ffffff;
   margin-bottom: calc(10 / 801 * 100vh);
 }
-.settings:hover {
+.sidenavigationbarsettings:hover {
   background: rgba(171, 171, 171, 0.3);
 }

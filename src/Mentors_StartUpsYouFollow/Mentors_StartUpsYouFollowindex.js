@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Mentors_StartUpsYouFollowindex.css";
-import App from "./Mentors_StartUpsYouFollowApp";
+import MentorsStartUpsYouFollowApp from "./Mentors_StartUpsYouFollowApp";
 import reportWebVitals from "./Mentors_StartUpsYouFollowreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MentorsStartUpsYouFollowApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

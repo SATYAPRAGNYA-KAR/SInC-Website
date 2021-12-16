@@ -3,34 +3,41 @@ import Header from "./AngelNetworkMentorHeader";
 import img1 from "./images/img1.png";
 import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
+import {Link} from 'react-router-dom';
 
 function AngelNetworkMentorApp() {
   return (
-    <div className="App">
+    <div className="angelnetworkmentorApp">
       <Header />
-      <div className="buttons">
-        <div className="button1">
-          <button>Mentors</button>
+      <div className="angelnetworkmentorbuttons">
+        <div className="angelnetworkmentorbutton1">
+          <Link to='/angelnetworkmentor'><button>Mentors</button></Link>
         </div>
-        <div className="button2">
-          <button>What is in it for you</button>
+        <div className="angelnetworkmentorbutton2">
+        <Link to='/angelnetworkinvestor'><button>What is in it for you</button></Link>
         </div>
-        <div className="button3">
-          <button>Nurturing Funds</button>
+        <div className="angelnetworkmentorbutton3">
+        <Link to='/angelnetworknm'><button>Nurturing Funds</button></Link>
         </div>
       </div>
-      <div className="underline">
-        <div className="bold"></div>
-        <div className="thin"></div>
+      <div className="angelnetworkmentorunderline">
+        <div className="angelnetworkmentorbold"></div>
+        <div className="angelnetworkmentorthin"></div>
       </div>
 
-      <div className="container">
-        <div className="section" id="section1">
-          <div className="text" id="text1">
-            <div className="heading" id="heading1">
+      <div className="angelnetworkmentorcontainer">
+        <div
+          className="angelnetworkmentorsection"
+          id="angelnetworkmentorsection1"
+        >
+          <div className="angelnetworkmentortext" id="angelnetworkmentortext1">
+            <div
+              className="angelnetworkmentorheading"
+              id="angelnetworkmentorheading1"
+            >
               Functions
             </div>
-            <div className="box" id="box1">
+            <div className="angelnetworkmentorbox" id="angelnetworkmentorbox1">
               • Helping startups set right goals which is achievable in a span
               of 6-9 months i.e. the duration of one cycle of this initiative. •
               Helping the Startup validate their problem statement.
@@ -55,32 +62,50 @@ function AngelNetworkMentorApp() {
               and not to handhold startups. The hustle has to be theirs
             </div>
           </div>
-          <div className="image" id="image1">
+          <div
+            className="angelnetworkmentorimage"
+            id="angelnetworkmentorimage1"
+          >
             <img src={img1} alt="" />
           </div>
         </div>
 
-        <div className="section" id="section2">
-          <div className="text" id="text2">
-            <div className="heading" id="heading2">
+        <div
+          className="angelnetworkmentorsection"
+          id="angelnetworkmentorsection2"
+        >
+          <div className="angelnetworkmentortext" id="angelnetworkmentortext2">
+            <div
+              className="angelnetworkmentorheading"
+              id="angelnetworkmentorheading2"
+            >
               How much time is expected of me?
             </div>
-            <div className="box" id="box2">
+            <div className="angelnetworkmentorbox" id="angelnetworkmentorbox2">
               We expect 3-4 hrs a month. Availability through mails and personal
               messaging during the week is much appreciated.
             </div>
           </div>
-          <div className="image" id="image2">
+          <div
+            className="angelnetworkmentorimage"
+            id="angelnetworkmentorimage2"
+          >
             <img src={img2} alt="" />
           </div>
         </div>
 
-        <div className="section" id="section3">
-          <div className="text" id="text3">
-            <div className="heading" id="heading3">
+        <div
+          className="angelnetworkmentorsection"
+          id="angelnetworkmentorsection3"
+        >
+          <div className="angelnetworkmentortext" id="angelnetworkmentortext3">
+            <div
+              className="angelnetworkmentorheading"
+              id="angelnetworkmentorheading3"
+            >
               What will I get in return?
             </div>
-            <div className="box" id="box3">
+            <div className="angelnetworkmentorbox" id="angelnetworkmentorbox3">
               If the nurturing provided by the mentors, has helped the startup
               significantly improve themselves from the current stage then as
               per the judgement of the committee and mutual understanding
@@ -94,7 +119,10 @@ function AngelNetworkMentorApp() {
               ways of engagement through partnerships
             </div>
           </div>
-          <div className="image" id="image3">
+          <div
+            className="angelnetworkmentorimage"
+            id="angelnetworkmentorimage3"
+          >
             <img src={img3} alt="" />
           </div>
         </div>

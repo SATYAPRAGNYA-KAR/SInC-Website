@@ -19,6 +19,8 @@ import SettingsNewApp from "./SettingsNew/SettingsNewApp";
 import SideNavigationBarApp from "./SideNavigationBar/SideNavigationBarApp";
 import AboutStartupApp from "./AboutStartup/AboutStartupApp";
 import ListOfStartupsApp from "./ListOfStartups/ListOfStartupsApp";
+import RegisterPageApp from "./RegisterPage/RegisterPageApp";
+import StartupInsightApp from "./StartupInsight/StartupInsightApp";
 
 function App() {
   return (
@@ -58,6 +60,8 @@ function App() {
           <Route path="/settings" element={<SettingsApp />} />
           <Route path="/settingsnew" element={<SettingsNewApp />} />
           <Route path="/sidenavigationbar" element={<SideNavigationBarApp />} />
+          <Route path="/registerpage" element={<RegisterPageApp />} />
+          <Route path="/startupinsight" element={<StartupInsightApp />} />
           <Route path="/" element={<HomeApp />} />
         </Routes>
       </div>

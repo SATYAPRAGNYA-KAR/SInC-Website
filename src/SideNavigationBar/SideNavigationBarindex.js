@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './SideNavigationBarindex.css';
-import App from './SideNavigationBarApp';
-import reportWebVitals from './SideNavigationBarreportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./SideNavigationBarindex.css";
+import SideNavigationBarApp from "./SideNavigationBarApp";
+import reportWebVitals from "./SideNavigationBarreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SideNavigationBarApp />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

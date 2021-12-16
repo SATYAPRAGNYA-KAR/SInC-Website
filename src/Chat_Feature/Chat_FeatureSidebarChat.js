@@ -9,10 +9,10 @@ function SidebarChat({ addNewChat, id, name }) {
   }, []);
 
   return (
-    <div className="sidebarChat">
+    <div className="chatsidebarChat">
       <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
 
-      <div className="sidebarChat__info">
+      <div className="chatsidebarChat__info">
         <h2>{name}</h2>
 
         <p>Last Message...</p>

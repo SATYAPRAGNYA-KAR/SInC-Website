@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./IITDAngelNetworkindex.css";
-import App from "./IITDAngelNetworkApp";
+import IITDAngelNetworkApp from "./IITDAngelNetworkApp";
 import reportWebVitals from "./IITDAngelNetworkreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <IITDAngelNetworkApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

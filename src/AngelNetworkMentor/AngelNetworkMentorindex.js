@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./AngelNetworkMentorindex.css";
-import App from "./AngelNetworkMentorApp";
+import AngelNetworkMentorApp from "./AngelNetworkMentorApp";
 import reportWebVitals from "./AngelNetworkMentorreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AngelNetworkMentorApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

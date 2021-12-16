@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-.App{
+.startupsregistrationformApp {
   text-align: center;
 }
 
-.container{
+.startupsregistrationformcontainer {
   /* background-color: bisque; */
   display: flex;
   justify-content: center;
 }
 
-.sub-container{
+.startupsregistrationformsub-container {
   /* background-color: aquamarine; */
   width: 1440px;
 }
 
-.main-heading{
-  font-family: 'Montserrat', sans-serif;
+.startupsregistrationformmain-heading {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -24,8 +24,8 @@
   margin: 47px 0 23px 0;
 }
 
-.sub-heading{
-  font-family: 'Montserrat', sans-serif;
+.startupsregistrationformsub-heading {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-style: normal;
   font-weight: 600;
@@ -35,7 +35,7 @@
   color: #000000;
 }
 
-.underline{
+.startupsregistrationformunderline {
   height: 3px;
   width: 400px;
   background-color: rgba(49, 154, 150, 1);
@@ -46,7 +46,7 @@
   margin: 8px;
 }
 
-.green-circle-left{
+.startupsregistrationformgreen-circle-left {
   position: absolute;
   height: 50px;
   width: 50px;
@@ -56,7 +56,7 @@
   background: rgba(49, 154, 150, 1);
 }
 
-.black-circle-left{
+.startupsregistrationformblack-circle-left {
   position: absolute;
   height: 60px;
   width: 60px;
@@ -66,7 +66,7 @@
   background: rgba(0, 0, 0, 1);
 }
 
-.green-circle-right{
+.startupsregistrationformgreen-circle-right {
   position: absolute;
   height: 132px;
   width: 70px;
@@ -76,7 +76,7 @@
   background: rgba(49, 154, 150, 1);
 }
 
-.black-circle-right{
+.startupsregistrationformblack-circle-right {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -86,7 +86,7 @@
   background: rgba(0, 0, 0, 1);
 }
 
-.green-circle-bottom-big{
+.startupsregistrationformgreen-circle-bottom-big {
   position: absolute;
   height: 132px;
   width: 132px;
@@ -96,7 +96,7 @@
   background: rgba(49, 154, 150, 1);
 }
 
-.green-circle-bottom-small{
+.startupsregistrationformgreen-circle-bottom-small {
   position: absolute;
   height: 30px;
   width: 30px;
@@ -106,7 +106,7 @@
   background: rgba(49, 154, 150, 1);
 }
 
-.black-circle-bottom{
+.startupsregistrationformblack-circle-bottom {
   position: absolute;
   height: 40px;
   width: 40px;

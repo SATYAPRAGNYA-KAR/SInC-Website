@@ -7,11 +7,11 @@ import Bottom from "./Chat_FeatureBottom";
 
 function ChatApp() {
   return (
-    <div className="app">
-      <div className="app__body">
+    <div className="chatapp">
+      <div className="chatapp__body">
         <Title />
 
-        <div className="app__sidebar-chat">
+        <div className="chatapp__sidebar-chat">
           <Sidebar />
 
           <Chat />

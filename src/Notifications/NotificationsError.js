@@ -5,14 +5,14 @@ import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
 function Error() {
   return (
-    <div className="error">
+    <div className="notificationserror">
       <WarningAmberIcon />
-      <div className="error__total">
-        <div className="error__info">
+      <div className="notificationserror__total">
+        <div className="notificationserror__info">
           <h2>Error</h2>
           <p>E-mail id not confirmed</p>
         </div>
-        <div className="error__detail">
+        <div className="notificationserror__detail">
           <DeleteOutlineIcon />
           <p>
             14 May

@@ -1,9 +1,9 @@
-.privacy {
+.settingsprivacy {
   display: flex;
   margin-top: calc(50 / 900 * 100vh);
   cursor: pointer;
 }
-.privacy > .MuiSvgIcon-root {
+.settingsprivacy > .MuiSvgIcon-root {
   color: #ffffff;
   height: calc(30 / 900 * 100vh);
   width: calc(30 / 1440 * 100vw);
@@ -11,18 +11,18 @@
   margin-right: calc(10 / 1440 * 100vw);
   margin-top: calc(24 / 900 * 100vh);
 }
-.privacy__content > h2 {
+.settingsprivacy__content > h2 {
   color: #ffffff;
   font-size: calc(14 / 1440 * 100vw);
   font-weight: 500;
   margin-top: calc(19 / 900 * 100vh);
 }
-.privacy__content > h3 {
+.settingsprivacy__content > h3 {
   color: #939393;
   font-size: calc(12 / 1440 * 100vw);
   font-weight: 400;
   margin-bottom: calc(19 / 900 * 100vh);
 }
-.privacy:hover {
+.settingsprivacy:hover {
   background: rgba(171, 171, 171, 0.3);
 }

@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./ContactUsindex.css";
-import App from "./ContactUsApp";
+import ContactUsApp from "./ContactUsApp";
 import reportWebVitals from "./ContactUsreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ContactUsApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

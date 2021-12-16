@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-.chat {
+.chatchat {
   display: flex;
   flex-direction: column;
   width: calc(1001 / 1440 * 100vw);
   height: calc(730 / 903 * 100vh);
 }
-.chat__message {
+.chatchat__message {
   width: fit-content;
   max-width: calc(740 / 1440 * 100vw);
   background-color: rgba(49, 154, 150, 0.19);
@@ -16,7 +16,7 @@
   margin-bottom: calc(20 / 903 * 100vh);
 }
 
-.chat__receiver {
+.chatchat__receiver {
   width: fit-content;
   max-width: calc(740 / 1440 * 100vw);
   background-color: rgba(195, 184, 167, 0.52);
@@ -26,18 +26,18 @@
   margin-bottom: calc(20 / 903 * 100vh);
 }
 
-.chat__body {
+.chatchat__body {
   background-color: #e5e5e5;
   background-position: center;
   padding: 30px;
   overflow: scroll;
 }
-.chat__footer {
+.chatchat__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.chat__footer > form {
+.chatchat__footer > form {
   display: flex;
   flex: 1;
   background-color: #e5e5e5;
@@ -51,7 +51,7 @@
   font-weight: 400;
   font-size: 16px;
 }
-.input__container {
+.chatchatinput__container {
   display: flex;
   flex: 1;
   background: rgba(49, 154, 150, 0.19);
@@ -59,12 +59,12 @@
   padding: 10px;
   align-items: center;
 }
-.input__container > input {
+.chatchatinput__container > input {
   background-color: rgba(49, 154, 150, 0.19);
   flex: 1;
 }
 
-.chat__footer > button {
+.chatchat__footer > button {
   background: #319a96;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -77,7 +77,7 @@
   margin-bottom: calc(25 / 903 * 100vh);
   cursor: pointer;
 }
-.chat__footer > .MuiSvgIcon-root {
+.chatchat__footer > .MuiSvgIcon-root {
   height: calc(40 / 903 * 100vh);
   width: calc(40 / 1440 * 100vw);
   color: #000000;
@@ -86,13 +86,13 @@
   margin-right: calc(46 / 1440 * 100vw);
   cursor: pointer;
 }
-.class_one {
+.chatchatclass_one {
   float: right;
   height: calc(77 / 903 * 100vh);
   width: calc(77 / 1440 * 100vw);
   margin-left: calc(24 / 1440 * 100vw);
 }
-.class_two {
+.chatchatclass_two {
   float: left;
   height: calc(77 / 903 * 100vh);
   width: calc(77 / 1440 * 100vw);

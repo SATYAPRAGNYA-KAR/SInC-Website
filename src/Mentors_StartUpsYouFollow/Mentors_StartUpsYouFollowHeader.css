@@ -1,59 +1,59 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1a1a1a;
-    color: #f1f1f1;
-    padding: 10px;
-    position: sticky;
-    top : 0px;
-    z-index: 999;
-    background-color: #1a1a1a;
+.mentorsstartupsyoufollowheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
 }
 
-.Dashboard{
-    display: flex;
-    align-items: center;
+.mentorsstartupsyoufollowheaderDashboard {
+  display: flex;
+  align-items: center;
 }
-.Dashboard_dashboard{
-    text-align: top;
+.mentorsstartupsyoufollowheaderDashboard_dashboard {
+  text-align: top;
 }
-.Logo{
-    width: 40%;
-    align-items: center;
+.mentorsstartupsyoufollowheaderLogo {
+  width: 40%;
+  align-items: center;
 }
-.CellName > span{
-    padding-bottom: 4px;
+.mentorsstartupsyoufollowheaderCellName > span {
+  padding-bottom: 4px;
 }
-.CellName{
-    text-align: center;
+.mentorsstartupsyoufollowheaderCellName {
+  text-align: center;
 }
-.Work{
-    text-align: center;
+.mentorsstartupsyoufollowheaderWork {
+  text-align: center;
 }
-.Icon{
-    color: yellow;
-    align-items: baseline;
+.mentorsstartupsyoufollowheaderIcon {
+  color: yellow;
+  align-items: baseline;
 }
-.Avatar{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
+.mentorsstartupsyoufollowheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
-.PersonAvatar{
-    align-items: center;
-    align-content: center;
-    text-align: center;
+.mentorsstartupsyoufollowheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
-.CellName{
-    align-content: center;
-    align-items: center;
-    text-align: center;
+.mentorsstartupsyoufollowheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
-.CellName > img{
-    width:20px;
-    height:20px;
+.mentorsstartupsyoufollowheaderCellName > img {
+  width: 20px;
+  height: 20px;
 }
-.CellName > h4{
-    margin: auto;
+.mentorsstartupsyoufollowheaderCellName > h4 {
+  margin: auto;
 }

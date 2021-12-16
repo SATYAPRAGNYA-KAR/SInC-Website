@@ -4,9 +4,9 @@ import NoAccountsOutlinedIcon from "@mui/icons-material/NoAccountsOutlined";
 
 function Delete() {
   return (
-    <div className="delete">
+    <div className="settingsdelete">
       <NoAccountsOutlinedIcon />
-      <div className="delete__content">
+      <div className="settingsdelete__content">
         <h2>Delete Account</h2>
         <h3>Delete your Info</h3>
       </div>

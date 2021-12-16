@@ -5,14 +5,14 @@ import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
 function Webinar() {
   return (
-    <div className="webinar">
+    <div className="notificationswebinar">
       <CheckCircleOutlineIcon />
-      <div className="webinar__total">
-        <div className="webinar__info">
+      <div className="notificationswebinar__total">
+        <div className="notificationswebinar__info">
           <h2>Webinar</h2>
           <p>Webinar on Innovation by Mr. Chaudhary on 20.05.20</p>
         </div>
-        <div className="webinar__detail">
+        <div className="notificationswebinar__detail">
           <DeleteOutlineIcon />
           <p>
             14 May

@@ -1,11 +1,11 @@
-.app {
+.notificationsapp {
   background-color: #e5e5e5;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
 }
-.app__header {
+.notificationsapp__header {
   height: calc(100 / 900 * 100vh);
   width: 100vw;
   background-color: #000000;
@@ -13,10 +13,10 @@
   margin-top: 0%;
   margin-left: 0%;
 }
-.app__body {
+.notificationsapp__body {
   flex: auto;
 }
-.app__footer {
+.notificationsapp__footer {
   height: calc(75 / 900 * 100vh);
   width: 100vw;
   background-color: #000000;
@@ -24,10 +24,10 @@
   margin-bottom: 0%;
   margin-left: 0%;
 }
-.aligned {
+.notificationsaligned {
   display: flex;
 }
-.aligned > .MuiSvgIcon-root {
+.notificationsaligned > .MuiSvgIcon-root {
   width: calc(35 / 1440 * 100vw);
   height: calc(35 / 900 * 100vh);
   margin-left: calc(75 / 1440 * 100vw);
@@ -35,13 +35,13 @@
   cursor: pointer;
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
-.aligned > h2 {
+.notificationsaligned > h2 {
   font-weight: 600;
   font-size: calc(30 / 900 * 100vh);
   margin-left: calc(10 / 1440 * 100vw);
   margin-top: calc(22 / 900 * 100vh);
   font: "Montserrat", sans-serif;
 }
-.content {
+.notificationscontent {
   display: flex;
 }

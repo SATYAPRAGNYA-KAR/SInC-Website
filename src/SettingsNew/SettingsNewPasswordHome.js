@@ -5,7 +5,7 @@ import PasswordMainbox from "./SettingsNewPasswordMainbox";
 
 function PasswordHome() {
   return (
-    <div className="passwordhome">
+    <div className="settingsnewpasswordhome">
       <PasswordSidebar />
       <PasswordMainbox />
     </div>

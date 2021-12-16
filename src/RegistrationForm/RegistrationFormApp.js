@@ -4,32 +4,32 @@ import Header from "./components/RegistrationFormHeader";
 
 function RegistrationFormApp() {
   return (
-    <div className="App">
+    <div className="registrationformApp">
       <Header />
       {/* <div className="header">Header</div> */}
 
-      <div className="black-circle-left"></div>
-      <div className="green-circle-left"></div>
-      <div className="green-circle-right-small"></div>
-      <div className="green-circle-right-big"></div>
-      <div className="black-circle-right"></div>
-      <div className="black-circle-bottom"></div>
-      <div className="green-circle-bottom-small"></div>
-      <div className="green-circle-bottom-big"></div>
+      <div className="registrationformblack-circle-left"></div>
+      <div className="registrationformgreen-circle-left"></div>
+      <div className="registrationformgreen-circle-right-small"></div>
+      <div className="registrationformgreen-circle-right-big"></div>
+      <div className="registrationformblack-circle-right"></div>
+      <div className="registrationformblack-circle-bottom"></div>
+      <div className="registrationformgreen-circle-bottom-small"></div>
+      <div className="registrationformgreen-circle-bottom-big"></div>
 
-      <div className="intro">
-        <div className="main-heading">Registration Form</div>
-        <div className="sub-heading">IITD Angel Network</div>
+      <div className="registrationformintro">
+        <div className="registrationformmain-heading">Registration Form</div>
+        <div className="registrationformsub-heading">IITD Angel Network</div>
 
-        <div className="underline"></div>
+        <div className="registrationformunderline"></div>
 
-        <div className="para-1">
+        <div className="registrationformpara-1">
           We thank you for supporting Incubation Cell in our mission to nurture
           student startups at the early stages of their journey and to connect
           the IITD Startup Ecosystem formally through this portal.
         </div>
 
-        <div className="box-1">
+        <div className="registrationformbox-1">
           IITD Angel Network : It is formed with an intent to connect right
           people and help build a successful relationship amongst IITD Community
           to foster the startup ecosystem. <br />
@@ -41,7 +41,7 @@ function RegistrationFormApp() {
           them target right goals and channelising their energy in right
           direction.
         </div>
-        <div className="box-2">
+        <div className="registrationformbox-2">
           <span>
             Please fill the form below and we will reach out to you personally.
           </span>

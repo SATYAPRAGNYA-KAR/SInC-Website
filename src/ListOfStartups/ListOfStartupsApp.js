@@ -6,16 +6,16 @@ import Content from "./ListOfStartupsContent";
 
 function ListOfStartupsApp() {
   return (
-    <div className="App">
-      <div className="App__Header">
+    <div className="listofstartupsApp">
+      <div className="listofstartupsApp__Header">
         <Header />
       </div>
-      <div className="App__SearchBar">
+      <div className="listofstartupsApp__SearchBar">
         <SearchBar />
       </div>
 
-      <div className="App__Body">
-        <div className="App__Content">
+      <div className="listofstartupsApp__Body">
+        <div className="listofstartupsApp__Content">
           <Content />
         </div>
       </div>

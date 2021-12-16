@@ -4,14 +4,14 @@ import SearchBar from "./Mentors_StartUpsYouFollowSearchBar";
 import Content from "./Mentors_StartUpsYouFollowContent";
 function MentorsStartUpsYouFollowApp() {
   return (
-    <div className="App">
-      <div className="App__Header">
+    <div className="mentorsstartupsyoufollowApp">
+      <div className="mentorsstartupsyoufollowApp__Header">
         <Header />
       </div>
-      <div className="App__SearchBar">
+      <div className="mentorsstartupsyoufollowApp__SearchBar">
         <SearchBar />
       </div>
-      <div className="App__Body">
+      <div className="mentorsstartupsyoufollowApp__Body">
         <Content />
       </div>
     </div>

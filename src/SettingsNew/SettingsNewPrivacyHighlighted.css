@@ -1,9 +1,9 @@
-.privacyhighlighted {
+.settingsnewprivacyhighlighted {
   display: flex;
   cursor: pointer;
   background-color: hsla(9, 75%, 66%, 0.26);
 }
-.privacyhighlighted > .MuiSvgIcon-root {
+.settingsnewprivacyhighlighted > .MuiSvgIcon-root {
   color: #ea7c69;
   height: calc(16 / 1024 * 100vh);
   width: calc(16 / 1440 * 100vw);
@@ -11,19 +11,19 @@
   margin-right: calc(8 / 1440 * 100vw);
   margin-top: calc(30 / 1024 * 100vh);
 }
-.privacyhighlighted__content > h2 {
+.settingsnewprivacyhighlighted__content > h2 {
   color: #ea7c69;
   font-size: calc(14 / 1440 * 100vw);
   font-weight: 500;
   margin-top: calc(24 / 1024 * 100vh);
 }
-.privacyhighlighted__content > h3 {
+.settingsnewprivacyhighlighted__content > h3 {
   color: #abbbc2;
   font-size: calc(12 / 1440 * 100vw);
   font-weight: 400;
   margin-bottom: calc(24 / 1024 * 100vh);
 }
-.privacyhighlighted > hr {
+.settingsnewprivacyhighlighted > hr {
   width: calc(4 / 1440 * 100vw);
   height: calc(39 / 1024 * 100vh);
   background-color: #ea7c69;

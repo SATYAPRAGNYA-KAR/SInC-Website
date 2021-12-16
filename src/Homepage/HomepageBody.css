@@ -1,116 +1,116 @@
-.body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.homebody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.body-tag1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    background-color: black;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 40px;
+.homebody-tag1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 40px;
 }
-.body-tag1 > h2{
-    color: yellow;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.homebody-tag1 > h2 {
+  color: yellow;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.body-tag1 > p{
-    color: white;
+.homebody-tag1 > p {
+  color: white;
 }
-.body-tag1 > button{
-    background-color: rgb(49,154,150);
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 2px 20px;
+.homebody-tag1 > button {
+  background-color: rgb(49, 154, 150);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 2px 20px;
 }
-.body-tag2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    background-color: black;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 40px;
+.homebody-tag2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 40px;
 }
-.body-tag2 > h2{
-    color: yellow;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.homebody-tag2 > h2 {
+  color: yellow;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.body-tag2 > p{
-    color: white;
+.homebody-tag2 > p {
+  color: white;
 }
-.body-tag2 > button{
-    background-color: rgb(49,154,150);
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 2px 20px;
+.homebody-tag2 > button {
+  background-color: rgb(49, 154, 150);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 2px 20px;
 }
-.body-tag3{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 60px;
-    width: 50%;
-    padding: 20px;
-    margin: 40px;
+.homebody-tag3 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 60px;
+  width: 50%;
+  padding: 20px;
+  margin: 40px;
 }
-.img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+.homebodyimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
-.img-content{
-    padding: 10px;
+.homebodyimg-content {
+  padding: 10px;
 }
-.img1{
-    color: yellow;
-    font-size: x-large;
+.homebodyimg1 {
+  color: yellow;
+  font-size: x-large;
 }
-.img2{
-    color: white;
-    font-size: x-large;
+.homebodyimg2 {
+  color: white;
+  font-size: x-large;
 }
-.body-tag5{
-    background-color: black;
-    width: 80%;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 40px;
-    padding-bottom: 60px;
+.homebody-tag5 {
+  background-color: black;
+  width: 80%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 40px;
+  padding-bottom: 60px;
 }
-.body-tag5-card{
-    display: flex;
-    align-items: center;
+.homebody-tag5-card {
+  display: flex;
+  align-items: center;
 }
-.body-tag5-card-img{
-    width: 30%;
+.homebody-tag5-card-img {
+  width: 30%;
 }
-.body-tag5-card-content{
-    flex: 1;
-    padding: 10px 40px; 
-    margin: 10px 60px;
+.homebody-tag5-card-content {
+  flex: 1;
+  padding: 10px 40px;
+  margin: 10px 60px;
 }
-.body-tag5-card-content > h1{
-    color: yellow;
+.homebody-tag5-card-content > h1 {
+  color: yellow;
 }
-.body-tag5-card-content > p{
-    color: white;
-    padding: 0px 10px;
-    margin: 0px 10px;
-    font-size: large;
+.homebody-tag5-card-content > p {
+  color: white;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  font-size: large;
 }

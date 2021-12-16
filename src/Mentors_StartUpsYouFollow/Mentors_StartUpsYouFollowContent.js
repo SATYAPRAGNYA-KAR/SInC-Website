@@ -3,7 +3,7 @@ import "./Mentors_StartUpsYouFollowContent.css";
 import Infocard from "./Mentors_StartUpsYouFollowInfocard";
 function Content() {
   return (
-    <div className="Content">
+    <div className="mentorsstartupsyoufollowContent">
       <Infocard />
       <Infocard />
       <Infocard />

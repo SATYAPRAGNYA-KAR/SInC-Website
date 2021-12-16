@@ -5,7 +5,7 @@ import HistoryMainbox from "./SettingsNewHistoryMainbox";
 
 function HistoryHome() {
   return (
-    <div className="historyhome">
+    <div className="settingsnewhistoryhome">
       <HistorySidebar />
       <HistoryMainbox />
     </div>

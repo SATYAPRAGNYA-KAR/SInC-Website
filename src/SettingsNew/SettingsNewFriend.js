@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function Friend() {
   return (
     <Link to="/friendpath" style={{ textDecoration: "none" }}>
-      <div className="friend">
+      <div className="settingsnewfriend">
         <AccountCircleOutlinedIcon />
-        <div className="friend__content">
+        <div className="settingsnewfriend__content">
           <h2>Invite your Friend</h2>
           <h3>Customize your List</h3>
         </div>

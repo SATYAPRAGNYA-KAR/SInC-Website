@@ -5,7 +5,7 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 function Settings() {
   return (
     <div>
-      <div className="settings">
+      <div className="sidenavigationbarsettings">
         <SettingsOutlinedIcon />
         <h3>Settings</h3>
       </div>

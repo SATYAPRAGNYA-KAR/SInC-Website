@@ -1,4 +1,4 @@
-.message {
+.notificationsmessage {
   margin-left: calc(6 / 1440 * 100vw);
   margin-top: calc(22 / 900 * 100vh);
   width: calc(868 / 1440 * 100vw);
@@ -6,12 +6,12 @@
   background-color: #424242;
   border-radius: 10px;
 }
-.message__top {
+.notificationsmessage__top {
   display: flex;
   justify-content: space-between;
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
-.message__top > h2 {
+.notificationsmessage__top > h2 {
   margin-top: calc(13 / 900 * 100vh);
   margin-left: calc(18 / 1440 * 100vw);
   height: calc(40 / 900 * 100vh);
@@ -21,7 +21,7 @@
   color: #ffffff;
   font: "Montserrat", sans-serif;
 }
-.message__top > .MuiSvgIcon-root {
+.notificationsmessage__top > .MuiSvgIcon-root {
   margin-right: calc(13 / 1440 * 100vw);
   margin-top: calc(12 / 900 * 100vh);
   color: #ffffff;
@@ -29,20 +29,20 @@
   width: calc(20 / 1440 * 100vw);
   cursor: pointer;
 }
-.message__body {
+.notificationsmessage__body {
   display: flex;
 }
-.image img {
+.notificationsimage > img {
   margin-top: calc(40 / 900 * 100vh);
   margin-right: calc(71.01 / 1440 * 100vw);
   width: calc(392.99 / 1440 * 100vw);
   height: calc(460 / 900 * 100vh);
 }
-.message__main {
+.notificationsmessage__main {
   display: flex;
   flex-direction: column;
 }
-.message__main-head {
+.notificationsmessage__main-head {
   color: #ffffff;
   margin-left: calc(80 / 1440 * 100vw);
   margin-top: calc(75 / 1440 * 100vh);
@@ -52,7 +52,7 @@
   font-size: calc(11 / 1440 * 100vw);
   font-weight: 400;
 }
-.message__main-body {
+.notificationsmessage__main-body {
   width: fit-content;
   color: #ebebeb;
   border-top: calc(1 / 900 * 100vh) solid #ebebeb;

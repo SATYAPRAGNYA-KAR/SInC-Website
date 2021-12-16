@@ -1,60 +1,60 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1a1a1a;
-    color: #f1f1f1;
-    padding: 10px;
-    position: sticky;
-    top : 0px;
-    z-index: 999;
-    background-color: #1a1a1a;
-    height: 113px;
+.angelnetworkinvestorheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
+  height: 113px;
 }
 
-.Dashboard{
-    display: flex;
-    align-items: center;
+.angelnetworkinvestorheaderDashboard {
+  display: flex;
+  align-items: center;
 }
-.Dashboard_dashboard{
-    text-align: top;
+.angelnetworkinvestorheaderDashboard_dashboard {
+  text-align: top;
 }
-.Logo{
-    width: 40%;
-    align-items: center;
+.angelnetworkinvestorheaderLogo {
+  width: 40%;
+  align-items: center;
 }
-.CellName > span{
-    padding-bottom: 4px;
+.angelnetworkinvestorheaderCellName > span {
+  padding-bottom: 4px;
 }
-.CellName{
-    text-align: center;
+.angelnetworkinvestorheaderCellName {
+  text-align: center;
 }
-.Work{
-    text-align: center;
+.angelnetworkinvestorheaderWork {
+  text-align: center;
 }
-.Icon{
-    color: yellow;
-    align-items: baseline;
+.angelnetworkinvestorheaderIcon {
+  color: yellow;
+  align-items: baseline;
 }
-.Avatar{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
+.angelnetworkinvestorheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
-.PersonAvatar{
-    align-items: center;
-    align-content: center;
-    text-align: center;
+.angelnetworkinvestorheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
-.CellName{
-    align-content: center;
-    align-items: center;
-    text-align: center;
+.angelnetworkinvestorheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
-.CellName > img{
-    width:20px;
-    height:20px;
+.angelnetworkinvestorheaderCellName > img {
+  width: 20px;
+  height: 20px;
 }
-.CellName > h4{
-    margin: auto;
+.angelnetworkinvestorheaderCellName > h4 {
+  margin: auto;
 }

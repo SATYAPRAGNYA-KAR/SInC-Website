@@ -1,13 +1,13 @@
-.app {
+.chatapp {
   background-color: #e5e5e5;
   height: 100vh;
   width: 100vw;
 }
-.app__body {
+.chatapp__body {
   background-color: #e5e5e5;
   height: 100vh;
   width: 100vw;
 }
-.app__sidebar-chat {
+.chatapp__sidebar-chat {
   display: flex;
 }

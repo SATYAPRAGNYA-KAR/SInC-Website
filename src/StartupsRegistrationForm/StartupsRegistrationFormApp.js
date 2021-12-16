@@ -4,20 +4,22 @@ import Header from "./components/StartupsRegistrationFormHeader";
 
 function StartupsRegistrationFormApp() {
   return (
-    <div className="App">
+    <div className="startupsregistrationformApp">
       <Header />
-      <div className="container">
-        <div className="green-circle-left"></div>
-        <div className="black-circle-left"></div>
-        <div className="green-circle-right"></div>
-        <div className="black-circle-right"></div>
-        <div className="green-circle-bottom-big"></div>
-        <div className="green-circle-bottom-small"></div>
-        <div className="black-circle-bottom"></div>
-        <div className="sub-container">
-          <div className="main-heading">Registration Form</div>
-          <div className="sub-heading">Start-Ups</div>
-          <div className="underline"></div>
+      <div className="startupsregistrationformcontainer">
+        <div className="startupsregistrationformgreen-circle-left"></div>
+        <div className="startupsregistrationformblack-circle-left"></div>
+        <div className="startupsregistrationformgreen-circle-right"></div>
+        <div className="startupsregistrationformblack-circle-right"></div>
+        <div className="startupsregistrationformgreen-circle-bottom-big"></div>
+        <div className="startupsregistrationformgreen-circle-bottom-small"></div>
+        <div className="startupsregistrationformblack-circle-bottom"></div>
+        <div className="startupsregistrationformsub-container">
+          <div className="startupsregistrationformmain-heading">
+            Registration Form
+          </div>
+          <div className="startupsregistrationformsub-heading">Start-Ups</div>
+          <div className="startupsregistrationformunderline"></div>
           <FormStartups />
         </div>
       </div>

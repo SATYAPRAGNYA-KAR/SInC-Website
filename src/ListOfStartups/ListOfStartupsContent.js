@@ -3,7 +3,7 @@ import "./ListOfStartupsContent.css";
 import Infocard from "./ListOfStartupsInfocard";
 function Content() {
   return (
-    <div className="Content">
+    <div className="listofstartupsContent">
       <Infocard />
       <Infocard />
       <Infocard />

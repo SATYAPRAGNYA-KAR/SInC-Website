@@ -12,12 +12,12 @@ function Chat() {
   return (
     <div className="notification_chat">
       <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
-      <div className="chat__total">
-        <div className="chat__info">
+      <div className="notificationschat__total">
+        <div className="notificationschat__info">
           <h2>New Message</h2>
           <p>Palak Gupta messaged you</p>
         </div>
-        <div className="chat__detail">
+        <div className="notificationschat__detail">
           <DeleteOutlineIcon />
           <p>
             14 May

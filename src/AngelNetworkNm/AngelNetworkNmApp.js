@@ -5,34 +5,35 @@ import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
 import img4 from "./images/img4.png";
 import img5 from "./images/img5.png";
+import {Link} from 'react-router-dom';
 
 function AngelNetworkNmApp() {
   return (
-    <div className="App">
+    <div className="angelnetworknmApp">
       <Header />
-      <div className="buttons">
-        <div className="button1">
-          <button>Mentors</button>
+      <div className="angelnetworknmbuttons">
+        <div className="angelnetworknmbutton1">
+        <Link to='/angelnetworkmentor'><button>Mentors</button></Link>
         </div>
-        <div className="button2">
-          <button>What is in it for you</button>
+        <div className="angelnetworknmbutton2">
+        <Link to='/angelnetworkinvestor'><button>What is in it for you</button></Link>
         </div>
-        <div className="button3">
-          <button>Nurturing Funds</button>
+        <div className="angelnetworknmbutton3">
+        <Link to='/angelnetworknm'><button>Nurturing Funds</button></Link>
         </div>
       </div>
-      <div className="underline">
-        <div className="bold"></div>
-        <div className="thin"></div>
+      <div className="angelnetworknmunderline">
+        <div className="angelnetworknmbold"></div>
+        <div className="angelnetworknmthin"></div>
       </div>
 
-      <div className="container">
-        <div className="section" id="section1">
-          <div className="text" id="text1">
-            <div className="heading" id="heading1">
+      <div className="angelnetworknmcontainer">
+        <div className="angelnetworknmsection" id="angelnetworknmsection1">
+          <div className="angelnetworknmtext" id="angelnetworknmtext1">
+            <div className="angelnetworknmheading" id="angelnetworknmheading1">
               What role will these funds play?
             </div>
-            <div className="box" id="box1">
+            <div className="angelnetworknmbox" id="angelnetworknmbox1">
               Some of the student startups at initial stages require little
               amount of capital to take things off-ground. This becomes a
               barrier and at times a significant one for some of them which can
@@ -41,17 +42,17 @@ function AngelNetworkNmApp() {
               can be used to nurture student startups.
             </div>
           </div>
-          <div className="image" id="image1">
+          <div className="angelnetworknmimage" id="angelnetworknmimage1">
             <img src={img1} alt="" />
           </div>
         </div>
 
-        <div className="section" id="section2">
-          <div className="text" id="text2">
-            <div className="heading" id="heading2">
+        <div className="angelnetworknmsection" id="angelnetworknmsection2">
+          <div className="angelnetworknmtext" id="angelnetworknmtext2">
+            <div className="angelnetworknmheading" id="angelnetworknmheading2">
               Do startups really need these funds?
             </div>
-            <div className="box" id="box2">
+            <div className="angelnetworknmbox" id="angelnetworknmbox2">
               Not every student startup will have this requirement but for those
               who do, this should not pose a challenge or seen as a limitation.
               Some of the ways through which these funds can be useful for
@@ -69,17 +70,17 @@ function AngelNetworkNmApp() {
               hence we want to have room to accommodate those
             </div>
           </div>
-          <div className="image" id="image2">
+          <div className="angelnetworknmimage" id="angelnetworknmimage2">
             <img src={img2} alt="" />
           </div>
         </div>
 
-        <div className="section" id="section3">
-          <div className="text" id="text3">
-            <div className="heading" id="heading3">
+        <div className="angelnetworknmsection" id="angelnetworknmsection3">
+          <div className="angelnetworknmtext" id="angelnetworknmtext3">
+            <div className="angelnetworknmheading" id="angelnetworknmheading3">
               What do we require?
             </div>
-            <div className="box" id="box3">
+            <div className="angelnetworknmbox" id="angelnetworknmbox3">
               We are looking to partner with alumni, individually or through
               their organizations through CSR funds/Official Partner , who
               believe in our mission of changing the way entrepreneurship is
@@ -88,17 +89,17 @@ function AngelNetworkNmApp() {
               of 15 Lakhs to be used in nurturing.
             </div>
           </div>
-          <div className="image" id="image3">
+          <div className="angelnetworknmimage" id="angelnetworknmimage3">
             <img src={img3} alt="" />
           </div>
         </div>
 
-        <div className="section" id="section4">
-          <div className="text" id="text4">
-            <div className="heading" id="heading4">
+        <div className="angelnetworknmsection" id="angelnetworknmsection4">
+          <div className="angelnetworknmtext" id="angelnetworknmtext4">
+            <div className="angelnetworknmheading" id="angelnetworknmheading4">
               What is in it for you?
             </div>
-            <div className="box" id="box4">
+            <div className="angelnetworknmbox" id="angelnetworknmbox4">
               Associating with us means getting an early access to the upcoming
               startups and ideas that are being born out of your alma mater. An
               institute of Eminence which boasts of producing the highest number
@@ -113,14 +114,14 @@ function AngelNetworkNmApp() {
               related to this. We will duly recognise your contribution!
             </div>
           </div>
-          <div className="image" id="image4">
+          <div className="angelnetworknmimage" id="angelnetworknmimage4">
             <img src={img4} alt="" />
           </div>
         </div>
 
-        <div className="section" id="section5">
-          <div className="text" id="text5"></div>
-          <div className="box" id="box5">
+        <div className="angelnetworknmsection" id="angelnetworknmsection5">
+          <div className="angelnetworknmtext" id="angelnetworknmtext5"></div>
+          <div className="angelnetworknmbox" id="angelnetworknmbox5">
             By monitoring the progress of startups from closed quarters, you can
             be sure of the potential of the team. At early-stage investments
             this is one of the crucial aspects about any venture and this
@@ -133,7 +134,7 @@ function AngelNetworkNmApp() {
             engage.For people contributing significant amount of funds, we are
             open to discuss other ways of better engagement.
           </div>
-          <div className="image" id="image5">
+          <div className="angelnetworknmimage" id="angelnetworknmimage5">
             <img src={img5} alt="" />
           </div>
         </div>

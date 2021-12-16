@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-.buttons{
+.angelnetworknmbuttons {
   height: 110px;
   /* background-color: palevioletred; */
   display: flex;
@@ -8,30 +8,30 @@
   /* justify-content: center; */
 }
 
-.buttons > .button1{
-   flex: 1;
-}
-
-.buttons > .button2{
+.angelnetworknmbuttons > .angelnetworknmbutton1 {
   flex: 1;
 }
 
-.buttons > .button3{
+.angelnetworknmbuttons > .angelnetworknmbutton2 {
   flex: 1;
 }
 
-.buttons > .button3{
+.angelnetworknmbuttons > .angelnetworknmbutton3 {
+  flex: 1;
+}
+
+.angelnetworknmbuttons > .angelnetworknmbutton3 {
   margin-right: 20px;
 }
 
-.buttons div{
+.angelnetworknmbuttons div {
   /* background-color: black; */
   display: flex;
   justify-content: center;
   margin-bottom: -33px;
 }
 
-.buttons div button{
+.angelnetworknmbuttons div button {
   border: none;
   background-color: transparent;
   font-family: Montserrat;
@@ -41,14 +41,13 @@
   line-height: 44px;
 }
 
-
-.underline{
+.angelnetworknmunderline {
   position: relative;
   top: -8px;
   padding: 0 5% 0 5%;
 }
 
-.underline > .thin{
+.angelnetworknmunderline > .angelnetworknmthin {
   /* flex: 2; */
   border-top: 2px solid #000000;
   position: relative;
@@ -56,78 +55,79 @@
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 10;
-
 }
 
-.underline > .bold{
+.angelnetworknmunderline > .angelnetworknmbold {
   height: 8px;
   position: relative;
   left: 72%;
-  align-self:flex-end;
+  align-self: flex-end;
   width: 27%;
   background: #000000;
   border-radius: 18px;
 }
 
-
-.container{
+.angelnetworknmcontainer {
   background: rgba(218, 218, 218, 0.58);
   margin: 75px 40px 0 40px;
   padding: 35px;
 }
 
-.section{
+.angelnetworknmsection {
   display: flex;
   padding: 10px;
   align-items: center;
 }
 
-.text{
+.angelnetworknmtext {
   padding: 30px;
 }
 
-.heading{
+.angelnetworknmheading {
   font-family: Montserrat;
-font-size: 36px;
-font-style: normal;
-font-weight: 600;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: left;
-color: rgba(3, 114, 114, 1);
-padding: 0 0 25px 0;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(3, 114, 114, 1);
+  padding: 0 0 25px 0;
 }
 
-.box{
+.angelnetworknmbox {
   border: 3px solid #037272;
-box-sizing: border-box;
-border-radius: 30px;
-padding: 25px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
 }
 
-#section2, #section4{
+#angelnetworknmsection2,
+#angelnetworknmsection4 {
   flex-direction: row-reverse;
 }
 
-.image{
+.angelnetworknmimage {
   padding: 30px;
   align-self: top;
 }
 
-#image4 img{
+#angelnetworknmimage4 img {
   width: 400px;
 }
 
-#section2 img, #section4 img{
-    padding-right: 50px;
+#angelnetworknmsection2 img,
+#angelnetworknmsection4 img {
+  padding-right: 50px;
 }
 
-#section1 img, #section3 img, #section5 img{
+#angelnetworknmsection1 img,
+#angelnetworknmsection3 img,
+#angelnetworknmsection5 img {
   padding-left: 50px;
 }

@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function History() {
   return (
     <Link to="/historypath" style={{ textDecoration: "none" }}>
-      <div className="history">
+      <div className="settingsnewhistory">
         <HistoryOutlinedIcon />
-        <div className="history__content">
+        <div className="settingsnewhistory__content">
           <h2>Search History</h2>
           <h3>Remember your Previous Actions</h3>
         </div>

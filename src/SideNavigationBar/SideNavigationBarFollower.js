@@ -5,7 +5,7 @@ import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
 function Follower() {
   return (
     <div>
-      <div className="follower">
+      <div className="sidenavigationbarfollower">
         <PeopleAltOutlinedIcon />
         <h3>People you Follow</h3>
       </div>

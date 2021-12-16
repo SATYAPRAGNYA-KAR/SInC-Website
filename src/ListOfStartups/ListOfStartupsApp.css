@@ -1,16 +1,16 @@
-.App__Body{
+.listofstartupsApp__Body{
   width: 100%;
   align-items: center;
   align-content: center;
   text-align: center;
 }
-.App__SearchBar{
+.listofstartupsApp__SearchBar{
   background-color: rgb(214,242,255);
 }
-.App__Body{
+.listofstartupsApp__Body{
   background-color: rgb(214,242,255);
 }
-.App__Content{
+.listofstartupsApp__Content{
   display: flex;
   align-items: center;
   margin-left: 5%;

@@ -5,7 +5,7 @@ import PrivacyMainbox from "./SettingsNewPrivacyMainbox";
 
 function PrivacyHome() {
   return (
-    <div className="privacyhome">
+    <div className="settingsnewprivacyhome">
       <PrivacySidebar />
       <PrivacyMainbox />
     </div>

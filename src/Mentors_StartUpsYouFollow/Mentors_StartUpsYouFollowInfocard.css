@@ -1,34 +1,34 @@
-.Infocard{
-    width: 320px;
-    display: flex;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgba(100, 227, 176, 0.05);
+.mentorsstartupsyoufollowInfocard {
+  width: 320px;
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(100, 227, 176, 0.05);
 }
-.Infocard_Content{
-    padding: 10px;
+.mentorsstartupsyoufollowInfocard_Content {
+  padding: 10px;
 }
-.Infocard_Avatar{
-    width: 120px;
-    height: 120px;
+.mentorsstartupsyoufollowInfocard_Avatar {
+  width: 120px;
+  height: 120px;
 }
-.Infocard > img{
-    width: 120px;
-    height: 120px;
+.mentorsstartupsyoufollowInfocard > img {
+  width: 120px;
+  height: 120px;
 }
-.Infocard_Head{
-    display: flex;
+.mentorsstartupsyoufollowInfocard_Head {
+  display: flex;
 }
 
-.Infocard_Head > p{
-    flex: 1;
+.mentorsstartupsyoufollowInfocard_Head > p {
+  flex: 1;
 }
-#Infocard_GreenIndie{
-    color: #595959;
+#Infocard_GreenIndie {
+  color: #595959;
 }
-.Infocard_Span{
-    color: #319a96;
+.mentorsstartupsyoufollowInfocard_Span {
+  color: #319a96;
 }
-.Infocard_MailIcon{
-    color: #319a96
+.mentorsstartupsyoufollowInfocard_MailIcon {
+  color: #319a96;
 }

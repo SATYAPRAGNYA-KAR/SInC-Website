@@ -9,7 +9,7 @@ import Info from "./SettingsNewInfo";
 
 function FriendSidebar() {
   return (
-    <div className="friendsidebar">
+    <div className="settingsnewfriendsidebar">
       <Privacy />
       <Password />
       <Delete />

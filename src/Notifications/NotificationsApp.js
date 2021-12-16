@@ -8,21 +8,21 @@ import Footer from "./NotificationsFooter";
 
 function NotificationsApp() {
   return (
-    <div className="app">
-      <div className="app__header">
+    <div className="notificationsapp">
+      <div className="notificationsapp__header">
         <Header />
       </div>
-      <div className="app__body">
-        <div className="aligned">
+      <div className="notificationsapp__body">
+        <div className="notificationsaligned">
           <NotificationsNoneIcon />
           <h2>Notifications</h2>
         </div>
-        <div className="content">
+        <div className="notificationscontent">
           <Sidebar />
           <Message />
         </div>
       </div>
-      <div className="app__footer">
+      <div className="notificationsapp__footer">
         <Footer />
       </div>
     </div>

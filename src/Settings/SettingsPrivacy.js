@@ -4,9 +4,9 @@ import PrivacyTipOutlinedIcon from "@mui/icons-material/PrivacyTipOutlined";
 
 function Privacy() {
   return (
-    <div className="privacy">
+    <div className="settingsprivacy">
       <PrivacyTipOutlinedIcon />
-      <div className="privacy__content">
+      <div className="settingsprivacy__content">
         <h2>Privacy</h2>
         <h3>Change your confidentiality</h3>
       </div>

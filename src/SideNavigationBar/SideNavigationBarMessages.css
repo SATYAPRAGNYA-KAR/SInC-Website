@@ -1,21 +1,21 @@
-.messages {
+.sidenavigationbarmessages {
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
 }
-.messages > .MuiSvgIcon-root {
+.sidenavigationbarmessages > .MuiSvgIcon-root {
   color: #ffffff;
   width: calc(60 / 1440 * 100vw);
   height: calc(60 / 900 * 100vh);
   margin-top: calc(10 / 801 * 100vh);
 }
-.messages > h3 {
+.sidenavigationbarmessages > h3 {
   font-size: calc(12 / 1440 * 100vw);
   font-weight: 500;
   color: #ffffff;
   margin-bottom: calc(10 / 801 * 100vh);
 }
-.messages:hover {
+.sidenavigationbarmessages:hover {
   background: rgba(171, 171, 171, 0.3);
 }

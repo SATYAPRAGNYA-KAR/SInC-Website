@@ -10,56 +10,58 @@ import target from "./Images/target-population.png";
 function Summary() {
   return (
     <div>
-      <div className="Content">
-        <div className="Card">
-          <div className="img">
+      <div className="aboutstartupsummaryContent">
+        <div className="aboutstartupsummaryCard">
+          <div className="aboutstartupsummaryimg">
             <img
               src={business}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Business Addressed problem</div>
+          <div className="aboutstartupsummaryCard-Topic">
+            Business Addressed problem
+          </div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartupsummaryCard">
+          <div className="aboutstartupsummaryimg">
             <img
               src={target}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Target Population</div>
+          <div className="aboutstartupsummaryCard-Topic">Target Population</div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartupsummaryCard">
+          <div className="aboutstartupsummaryimg">
             <img
               src={ideas}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Ideas</div>
+          <div className="aboutstartupsummaryCard-Topic">Ideas</div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartupsummaryCard">
+          <div className="aboutstartupsummaryimg">
             <img
               src={contact}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Contact Us</div>
+          <div className="aboutstartupsummaryCard-Topic">Contact Us</div>
         </div>
-        <div className="Card">
-          <div className="img">
+        <div className="aboutstartupsummaryCard">
+          <div className="aboutstartupsummaryimg">
             <img
               src={awards}
               alt="Logo"
               style={{ height: "140px", width: "140px" }}
             />
           </div>
-          <div className="Card-Topic">Awards</div>
+          <div className="aboutstartupsummaryCard-Topic">Awards</div>
         </div>
       </div>
     </div>

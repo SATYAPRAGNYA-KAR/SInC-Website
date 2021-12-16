@@ -10,7 +10,7 @@ import Financials from "./AboutStartupFinancials";
 
 function AboutStartupApp() {
   return (
-    <div className="App">
+    <div className="aboutstartupApp">
       <Header />
       <Routes>
         <Route path="/" elements={<Summary />} />
