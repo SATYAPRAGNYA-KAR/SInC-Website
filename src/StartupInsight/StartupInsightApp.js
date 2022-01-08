@@ -3,6 +3,7 @@ import blackborder from "./Images/blackborder.png";
 import symbol from "./Images/symbol.png";
 import Header from "./StartupInsightHeader";
 // import Footer from './Footer';
+import { Link } from "react-router-dom";
 
 function StartupInsightApp() {
   return (
@@ -27,10 +28,11 @@ function StartupInsightApp() {
           Tincidunt nunc pulvinar sapien et. Neque viverra justo nec ultrices
           dui
         </div>
-
-        <div className="startupinsightright-box-register">
-          <button onClick={() => window.open("", "_blank")}>Register</button>
-        </div>
+        <Link to="/registerpage" style={{ textDecoration: "none" }}>
+          <div className="startupinsightright-box-register">
+            <button>Register</button>
+          </div>
+        </Link>
       </div>
 
       <div className="startupinsightbottom">

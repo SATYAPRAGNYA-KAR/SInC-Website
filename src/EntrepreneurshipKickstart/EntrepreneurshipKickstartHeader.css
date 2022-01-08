@@ -1,0 +1,60 @@
+.entrepreneurshipkickstartheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
+  height: 113px;
+}
+
+.entrepreneurshipkickstartheaderDashboard {
+  display: flex;
+  align-items: center;
+}
+.entrepreneurshipkickstartheaderDashboard_dashboard {
+  text-align: top;
+}
+.entrepreneurshipkickstartheaderLogo {
+  width: 40%;
+  align-items: center;
+}
+.entrepreneurshipkickstartheaderCellName > span {
+  padding-bottom: 4px;
+}
+.entrepreneurshipkickstartheaderCellName {
+  text-align: center;
+}
+.entrepreneurshipkickstartheaderWork {
+  text-align: center;
+}
+.entrepreneurshipkickstartheaderIcon {
+  color: yellow;
+  align-items: baseline;
+}
+.entrepreneurshipkickstartheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.entrepreneurshipkickstartheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.entrepreneurshipkickstartheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.entrepreneurshipkickstartheaderCellName > img {
+  width: 20px;
+  height: 20px;
+}
+.entrepreneurshipkickstartheaderCellName > h4 {
+  margin: auto;
+}

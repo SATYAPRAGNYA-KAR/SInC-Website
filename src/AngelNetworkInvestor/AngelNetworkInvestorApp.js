@@ -4,7 +4,7 @@ import img1 from "./images/img1.png";
 import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
 import img4 from "./images/img4.png";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function AngelNetworkInvestorApp() {
   return (
@@ -12,13 +12,19 @@ function AngelNetworkInvestorApp() {
       <Header />
       <div className="angelnetworkinvestorbuttons">
         <div className="angelnetworkinvestorbutton1">
-        <Link to='/angelnetworkmentor'><button>Mentors</button></Link>
+          <Link to="/angelnetworkmentor">
+            <button>Mentors</button>
+          </Link>
         </div>
         <div className="angelnetworkinvestorbutton2">
-        <Link to='/angelnetworkinvestor'><button>What is in it for you</button></Link>
+          <Link to="/angelnetworkinvestor">
+            <button>What is in it for you</button>
+          </Link>
         </div>
         <div className="angelnetworkinvestorbutton3">
-        <Link to='/angelnetworknm'><button>Nurturing Funds</button></Link>
+          <Link to="/angelnetworknm">
+            <button>Nurturing Funds</button>
+          </Link>
         </div>
       </div>
       <div className="angelnetworkinvestorunderline">

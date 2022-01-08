@@ -21,6 +21,7 @@ import AboutStartupApp from "./AboutStartup/AboutStartupApp";
 import ListOfStartupsApp from "./ListOfStartups/ListOfStartupsApp";
 import RegisterPageApp from "./RegisterPage/RegisterPageApp";
 import StartupInsightApp from "./StartupInsight/StartupInsightApp";
+import EntrepreneurshipKickstartApp from "./EntrepreneurshipKickstart/EntrepreneurshipKickstartApp";
 
 function App() {
   return (
@@ -62,6 +63,10 @@ function App() {
           <Route path="/sidenavigationbar" element={<SideNavigationBarApp />} />
           <Route path="/registerpage" element={<RegisterPageApp />} />
           <Route path="/startupinsight" element={<StartupInsightApp />} />
+          <Route
+            path="/entrepreneurshipkickstart"
+            element={<EntrepreneurshipKickstartApp />}
+          />
           <Route path="/" element={<HomeApp />} />
         </Routes>
       </div>

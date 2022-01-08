@@ -27,7 +27,7 @@
   z-index: 10;
 }
 
-img {
+.mentorregistrationformcontainer > img {
   width: 454px;
   position: absolute;
   left: 70px;

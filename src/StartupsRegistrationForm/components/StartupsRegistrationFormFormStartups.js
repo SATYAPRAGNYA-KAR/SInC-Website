@@ -97,55 +97,72 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form
+        className="startupregistrationformform"
+        onSubmit={this.handleSubmit}
+      >
         <div>
-          <label>Join as</label>
-          <div className="join-as">
-            <div className="button1">
-              <button onClick={this.handleButton1Change}>
+          <label className="startupregistrationformformlabel">Join as</label>
+          <div className="startupregistrationformformjoin-as">
+            <div className="startupregistrationformformbutton1">
+              <button
+                className="startupregistrationformformbutton"
+                onClick={this.handleButton1Change}
+              >
                 Participant in Entrepreneurship Kickstart
               </button>
             </div>
-            <div className="button2">
-              <button onClick={this.handleButton2Change}>
+            <div className="startupregistrationformformbutton2">
+              <button
+                className="startupregistrationformformbutton"
+                onClick={this.handleButton2Change}
+              >
                 To seek help through IITD Angel Network
               </button>
             </div>
           </div>
 
-          <div className="name">
-            <label>Name</label>
+          <div className="startupregistrationformformname">
+            <label className="startupregistrationformformlabel">Name</label>
             <br />
             <input
+              className="startupregistrationformforminput"
               type="text"
               value={this.state.name}
               onChange={this.handleNameChange}
             />
           </div>
-          <div className="batch-contact">
-            <div className="batch">
-              <label>Batch of</label>
+          <div className="startupregistrationformformbatch-contact">
+            <div className="startupregistrationformformbatch">
+              <label className="startupregistrationformformlabel">
+                Batch of
+              </label>
               <br />
               <input
+                className="startupregistrationformforminput"
                 type="text"
                 value={this.state.batch}
                 onChange={this.handleBatchChange}
               />
             </div>
-            <div className="contactnumber">
-              <label>Contact Number</label>
+            <div className="startupregistrationformformcontactnumber">
+              <label className="startupregistrationformformlabel">
+                Contact Number
+              </label>
               <br />
               <input
+                className="startupregistrationformforminput"
                 type="tel"
                 value={this.state.contactnumber}
                 onChange={this.handleContactNumberChange}
               />
             </div>
           </div>
-          <div className="email">
-            <label>Email ID</label>
+          <div className="startupregistrationformformemail">
+            <label className="startupregistrationformformlabel">Email ID</label>
             <br />
             <input
+              className="startupregistrationformforminput"
               type="email"
               value={this.state.email}
               onChange={this.handleEmailChange}
@@ -153,21 +170,29 @@ class Form extends Component {
           </div>
         </div>
 
-        <div className="startup-details-title">Details about the Start-Up</div>
-        <div className="startup-details">
-          <div className="startup-name">
-            <label>Name of the Start-Up</label>
+        <div className="startupregistrationformformstartup-details-title">
+          Details about the Start-Up
+        </div>
+        <div className="startupregistrationformformstartup-details">
+          <div className="startupregistrationformformstartup-name">
+            <label className="startupregistrationformformlabel">
+              Name of the Start-Up
+            </label>
             <br />
             <input
+              className="startupregistrationformforminput"
               type="text"
               value={this.state.startupName}
               onChange={this.handleStartUpNameChange}
             />
           </div>
-          <div className="number-of-founders">
-            <label>No. of founders from IITD</label>
+          <div className="startupregistrationformformnumber-of-founders">
+            <label className="startupregistrationformformlabel">
+              No. of founders from IITD
+            </label>
             <br />
             <input
+              className="startupregistrationformforminput"
               type="number"
               value={this.state.numberOfFounders}
               onChange={this.handleNumberOfFoundersChange}
@@ -175,35 +200,42 @@ class Form extends Component {
           </div>
         </div>
 
-        <div className="is-registered">
-          <label className="main-label">Is your Start-Up registered?</label>
+        <div className="startupregistrationformformis-registered">
+          <label className="startupregistrationformformmain-label">
+            Is your Start-Up registered?
+          </label>
 
-          <label className="yes-no-label">Yes</label>
+          <label className="startupregistrationformformyes-no-label">Yes</label>
           <input
+            className="startupregistrationformforminput"
             type="radio"
             name="is-registered"
             value="yes"
             onChange={this.handleIsRegisteredChange}
           />
 
-          <label className="yes-no-label">No</label>
+          <label className="startupregistrationformformyes-no-label">No</label>
           <input
+            className="startupregistrationformforminput"
             type="radio"
             name="is-registered"
             value="yes"
             onChange={this.handleIsRegisteredChange}
           />
         </div>
-        <div className="current-stage">
-          <div className="main-label">
-            <label className="main-label">
+        <div className="startupregistrationformformcurrent-stage">
+          <div className="startupregistrationformformmain-label">
+            <label className="startupregistrationformformmain-label">
               What is the current stage of your Start-Up?
             </label>
           </div>
 
-          <div className="options">
-            <label className="options-label">Market research</label>
+          <div className="startupregistrationformformoptions">
+            <label className="startupregistrationformformoptions-label">
+              Market research
+            </label>
             <input
+              className="startupregistrationformforminput"
               type="radio"
               name="current-stage"
               value="Market stage"
@@ -211,9 +243,12 @@ class Form extends Component {
             />
           </div>
 
-          <div className="options">
-            <label className="options-label">Building MVP</label>
+          <div className="startupregistrationformformoptions">
+            <label className="startupregistrationformformoptions-label">
+              Building MVP
+            </label>
             <input
+              className="startupregistrationformforminput"
               type="radio"
               name="current-stage"
               value="Building MVP"
@@ -221,9 +256,12 @@ class Form extends Component {
             />
           </div>
 
-          <div className="options">
-            <label className="options-label">Gaining Traction for MVP</label>
+          <div className="startupregistrationformformoptions">
+            <label className="startupregistrationformformoptions-label">
+              Gaining Traction for MVP
+            </label>
             <input
+              className="startupregistrationformforminput"
               type="radio"
               name="current-stage"
               value="Gaining Traction for MVP"
@@ -231,9 +269,12 @@ class Form extends Component {
             />
           </div>
 
-          <div className="options">
-            <label className="options-label">Have Paying Users</label>
+          <div className="startupregistrationformformoptions">
+            <label className="startupregistrationformformoptions-label">
+              Have Paying Users
+            </label>
             <input
+              className="startupregistrationformforminput"
               type="radio"
               name="current-stage"
               value="Have Paying Users"
@@ -241,9 +282,12 @@ class Form extends Component {
             />
           </div>
 
-          <div className="options">
-            <label className="options-label">Raised Funds</label>
+          <div className="startupregistrationformformoptions">
+            <label className="startupregistrationformformoptions-label">
+              Raised Funds
+            </label>
             <input
+              className="startupregistrationformforminput"
               type="radio"
               name="current-stage"
               value="Raised Funds"
@@ -251,11 +295,12 @@ class Form extends Component {
             />
           </div>
 
-          <div className="options">
-            <label className="options-label">
+          <div className="startupregistrationformformoptions">
+            <label className="startupregistrationformformoptions-label">
               Has total revenue {">"} INR 500,000
             </label>
             <input
+              className="startupregistrationformforminput"
               type="radio"
               name="current-stage"
               value="Has total revenue > INR 500,000"
@@ -263,9 +308,12 @@ class Form extends Component {
             />
           </div>
 
-          <div className="options">
-            <label className="options-label">Full fleged Product</label>
+          <div className="startupregistrationformformoptions">
+            <label className="startupregistrationformformoptions-label">
+              Full fleged Product
+            </label>
             <input
+              className="startupregistrationformforminput"
               type="radio"
               name="current-stage"
               value="Full fleged Product"
@@ -274,16 +322,21 @@ class Form extends Component {
           </div>
         </div>
 
-        <div className="questions">
-          <label>Any questions to us?</label>
+        <div className="startupregistrationformformquestions">
+          <label className="startupregistrationformformlabel">
+            Any questions to us?
+          </label>
           <br />
           <textarea
+            className="startupregistrationformformtextarea"
             value={this.state.questions}
             onChange={this.handleQuestionsChange}
           />
         </div>
-        <div className="submit-button">
-          <button type="submit">Submit</button>
+        <div className="startupregistrationformformsubmit-button">
+          <button className="startupregistrationformformbutton" type="submit">
+            Submit
+          </button>
         </div>
       </form>
     );

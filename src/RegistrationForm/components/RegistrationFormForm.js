@@ -112,44 +112,66 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className="registrationformform" onSubmit={this.handleSubmit}>
         <div>
-          <label>Choose your Role(s)</label>
-          <div className="choose-your-roles-buttons">
-            <div className="button" id="button-1">
+          <label className="registrationformformlabel">
+            Choose your Role(s)
+          </label>
+          <div className="registrationformformchoose-your-roles-buttons">
+            <div
+              className="registrationformformbutton"
+              id="registrationformformbutton-1"
+            >
               <button
+                className="registrationformformbuttonbutton"
                 id={this.state.clickedButton1.toString()}
                 onClick={this.handleButton1Change}
               >
                 Angel Investor
               </button>
             </div>
-            <div className="button" id="button-2">
+            <div
+              className="registrationformformbutton"
+              id="registrationformformbutton-2"
+            >
               <button
+                className="registrationformformbuttonbutton"
                 id={this.state.clickedButton2.toString()}
                 onClick={this.handleButton2Change}
               >
                 Mentor in Entrepreneurship Kickstart
               </button>
             </div>
-            <div className="button" id="button-3">
+            <div
+              className="registrationformformbutton"
+              id="registrationformformbutton-3"
+            >
               <button
+                className="registrationformformbuttonbutton"
                 id={this.state.clickedButton3.toString()}
                 onClick={this.handleButton3Change}
               >
                 Mentor to IITD Startups in general
               </button>
             </div>
-            <div className="button" id="button-4">
+            <div
+              className="registrationformformbutton"
+              id="registrationformformbutton-4"
+            >
               <button
+                className="registrationformformbuttonbutton"
                 id={this.state.clickedButton4.toString()}
                 onClick={this.handleButton4Change}
               >
                 Official Partner to Entrepreneurship Kickstart
               </button>
             </div>
-            <div className="button" id="button-5">
+            <div
+              className="registrationformformbutton"
+              id="registrationformformbutton-5"
+            >
               <button
+                className="registrationformformbuttonbutton"
                 id={this.state.clickedButton5.toString()}
                 onClick={this.handleButton5Change}
               >
@@ -158,75 +180,90 @@ class Form extends Component {
             </div>
           </div>
         </div>
-        <div className="details">
-          <div className="name">
-            <label>Name</label>
+        <div className="registrationformformdetails">
+          <div className="registrationformformname">
+            <label className="registrationformformlabel">Name</label>
             <br />
             <input
+              className="registrationformforminput"
               type="text"
               value={this.state.name}
               onChange={this.handleNameChange}
             />
           </div>
-          <div className="batch">
-            <label>Batch of</label>
+          <div className="registrationformformbatch">
+            <label className="registrationformformlabel">Batch of</label>
             <br />
             <input
+              className="registrationformforminput"
               type="text"
               value={this.state.batch}
               onChange={this.handleBatchChange}
             />
           </div>
-          <div className="hostel">
-            <label>Hostel</label>
+          <div className="registrationformformhostel">
+            <label className="registrationformformlabel">Hostel</label>
             <br />
             <input
+              className="registrationformforminput"
               type="text"
               value={this.state.hostel}
               onChange={this.handleHostelChange}
             />
           </div>
-          <div className="profile">
-            <label>
+          <div className="registrationformformprofile">
+            <label className="registrationformformlabel">
               Your Profile (LinkedIn Profile Link / Website link , etc. )
             </label>
             <br />
             <input
+              className="registrationformforminput"
               type="url"
               value={this.state.profile}
               onChange={this.handleProfileChange}
             />
           </div>
-          <div className="connect">
-            <label>
+          <div className="registrationformformconnect">
+            <label className="registrationformformlabel">
               How can SInC connect with you? (Mail Id / Contact Number /
               LinkedIn message). Please mention the details about the chosen
               mode
             </label>
             <br />
             <textarea
+              className="registrationformformtextarea"
               value={this.state.connect}
               onChange={this.handleConnectChange}
             />
           </div>
-          <div className="domain">
-            <label>Domain of interest (If more than one, separate by)</label>
+          <div className="registrationformformdomain">
+            <label className="registrationformformlabel">
+              Domain of interest (If more than one, separate by)
+            </label>
             <br />
             <textarea
+              className="registrationformformtextarea"
               value={this.state.domain}
               onChange={this.handleDomainChange}
             />
           </div>
-          <div className="questions">
-            <label>Any questions to us?</label>
+          <div className="registrationformformquestions">
+            <label className="registrationformformlabel">
+              Any questions to us?
+            </label>
             <br />
             <textarea
+              className="registrationformformtextarea"
               value={this.state.questions}
               onChange={this.handleQuestionsChange}
             />
           </div>
-          <div className="submit-button">
-            <button type="submit" id="submitbutton">
+          <div className="registrationformformsubmit-button">
+            <button
+              className="registrationformformbuttonbutton"
+              type="submit"
+              id="submitbutton"
+            >
               Submit
             </button>
           </div>

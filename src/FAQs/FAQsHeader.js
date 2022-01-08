@@ -16,25 +16,40 @@ function Header() {
       </div>
       <div className="faqsheader__right">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <h4 style={{ color: "white" }}>Home</h4>
+          <div className="faqsheader__right__home">
+            <h4 style={{ color: "white" }}>Home</h4>
+          </div>
         </Link>
-        <h4 style={{ color: "white" }}>Initiatives</h4>
+        <div className="faqsheader__right__initiatives">
+          <h4 style={{ color: "white" }}>Initiatives</h4>
+        </div>
         <Link to="/startupinsight" style={{ textDecoration: "none" }}>
-          <h4 style={{ color: "white" }}>Startup Insight</h4>
+          <div className="faqsheader__right__startupinsight">
+            <h4 style={{ color: "white" }}>Startup Insight</h4>
+          </div>
         </Link>
-
-        <h4 style={{ color: "white" }}>Team</h4>
+        <div className="faqsheader__right__team">
+          <h4 style={{ color: "white" }}>Team</h4>
+        </div>
         <hr />
         <Link to="/contactus" style={{ textDecoration: "none" }}>
-          <h4 style={{ color: "white" }}>Contact Us</h4>
+          <div className="faqsheader__right__contact">
+            <h4 style={{ color: "white" }}>Contact Us</h4>
+          </div>
         </Link>
         <Link to="/faqs" style={{ textDecoration: "none" }}>
-          <h4 style={{ color: "yellow" }}>FAQ's</h4>
+          <div className="faqsheader__right__faqs">
+            <h4 style={{ color: "yellow" }}>FAQ's</h4>
+          </div>
         </Link>
         <Link to="/registerpage" style={{ textDecoration: "none" }}>
-          <h4 style={{ color: "white" }}>Register</h4>
+          <div className="faqsheader__right__register">
+            <h4 style={{ color: "white" }}>Register</h4>
+          </div>
         </Link>
-        <h4 style={{ color: "white" }}>Login</h4>
+        <div className="faqsheader__right__login">
+          <h4 style={{ color: "white" }}>Login</h4>
+        </div>
       </div>
     </div>
   );

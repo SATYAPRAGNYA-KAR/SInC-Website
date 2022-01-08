@@ -1,63 +1,65 @@
-
-form{
-    width: 445px;
-    position: relative;
-    left: 540px;
-    font-family: sans-serif;
-    /* top: -345px; */
+.mentorregistrationformform {
+  width: 445px;
+  position: relative;
+  left: 540px;
+  font-family: sans-serif;
+  /* top: -345px; */
 }
 
-form > div{
-    margin-top: 21px;
+.mentorregistrationformformemail,
+.mentorregistrationformformusername,
+.mentorregistrationformformphone,
+.mentorregistrationformformpassword,
+.mentorregistrationformformsubmit-button {
+  margin-top: 21px;
 }
 
-label{
-    /* font-family: Helvetica Rounded; */
-    font-style: normal;
-    font-weight: 800;
-    font-size: 21px;
-    line-height: 24px;
+.mentorregistrationformformlabel {
+  /* font-family: Helvetica Rounded; */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 24px;
 
-    color: #000000;
-
+  color: #000000;
 }
 
-input{
-    height: 61.23px;
-    width: 430px;
-    left: 540.15px;
-    background: #FFFFFF;
-    border-radius: 13.916px;
-    border: none;
-    margin-top: 5px;
+.mentorregistrationformforminpu {
+  height: 61.23px;
+  width: 430px;
+  left: 540.15px;
+  background: #ffffff;
+  border-radius: 13.916px;
+  border: none;
+  margin-top: 5px;
 
-    padding-left: 15px;
-    font-size: 20px;
+  padding-left: 15px;
+  font-size: 20px;
 }
 
-.submit-button{
-    display: flex;
-    justify-content: center;
+.mentorregistrationformformsubmit-button {
+  display: flex;
+  justify-content: center;
 }
 
-.submit-button > button{
-    width: 290px;
-    height: 55px;
-    background: #FFFFFF;
-    border-radius: 18.5546px;
+.mentorregistrationformformsubmit-button > button {
+  width: 290px;
+  height: 55px;
+  background: #ffffff;
+  border-radius: 18.5546px;
 
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 24px;
-    text-align: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  text-align: center;
 
-    color: #000000;
-    border: none;
-    margin-top: 18px;
+  color: #000000;
+  border: none;
+  margin-top: 18px;
 }
 
-button:hover{
-    cursor: pointer;
+.mentorregistrationformform:hover {
+  cursor: pointer;
 }

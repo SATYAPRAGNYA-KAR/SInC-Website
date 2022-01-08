@@ -43,45 +43,51 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <div className="email">
-          <label>Email</label>
+      <form className="mentorregistrationformform" onSubmit={this.handleSubmit}>
+        <div className="mentorregistrationformformemail">
+          <label className="mentorregistrationformformlabel">Email</label>
           <br />
           <input
+            className="mentorregistrationformforminput"
             type="email"
             value={this.state.email}
             onChange={this.handleEmailChange}
           />
         </div>
-        <div className="username">
-          <label>Username</label>
+        <div className="mentorregistrationformformusername">
+          <label className="mentorregistrationformformlabel">Username</label>
           <br />
           <input
+            className="mentorregistrationformforminput"
             type="text"
             value={this.state.username}
             onChange={this.handleUsernameChange}
           />
         </div>
-        <div className="phone">
-          <label>Phone no.</label>
+        <div className="mentorregistrationformformphone">
+          <label className="mentorregistrationformformlabel">Phone no.</label>
           <br />
           <input
+            className="mentorregistrationformforminput"
             type="tel"
             value={this.state.phone}
             onChange={this.handlePhoneChange}
           />
         </div>
-        <div className="password">
-          <label>Password</label>
+        <div className="mentorregistrationformformpassword">
+          <label className="mentorregistrationformformlabel">Password</label>
           <br />
           <input
+            className="mentorregistrationformforminput"
             type="password"
             value={this.state.password}
             onChange={this.handlePasswordChange}
           />
         </div>
-        <div className="submit-button">
-          <button type="submit">Create Account</button>
+        <div className="mentorregistrationformformsubmit-button">
+          <button className="mentorregistrationformformbutton" type="submit">
+            Create Account
+          </button>
         </div>
       </form>
     );

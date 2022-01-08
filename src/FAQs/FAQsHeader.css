@@ -26,7 +26,49 @@
   display: flex;
   align-items: center;
 }
-.faqsheader__right > h4 {
+.faqsheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__initiatives > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__startupinsight > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__team > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__contact > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__faqs > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__login > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;

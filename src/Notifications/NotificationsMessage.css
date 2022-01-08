@@ -32,7 +32,7 @@
 .notificationsmessage__body {
   display: flex;
 }
-.notificationsimage > img {
+.notificationsmessageimage > img {
   margin-top: calc(40 / 900 * 100vh);
   margin-right: calc(71.01 / 1440 * 100vw);
   width: calc(392.99 / 1440 * 100vw);

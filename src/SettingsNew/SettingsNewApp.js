@@ -23,7 +23,7 @@ function SettingsNewApp() {
   return (
     <div className="settingsnewapp">
       <div className="settingsnewheading">
-        <Link to="/settingsnew" style={{ textDecoration: "none" }}>
+        <Link exact to="/settingsnew" style={{ textDecoration: "none" }}>
           <div className="settingsnewheading__left">
             <SettingsIcon />
             <h2>Settings</h2>
@@ -93,11 +93,8 @@ function SettingsNewApp() {
         </div>
         <div className="settingsnewbody__right">
           <Routes>
-            <Route path="/settingsnew/privacypath" element={<PrivacyHome />} />
-            <Route
-              path="/settingsnew/passwordpath"
-              element={<PasswordHome />}
-            />
+            <Route path="/privacypath" element={<PrivacyHome />} />
+            <Route path="/passwordpath" element={<PasswordHome />} />
             <Route path="/deletepath" element={<DeleteHome />} />
             <Route path="/friendpath" element={<FriendHome />} />
             <Route path="/historypath" element={<HistoryHome />} />

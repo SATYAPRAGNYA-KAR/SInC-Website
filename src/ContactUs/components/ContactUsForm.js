@@ -36,10 +36,10 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <div className="get-in-touch">Get in touch with us!</div>
-        <div className="details">
-          <div className="name">
+      <form className="contactusform" onSubmit={this.handleSubmit}>
+        <div className="contactusformget-in-touch">Get in touch with us!</div>
+        <div className="contactusformdetails">
+          <div className="contactusformname">
             <label>Name</label>
             <br />
             <input
@@ -49,28 +49,30 @@ class Form extends Component {
               onChange={this.handleNameChange}
             />
           </div>
-          <div className="email">
-            <label>Email</label>
+          <div className="contactusformemail">
+            <label className="contactusformlabel">Email</label>
             <br />
             <input
+              className="contactusforminput"
               type="email"
               placeholder="Eg. example@email.com"
               value={this.state.email}
               onChange={this.handleEmailChange}
             />
           </div>
-          <div className="message">
+          <div className="contactusformmessage">
             <label>Message</label>
             <br />
             <textarea
+              className="contactusformtextarea"
               placeholder="Your Message"
               value={this.state.message}
               onChange={this.handleMessageChange}
             />
           </div>
 
-          <div className="submit-button">
-            <button type="submit" id="submitbutton">
+          <div className="contactusformsubmit-button">
+            <button type="submit" id="contactusformsubmitbutton">
               Send Message
             </button>
           </div>

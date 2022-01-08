@@ -20,10 +20,11 @@ function Body() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+
         <Link to="registerpage" style={{ textDecoration: "none" }}>
-          <button type="button" className="">
-            Register Now
-          </button>
+          <div className="homebody__button1">
+            <button type="button">Register Now</button>
+          </div>
         </Link>
       </div>
       <div className="homebody-tag2">
@@ -38,14 +39,14 @@ function Body() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <Link to="registerpage" style={{ textDecoration: "none" }}>
-          <button type="button" className="">
-            Contribute
-          </button>
+          <div className="homebody__button2">
+            <button type="button">Contribute</button>
+          </div>
         </Link>
       </div>
       <div className="homebody-tag3">
         <div className="homebodyimg">
-          <img src={dn} className="img" alt="" />
+          <img src={dn} className="homebodyimg" alt="" />
           <div className="homebodyimg1">Charvi</div>
           <div className="homebodyimg2">SInC Head</div>
         </div>

@@ -21,7 +21,7 @@
 .homebody-tag1 > p {
   color: white;
 }
-.homebody-tag1 > button {
+.homebody__button1 > button {
   background-color: rgb(49, 154, 150);
   color: white;
   font-weight: bold;
@@ -47,7 +47,7 @@
 .homebody-tag2 > p {
   color: white;
 }
-.homebody-tag2 > button {
+.homebody__button2 > button {
   background-color: rgb(49, 154, 150);
   color: white;
   font-weight: bold;

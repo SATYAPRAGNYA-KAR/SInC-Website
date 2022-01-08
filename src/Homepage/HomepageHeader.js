@@ -20,7 +20,20 @@ function Header() {
           <Link to="/startupinsight" style={{ textDecoration: "none" }}>
             <span style={{ color: "white" }}>Startup Insight</span>
           </Link>
-          <span style={{ color: "white" }}>Initiatives</span>
+          <div className="homepage__initiative__dropdown">
+            <span
+              className="homepage__initiative__dropbutton"
+              style={{ color: "white" }}
+            >
+              Initiatives
+            </span>
+            <div className="homepage__initiative__dropdowncontent">
+              <a href="/entrepreneurshipkickstart">
+                Entrepreneurship Kickstart
+              </a>
+              <a href="/iitdangelnetwork">IITD Angel Network</a>
+            </div>
+          </div>
           <span style={{ color: "white" }}>Team</span>
         </div>
         <div className="homeheader-right-right">

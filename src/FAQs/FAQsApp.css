@@ -12,7 +12,7 @@
   display: flex;
 }
 .faqscontainer {
-  background-image: url("D:\VS CODE\SInC_Website\website\src\FAQs\image 7.png");
+  background-image: url("image 7.png");
   height: calc(2167 / 2638 * 100vh);
   background-size: 100% 100%;
 }
