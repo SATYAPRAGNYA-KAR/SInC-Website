@@ -1,60 +1,39 @@
-.contactusheader {
+.registerpageheader {
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1a1a1a;
-  color: #f1f1f1;
   padding: 10px;
-  position: sticky;
-  top: 0px;
-  z-index: 999;
-  background-color: #1a1a1a;
-  height: 113px;
 }
-
-.contactusheaderDashboard {
-  display: flex;
-  align-items: center;
-}
-.contactusheaderDashboard_dashboard {
-  text-align: top;
-}
-.contactusheaderLogo {
+.registerpageheader-left {
   width: 40%;
-  align-items: center;
-}
-.contactusheaderCellName > span {
-  padding-bottom: 4px;
-}
-.contactusheaderCellName {
-  text-align: center;
-}
-.contactusheaderWork {
-  text-align: center;
-}
-.contactusheaderIcon {
-  color: yellow;
-  align-items: baseline;
-}
-.contactusheaderAvatar {
   display: flex;
   align-items: center;
-  margin-right: 10px;
 }
-.contactusheaderPersonAvatar {
+.registerpageheader-right {
+  width: 60%;
+  display: flex;
   align-items: center;
-  align-content: center;
-  text-align: center;
+  padding-right: 20px;
+  justify-content: space-between;
 }
-.contactusheaderCellName {
-  align-content: center;
-  align-items: center;
-  text-align: center;
+.registerpageheader-content {
+  color: white;
 }
-.contactusheaderCellName > img {
-  width: 20px;
-  height: 20px;
+.registerpageheader-right-left {
+  width: 50%;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-right: 2px solid white;
+  padding-right: 20px;
 }
-.contactusheaderCellName > h4 {
-  margin: auto;
+.registerpageheader-right-right {
+  width: 50%;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
 }

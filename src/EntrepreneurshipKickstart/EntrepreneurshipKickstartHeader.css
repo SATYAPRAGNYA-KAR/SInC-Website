@@ -1,60 +1,87 @@
-.entrepreneurshipkickstartheader {
+.faqsheader {
+  width: 100vw;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  background-color: #1a1a1a;
-  color: #f1f1f1;
-  padding: 10px;
-  position: sticky;
-  top: 0px;
-  z-index: 999;
-  background-color: #1a1a1a;
-  height: 113px;
 }
-
-.entrepreneurshipkickstartheaderDashboard {
+.faqsheader__left {
   display: flex;
   align-items: center;
 }
-.entrepreneurshipkickstartheaderDashboard_dashboard {
-  text-align: top;
+.faqsheader__left > h2 {
+  color: #ffffff;
+  font-size: calc(95.67 / 3963 * 100vw);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: calc(40 / 3963 * 100vw);
 }
-.entrepreneurshipkickstartheaderLogo {
-  width: 40%;
-  align-items: center;
+.faqsheaderimg__container > img {
+  width: calc(230 / 3963 * 100vw);
+  height: calc(250 / 2167 * 100vh);
 }
-.entrepreneurshipkickstartheaderCellName > span {
-  padding-bottom: 4px;
+.faqsheaderimg__container {
+  padding: calc(10 / 3963 * 100vw);
+  cursor: pointer;
 }
-.entrepreneurshipkickstartheaderCellName {
-  text-align: center;
-}
-.entrepreneurshipkickstartheaderWork {
-  text-align: center;
-}
-.entrepreneurshipkickstartheaderIcon {
-  color: yellow;
-  align-items: baseline;
-}
-.entrepreneurshipkickstartheaderAvatar {
+.faqsheader__right {
   display: flex;
   align-items: center;
-  margin-right: 10px;
 }
-.entrepreneurshipkickstartheaderPersonAvatar {
-  align-items: center;
-  align-content: center;
-  text-align: center;
+.faqsheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.entrepreneurshipkickstartheaderCellName {
-  align-content: center;
-  align-items: center;
-  text-align: center;
+.faqsheader__right__initiatives > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.entrepreneurshipkickstartheaderCellName > img {
-  width: 20px;
-  height: 20px;
+.faqsheader__right__startupinsight > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.entrepreneurshipkickstartheaderCellName > h4 {
-  margin: auto;
+.faqsheader__right__team > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__contact > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__faqs > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__login > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right > hr {
+  width: calc(200 / 3963 * 100vw);
+  transform: rotate(-90deg);
+  background-color: #ffffff;
+  height: calc(5 / 2167 * 100vh);
+  margin-left: calc(-100 / 3963 * 100vw);
+}
+.faqsheader__right > h4:hover,
+.faqsheaderimg__container:hover {
+  background: rgba(171, 171, 171, 0.3);
 }

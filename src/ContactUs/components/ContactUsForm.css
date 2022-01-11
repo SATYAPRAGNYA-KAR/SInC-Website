@@ -8,7 +8,7 @@
   color: #000000;
 }
 
-.contactusformlabel {
+.contactusform label {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -17,7 +17,7 @@
   letter-spacing: -0.03em;
 }
 
-.contactusformtextarea {
+.contactusform textarea {
   font-family: Montserrat;
   height: 115px;
   width: 90%;
@@ -28,7 +28,7 @@
   margin: 8px 0 22px 0;
 }
 
-.contactusforminput {
+.contactusform input {
   font-family: Montserrat;
   width: 90%;
   padding: 10px;
