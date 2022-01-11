@@ -2,15 +2,16 @@ import React from "react";
 import "./ListOfStartupsSearchBar.css";
 import { BiSearchAlt } from "react-icons/bi";
 import { FiFilter } from "react-icons/fi";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function SearchBar() {
   return (
     <div className="listofstartupsSearchBar">
       <div className="listofstartupsSearchBarFiFilter">
-        <Link to="/">
+        {/* <Link to="/">
           <FiFilter style={{ height: "25px", width: "25px" }} />
-        </Link>
+        </Link> */}
+        <FiFilter style={{ height: "25px", width: "25px" }} />
       </div>
       <div className="listofstartupsSearchBarSearchIcon">
         <div>

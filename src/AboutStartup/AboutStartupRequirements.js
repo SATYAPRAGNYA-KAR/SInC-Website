@@ -5,10 +5,12 @@ import intern from "./Images/intern.png";
 import mentor from "./Images/mentor.png";
 import funding from "./Images/funding.png";
 import connect from "./Images/connect.png";
+import Header from "./AboutStartupHeader";
 
 function Requirements() {
   return (
     <div>
+      <Header />
       <div className="aboutstartuprequirementsContent">
         <div className="aboutstartuprequirementsCard">
           <div className="aboutstartuprequirementsimg">

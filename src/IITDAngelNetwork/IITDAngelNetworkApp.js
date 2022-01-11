@@ -3,8 +3,8 @@ import businessDeal from "./businessDeal.png";
 import rocket from "./rocket.png";
 import invertedCommas from "./invertedCommas.png";
 import Header from "./IITDAngelNetworkHeader";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import {Link } from 'react-router-dom';
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link } from "react-router-dom";
 
 function IITDAngelNetworkApp() {
   return (
@@ -66,7 +66,7 @@ function IITDAngelNetworkApp() {
           alt="ending inverted commas"
         />
       </div>
-      <Link to='/angelnetworkmentor'>
+      <Link to="/angelnetworkmentor" style={{ color: "black" }}>
         <ExpandMoreIcon />
       </Link>
     </div>

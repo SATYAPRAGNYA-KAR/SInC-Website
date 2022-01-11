@@ -6,10 +6,12 @@ import business from "./Images/business-addressed-problem.png";
 import contact from "./Images/contact-us.png";
 import ideas from "./Images/ideas.png";
 import target from "./Images/target-population.png";
+import Header from "./AboutStartupHeader";
 
 function Summary() {
   return (
     <div>
+      <Header />
       <div className="aboutstartupsummaryContent">
         <div className="aboutstartupsummaryCard">
           <div className="aboutstartupsummaryimg">

@@ -22,14 +22,14 @@ function DeleteMainbox() {
         <div className="settingsnewnotifications">
           <h2>Push Notifications</h2>
           <label className="settingsnewswitch1">
-            <input type="settingsnewcheckbox" />
+            <input type="checkbox" />
             <span className="settingsnewslider round"></span>
           </label>
         </div>
         <div className="settingsnewdark">
           <h2>Dark Mode</h2>
           <label className="settingsnewswitch2">
-            <input type="settingsnewcheckbox" />
+            <input type="checkbox" />
             <span className="settingsnewslider round"></span>
           </label>
         </div>

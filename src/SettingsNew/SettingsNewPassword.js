@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Password() {
   return (
-    <Link to="/passwordpath" style={{ textDecoration: "none" }}>
+    <Link to="/settingsnew/passwordpath" style={{ textDecoration: "none" }}>
       <div className="settingsnewpassword">
         <VpnKeyOutlinedIcon />
         <div className="settingsnewpassword__content">

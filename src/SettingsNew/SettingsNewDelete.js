@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Delete() {
   return (
-    <Link to="/deletepath" style={{ textDecoration: "none" }}>
+    <Link to="/settingsnew/deletepath" style={{ textDecoration: "none" }}>
       <div className="settingsnewdelete">
         <NoAccountsOutlinedIcon />
         <div className="settingsnewdelete__content">

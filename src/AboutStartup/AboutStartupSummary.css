@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 .li-n:hover {
   background-color: rgba(243, 217, 217, 1);
-  /* cursor: grab; */
+  cursor: grab;
 }
 
 .li-a {
@@ -34,8 +34,9 @@
 }
 #hr {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; 
+}*/
+
 .aboutstartupsummaryContent {
   display: flex;
   align-items: center;

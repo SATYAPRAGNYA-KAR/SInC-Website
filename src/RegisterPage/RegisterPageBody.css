@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(rgb(64, 64, 64), rgb(190, 190, 190));
-  height: 100%;
+  background: linear-gradient(rgb(64, 64, 64), rgb(190, 190, 190));
+  height: calc(1878 / 2638 * 100vh);
 }
 .registerpagebody-tag {
   display: flex;
+  height: calc(601 / 714 * 100%);
   flex-direction: column;
   align-items: center;
   justify-self: space-between;
@@ -19,7 +20,6 @@
   width: 20%;
   padding: 20px;
   background-image: linear-gradient(black 87%, rgb(254, 203, 47) 13%);
-  height: 100%;
 }
 .registerpagebody-tag-top {
   font-size: 20px;
@@ -31,7 +31,9 @@
   color: azure;
   text-align: center;
   padding: 20px;
-  height: 280px;
+  height: 340px;
+
+  /* Height was given as 280px initially */
 }
 .registerpagebody-tag-bottom {
   text-align: center;

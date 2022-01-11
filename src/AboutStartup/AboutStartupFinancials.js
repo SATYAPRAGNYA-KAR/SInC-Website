@@ -5,10 +5,12 @@ import fund from "./Images/fund.png";
 import contact from "./Images/contact.png";
 import ideas from "./Images/ideas.png";
 import irr from "./Images/irr.png";
+import Header from "./AboutStartupHeader";
 
 function Financials() {
   return (
     <div>
+      <Header />
       <div className="aboutstartupfinancialsContent">
         <div className="aboutstartupfinancialsCard">
           <div className="aboutstartupfinancialsimg">

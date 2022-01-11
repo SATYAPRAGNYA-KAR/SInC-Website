@@ -4,11 +4,13 @@ import "./AboutStartupSummary.css";
 import activities from "./Images/activities.png";
 import resources from "./Images/resources.png";
 import value from "./Images/value.png";
-import partners from "./Images/partners.png";
+import partners from "./Images/partner.png";
+import Header from "./AboutStartupHeader";
 
 function Business() {
   return (
     <div>
+      <Header />
       <div className="aboutstartupbusinessContent">
         <div className="aboutstartupbusinessCard">
           <div className="aboutstartupbusinessimg">

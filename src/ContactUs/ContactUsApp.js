@@ -18,9 +18,9 @@ function ContactUsApp() {
       className="contactusApp"
       style={{
         backgroundImage: `url(${bphone})`,
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
+        // backgroundPosition: 'center',
+        // backgroundSize: 'cover',
+        // backgroundRepeat: 'no-repeat'
       }}
     >
       <Header />

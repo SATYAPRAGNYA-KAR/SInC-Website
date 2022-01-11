@@ -12,18 +12,35 @@ function Footer() {
         <h2>IIT Delhi, Hauz Khas, New Delhi</h2>
       </div>
       <div className="faqsfooter__right">
-        <div className="faqsfootericon__container">
-          <FacebookIcon />
-        </div>
-        <div className="faqsfootericon__container">
-          <TwitterIcon />
-        </div>
-        <div className="faqsfootericon__container">
-          <InstagramIcon />
-        </div>
-        <div className="faqsfootericon__container">
-          <LinkedInIcon />
-        </div>
+        <a href="https://www.facebook.com/sinciitd" style={{ color: "white" }}>
+          <div className="faqsfootericon__container">
+            <FacebookIcon />
+          </div>
+        </a>
+        <a
+          href="https://mobile.twitter.com/sinc_iitd"
+          style={{ color: "white" }}
+        >
+          <div className="faqsfootericon__container">
+            <TwitterIcon />
+          </div>
+        </a>
+        <a
+          href="https://www.instagram.com/sinciitd/"
+          style={{ color: "white" }}
+        >
+          <div className="faqsfootericon__container">
+            <InstagramIcon />
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/sinciitd"
+          style={{ color: "white" }}
+        >
+          <div className="faqsfootericon__container">
+            <LinkedInIcon />
+          </div>
+        </a>
       </div>
     </div>
   );

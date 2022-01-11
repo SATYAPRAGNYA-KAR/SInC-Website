@@ -15,21 +15,59 @@ import RegistrationFormApp from "./RegistrationForm/RegistrationFormApp";
 import StartupsRegistrationFormApp from "./StartupsRegistrationForm/StartupsRegistrationFormApp";
 import FAQsApp from "./FAQs/FAQsApp";
 import SettingsApp from "./Settings/SettingsApp";
-import SettingsNewApp from "./SettingsNew/SettingsNewApp";
+
+import Home from "./SettingsNew/SettingsNewHome";
+import PrivacyHome from "./SettingsNew/SettingsNewPrivacyHome";
+import PasswordHome from "./SettingsNew/SettingsNewPasswordHome";
+import DeleteHome from "./SettingsNew/SettingsNewDeleteHome";
+import FriendHome from "./SettingsNew/SettingsNewFriendHome";
+import HistoryHome from "./SettingsNew/SettingsNewHistoryHome";
+import InfoHome from "./SettingsNew/SettingsNewInfoHome";
+
 import SideNavigationBarApp from "./SideNavigationBar/SideNavigationBarApp";
-import AboutStartupApp from "./AboutStartup/AboutStartupApp";
+
+import Summary from "./AboutStartup/AboutStartupSummary";
+import Team from "./AboutStartup/AboutStartupTeam";
+import Financials from "./AboutStartup/AboutStartupFinancials";
+import Business from "./AboutStartup/AboutStartupBusiness";
+import Requirements from "./AboutStartup/AboutStartupRequirements";
+
 import ListOfStartupsApp from "./ListOfStartups/ListOfStartupsApp";
 import RegisterPageApp from "./RegisterPage/RegisterPageApp";
 import StartupInsightApp from "./StartupInsight/StartupInsightApp";
 import EntrepreneurshipKickstartApp from "./EntrepreneurshipKickstart/EntrepreneurshipKickstartApp";
+import LoginApp from "./Login/LoginApp";
+import { useState, useEffect } from "react";
+import axios from "./axios";
+//Remember to write './axios', else the axios module will be imported and the app will crash out
 
 function App() {
+  const [people, setPeople] = useState([]);
+  useEffect(() => {
+    async function fetchData() {
+      const req = await axios.get("/");
+
+      setPeople(req.data);
+      return req;
+    }
+
+    fetchData();
+  }, []);
+  //An empty array is necessary here so that when the page loads, the function is called once and not more
+  //useEffect is a hook and needs to be imported from React
+
   return (
     <Router>
       <div className="app">
         <Routes>
           <Route path="/listofstartups" element={<ListOfStartupsApp />} />
-          <Route path="/aboutstartup" element={<AboutStartupApp />} />
+
+          <Route path="/aboutstartup" element={<Summary />} />
+          <Route path="/aboutstartup/Team" element={<Team />} />
+          <Route path="/aboutstartup/Financials" element={<Financials />} />
+          <Route path="/aboutstartup/Business" element={<Business />} />
+          <Route path="/aboutstartup/Requirements" element={<Requirements />} />
+          {/* Written elements={<>} instead of element={<>} and so rendering wasn't happening */}
 
           <Route
             path="/mentors_startupsyoufollow"
@@ -59,7 +97,15 @@ function App() {
           />
           <Route path="/faqs" element={<FAQsApp />} />
           <Route path="/settings" element={<SettingsApp />} />
-          <Route path="/settingsnew" element={<SettingsNewApp />} />
+
+          <Route path="/settingsnew" element={<Home />} />
+          <Route path="/settingsnew/privacypath" element={<PrivacyHome />} />
+          <Route path="/settingsnew/passwordpath" element={<PasswordHome />} />
+          <Route path="/settingsnew/deletepath" element={<DeleteHome />} />
+          <Route path="/settingsnew/friendpath" element={<FriendHome />} />
+          <Route path="/settingsnew/historypath" element={<HistoryHome />} />
+          <Route path="/settingsnew/infopath" element={<InfoHome />} />
+
           <Route path="/sidenavigationbar" element={<SideNavigationBarApp />} />
           <Route path="/registerpage" element={<RegisterPageApp />} />
           <Route path="/startupinsight" element={<StartupInsightApp />} />
@@ -67,6 +113,7 @@ function App() {
             path="/entrepreneurshipkickstart"
             element={<EntrepreneurshipKickstartApp />}
           />
+          <Route path="/login" element={<LoginApp />} />
           <Route path="/" element={<HomeApp />} />
         </Routes>
       </div>
@@ -75,3 +122,4 @@ function App() {
 }
 
 export default App;
+// axios is a package that'll make http requests super simple

@@ -6,10 +6,10 @@ function Infocard() {
     <div className="listofstartupsInfocard">
       <div className="listofstartupsInfocard_Discord">
         <BsDiscord size={30} />
-        <span>Discord</span>
+        <span className="listofstartupsInfocardspan">Discord</span>
       </div>
       <div className="listofstartupsInfocard_About">
-        <h3>About</h3>
+        <h3 className="listofstartupsInfocardh3">About</h3>
         {/* <hr></hr> */}
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

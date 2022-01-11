@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Info() {
   return (
-    <Link to="/infopath" style={{ textDecoration: "none" }}>
+    <Link to="/settingsnew/infopath" style={{ textDecoration: "none" }}>
       <div className="settingsnewinfo">
         <InfoOutlinedIcon />
         <div className="settingsnewinfo__content">

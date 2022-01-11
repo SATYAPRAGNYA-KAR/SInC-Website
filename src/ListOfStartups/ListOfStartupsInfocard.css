@@ -19,7 +19,7 @@
 .listofstartupsInfocard_Discord {
   width: 100%;
 }
-.listofstartupsInfocard_Discord > span {
+.listofstartupsInfocard_Discord > .listofstartupsInfocardspan {
   font-size: larger;
 }
 .listofstartupsInfocard_About {
@@ -27,19 +27,19 @@
   align-items: center;
   align-content: center;
 }
-.listofstartupsInfocard_About > h3 {
+.listofstartupsInfocard_About > .listofstartupsInfocardh3 {
   text-align: center;
   align-self: center;
   align-content: center center;
   border-bottom: 2px solid black;
 }
-.listofstartupsInfocard_About > hr {
+/* .listofstartupsInfocard_About > hr {
   width: 60%;
   color: black;
   text-align: center;
   align-items: center;
   align-content: center;
-}
+} */
 .listofstartupsInfocard_Discord {
   display: flex;
   align-items: center;

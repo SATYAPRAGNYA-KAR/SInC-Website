@@ -54,7 +54,7 @@ function Chat() {
           className="chatchatclass_one"
           src={`https://avatars.dicebear.com/api/human/${seed}.svg`}
         />
-        <p className="chat__message">
+        <p className="chatchat__message">
           Praesent sem mauris, fermentum id sagittis et, vestibulum id lorem.
           Sed dictum felis massa, in venenatis turpis dictum at. Donec venenatis
           lacus vitae nisl viverra consectetur. Proin sed elementum lacus.

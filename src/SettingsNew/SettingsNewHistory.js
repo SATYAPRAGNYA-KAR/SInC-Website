@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function History() {
   return (
-    <Link to="/historypath" style={{ textDecoration: "none" }}>
+    <Link to="/settingsnew/historypath" style={{ textDecoration: "none" }}>
       <div className="settingsnewhistory">
         <HistoryOutlinedIcon />
         <div className="settingsnewhistory__content">

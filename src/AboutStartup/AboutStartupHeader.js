@@ -7,7 +7,7 @@ import Instagram from "./Images/instagram.png";
 import Github from "./Images/github.png";
 import LinkedIn from "./Images/linkedin.png";
 import { Link } from "react-router-dom";
-import "./AboutStartupSummary.css";
+// import "./AboutStartupSummary.css";
 // import awards from './Images/awards.png'
 // import business from './Images/business-addressed-problem.png'
 // import contact from './Images/contact-us.png'
@@ -83,7 +83,7 @@ function Header() {
       <ul className="aboutstartupheadernav">
         <li className="aboutstartupheaderli-a">
           <Link
-            to="/"
+            to="/aboutstartup"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
           >
             Summary
@@ -91,7 +91,7 @@ function Header() {
         </li>
         <li className="aboutstartupheaderli-n">
           <Link
-            to="/Team"
+            to="/aboutstartup/Team"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
           >
             Team
@@ -99,7 +99,7 @@ function Header() {
         </li>
         <li className="aboutstartupheaderli-n">
           <Link
-            to="/Financials"
+            to="/aboutstartup/Financials"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
           >
             Financials
@@ -107,7 +107,7 @@ function Header() {
         </li>
         <li className="aboutstartupheaderli-n">
           <Link
-            to="/Business"
+            to="/aboutstartup/Business"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
           >
             Business
@@ -115,7 +115,8 @@ function Header() {
         </li>
         <li className="aboutstartupheaderli-n">
           <Link
-            to="/Products"
+            to="/aboutstartup"
+            // to="/aboutstartup/Products" No such file as Product.js here
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
           >
             Products
@@ -123,7 +124,7 @@ function Header() {
         </li>
         <li className="aboutstartupheaderli-n">
           <Link
-            to="/Requirements"
+            to="/aboutstartup/Requirements"
             style={{ textDecoration: "None", fontSize: "20px", color: "black" }}
           >
             Requirements

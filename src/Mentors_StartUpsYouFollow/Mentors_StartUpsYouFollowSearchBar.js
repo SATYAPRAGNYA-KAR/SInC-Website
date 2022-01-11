@@ -10,7 +10,7 @@ function SearchBar() {
         </div>
       </div>
       <input type="text" className="" width="80px" height="40px"></input>
-      <div className="Search">
+      <div className="mentorsstartupsyoufollowSearch">
         {" "}
         <div>Search </div>
       </div>

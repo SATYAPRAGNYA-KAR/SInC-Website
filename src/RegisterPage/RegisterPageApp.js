@@ -1,7 +1,7 @@
 import "./RegisterPageApp.css";
-import Header from "./RegisterPageHeader";
+import Header from "./RegisterHeader";
 import Body from "./RegisterPageBody";
-import Footer from "./RegisterPageFooter";
+import Footer from "./RegisterFooter";
 
 function RegisterPageApp() {
   return (

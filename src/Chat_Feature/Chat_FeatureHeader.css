@@ -1,0 +1,139 @@
+.chatheader {
+  width: 100vw;
+  height: calc(471 / 2638 * 100vh);
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.chatheader__left {
+  display: flex;
+  align-items: center;
+}
+.chatheader__left > h2 {
+  color: #ffffff;
+  font-size: calc(95.67 / 3963 * 100vw);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: calc(40 / 3963 * 100vw);
+}
+.chatheaderimg__container > img {
+  width: calc(230 / 3963 * 100vw);
+  height: calc(250 / 2167 * 100vh);
+}
+.chatheaderimg__container {
+  padding: calc(10 / 3963 * 100vw);
+  cursor: pointer;
+}
+.chatheader__right {
+  display: flex;
+  align-items: center;
+}
+.chatheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+/* .chatheader__right__initiatives > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+} */
+/* Style The Dropdown Button */
+.chatheader__right__initiative__dropbutton {
+  /* background-color: #4CAF50; */
+  color: white;
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.chatheader__right__initiative__dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.chatheader__right__initiative__dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #3c3c3c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.chatheader__right__initiative__dropdowncontent > a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .homepage__initiative__dropdowncontent > a:hover {
+  background-color: #f1f1f1;
+} */
+
+/* Show the dropdown menu on hover */
+.chatheader__right__initiative__dropdown:hover
+  .chatheader__right__initiative__dropdowncontent {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .homepage__initiative__dropdown:hover, .homepage__initiative__dropbutton {
+  background-color: #3e8e41;
+} */
+.chatheader__right__startupinsight > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.chatheader__right__team > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.chatheader__right__contact > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.chatheader__right__chat > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.chatheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.chatheader__right__login > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.chatheader__right > hr {
+  width: calc(200 / 3963 * 100vw);
+  transform: rotate(-90deg);
+  background-color: #ffffff;
+  height: calc(5 / 2167 * 100vh);
+  margin-left: calc(-100 / 3963 * 100vw);
+}
+.chatheader__right > h4:hover,
+.chatheaderimg__container:hover {
+  background: rgba(171, 171, 171, 0.3);
+}

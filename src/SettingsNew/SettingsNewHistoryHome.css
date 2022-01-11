@@ -1,3 +1,186 @@
 .settingsnewhistoryhome {
   display: flex;
+  flex-direction: column;
+}
+.settingsnewheading {
+  display: flex;
+}
+.settingsnewheading__left {
+  display: flex;
+  cursor: pointer;
+}
+.settingsnewheading__left :hover {
+  background-color: #1f1d2b1a;
+}
+.settingsnewheading__left > .MuiSvgIcon-root {
+  width: calc(40 / 1440 * 100vw);
+  height: calc(40 / 1024 * 100vh);
+  margin-left: calc(256.5 / 1440 * 100vw);
+  margin-top: calc(41 / 1024 * 100vh);
+  color: black;
+}
+
+.settingsnewheading__left > h2 {
+  margin-top: calc(36 / 1024 * 100vh);
+  color: black;
+}
+.settingsnewheading__right > .MuiSvgIcon-root {
+  width: calc(17 / 1440 * 100vw);
+  height: calc(17 / 1024 * 100vh);
+  margin-left: calc(168 / 1440 * 100vw);
+  margin-top: calc(55 / 1024 * 100vh);
+}
+.settingsnewbody {
+  display: flex;
+}
+.settingsnewbody__left {
+  display: flex;
+  flex-direction: column;
+  width: calc(200 / 1440 * 100vw);
+  margin-top: calc(100 / 1024 * 100vh);
+}
+.settingsnewdashboard {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.settingsnewdashboard:hover {
+  background-color: #e6f7ff;
+}
+.settingsnewdashboard__left {
+  display: flex;
+}
+.settingsnewdashboard__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.settingsnewdashboard__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.settingsnewstartups {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.settingsnewstartups:hover {
+  background-color: #e6f7ff;
+}
+.settingsnewstartups__left {
+  display: flex;
+}
+.settingsnewstartups__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.settingsnewstartups__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.settingsnewaboutus {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.settingsnewaboutus:hover {
+  background-color: #e6f7ff;
+}
+.settingsnewaboutus__left {
+  display: flex;
+}
+.settingsnewaboutus__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.settingsnewaboutus__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.settingsnewcontact {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.settingsnewcontact:hover {
+  background-color: #e6f7ff;
+}
+.settingsnewcontact__left {
+  display: flex;
+}
+.settingsnewcontact__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.settingsnewcontact__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
+}
+.settingsnewsettings {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  background-color: #e6f7ff;
+  cursor: pointer;
+}
+.settingsnewsettings:hover {
+  background-color: #e6f7ff;
+}
+.settingsnewsettings__left {
+  display: flex;
+}
+.settingsnewsettings__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.settingsnewsettings__right {
+  display: flex;
+}
+
+.settingsnewsettings__right > hr {
+  width: calc(2 / 1440 * 100vw);
+  height: calc(30 / 1024 * 100vh);
+  background-color: hsla(209, 100%, 55%, 1);
+}
+.settingsnewhelp {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(10 / 1024 * 100vh);
+  padding-bottom: calc(10 / 1024 * 100vh);
+  padding-left: calc(10 / 1440 * 100vw);
+  cursor: pointer;
+}
+.settingsnewhelp:hover {
+  background-color: #e6f7ff;
+}
+.settingsnewhelp__left {
+  display: flex;
+}
+.settingsnewhelp__left > h4 {
+  margin-left: calc(5 / 1440 * 100vw);
+  margin-top: calc(2 / 1024 * 100vh);
+  font-size: calc(14 / 1440 * 100vw);
+  font-weight: 400;
+}
+.settingsnewhelp__right > .MuiSvgIcon-root {
+  margin-right: calc(3 / 1440 * 100vw);
 }
