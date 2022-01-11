@@ -12,7 +12,7 @@
   display: flex;
 }
 .faqscontainer {
-  background-image: url("image 7.png");
+  background-image: url("image7.png");
   height: calc(2167 / 2638 * 100vh);
   background-size: 100% 100%;
 }

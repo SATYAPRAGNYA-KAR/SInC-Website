@@ -5,6 +5,7 @@
 import "./ContactUsApp.css";
 import Form from "./components/ContactUsForm";
 import Header from "./ContactUsHeader";
+import Footer from "./ContactUsFooter";
 import bphone from "./images/backgroundphone.png";
 import facebook from "./images/facebook.png";
 import insta from "./images/insta.png";
@@ -16,14 +17,17 @@ function ContactUsApp() {
   return (
     <div
       className="contactusApp"
-      style={{
-        backgroundImage: `url(${bphone})`,
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
-      }}
+      // style={{
+      //   backgroundImage: `url(${bphone})`,
+      //   backgroundPosition: 'center',
+      //   backgroundSize: 'cover',
+      //   backgroundRepeat: 'no-repeat'
+      // }}
     >
-      <Header />
+      <div className="contactus_header">
+        <Header />
+      </div>
+
       <div className="contact-us-heading">Contact Us</div>
       <div className="contact-us-box">
         <div className="contactuscontent-left">
@@ -65,6 +69,7 @@ function ContactUsApp() {
           <Form />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
