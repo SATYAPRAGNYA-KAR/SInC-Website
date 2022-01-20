@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/SInC-Website/static/css/main.ff3ecc9c.css",
+    "main.js": "/SInC-Website/static/js/main.c0f08117.js",
+    "static/js/787.39d6ebe3.chunk.js": "/SInC-Website/static/js/787.39d6ebe3.chunk.js",
+    "static/media/image7.png": "/SInC-Website/static/media/image7.7370feb8174ff986502d.png",
+    "static/media/processcard.png": "/SInC-Website/static/media/processcard.a36779998b1a442f5cea.png",
+    "static/media/backgroundphone.png": "/SInC-Website/static/media/backgroundphone.0b66941846a5371d3d6a.png",
+    "static/media/starbucks.png": "/SInC-Website/static/media/starbucks.97437064999d96a4a46f.png",
+    "static/media/dp.png": "/SInC-Website/static/media/dp.9b322a42a285bbdb27a2.png",
+    "static/media/InBetween.png": "/SInC-Website/static/media/InBetween.f457f3fe229f24ab3fe2.png",
+    "static/media/instagram.png": "/SInC-Website/static/media/instagram.778cd58562685d187edb.png",
+    "static/media/linkedin.png": "/SInC-Website/static/media/linkedin.fa87fa0b6b4675c2e181.png",
+    "static/media/socialtree.png": "/SInC-Website/static/media/socialtree.0f711b70a0039bb616cd.png",
+    "static/media/img1.png": "/SInC-Website/static/media/img1.a8f9df928c26f6cb5914.png",
+    "static/media/blackborder.png": "/SInC-Website/static/media/blackborder.43eda340b4ddd72010da.png",
+    "static/media/sinc.png": "/SInC-Website/static/media/sinc.44f9b83c5f561b6a8a8e.png",
+    "static/media/img.png": "/SInC-Website/static/media/img.a6838792bfa2f7635817.png",
+    "static/media/img3.png": "/SInC-Website/static/media/img3.3a8eaab316d3fea6143b.png",
+    "static/media/img2.png": "/SInC-Website/static/media/img2.f9d7a9739600ad96ed83.png",
+    "static/media/vision.png": "/SInC-Website/static/media/vision.2cf411560e4d692906a6.png",
+    "static/media/amico.png": "/SInC-Website/static/media/amico.d1707430aa5c4c837cdf.png",
+    "static/media/img5.png": "/SInC-Website/static/media/img5.7ee49d2ecd324486a64c.png",
+    "static/media/img4.png": "/SInC-Website/static/media/img4.c275ee720bf7d8344a1a.png",
+    "static/media/mission.png": "/SInC-Website/static/media/mission.4d83dc03fff80cfcd6cc.png",
+    "static/media/about.png": "/SInC-Website/static/media/about.4b3b945ed588b5a1b78b.png",
+    "static/media/github.png": "/SInC-Website/static/media/github.61bfb195dc4606f3df73.png",
+    "static/media/rr.png": "/SInC-Website/static/media/rr.19188c0cd0c79a9a865f.png",
+    "static/media/ideas.png": "/SInC-Website/static/media/ideas.07cd6a8ee76876270684.png",
+    "static/media/rocket.png": "/SInC-Website/static/media/rocket.e70fcc7723c17e54199a.png",
+    "static/media/awards.png": "/SInC-Website/static/media/awards.b57fbc35338ff5635c98.png",
+    "static/media/dn.png": "/SInC-Website/static/media/dn.713a8191daf4741511c5.png",
+    "static/media/businessDeal.png": "/SInC-Website/static/media/businessDeal.f300ab47136ddd2a74a1.png",
+    "index.html": "/SInC-Website/index.html",
+    "main.ff3ecc9c.css.map": "/SInC-Website/static/css/main.ff3ecc9c.css.map",
+    "main.c0f08117.js.map": "/SInC-Website/static/js/main.c0f08117.js.map",
+    "787.39d6ebe3.chunk.js.map": "/SInC-Website/static/js/787.39d6ebe3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff3ecc9c.css",
+    "static/js/main.c0f08117.js"
+  ]
+}
