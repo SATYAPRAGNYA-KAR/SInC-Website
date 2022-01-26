@@ -146,6 +146,44 @@ function Body() {
           </div>
         </div>
       </div>
+      <div className="otherlinks">
+        <Link to="/aboutstartup" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">About Startup</button>
+        </Link>
+        <Link to="/chat" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">Chat Feature</button>
+        </Link>
+        <Link
+          to="/entrepreneurshipkickstart"
+          style={{ textDecoration: "none" }}
+        >
+          <button className="justsomebutton">Entrepreneurship Kickstart</button>
+        </Link>
+        <Link to="/iitdangelnetwork" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">IITD Angel Network</button>
+        </Link>
+        <Link to="/listofstartups" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">List of Startups</button>
+        </Link>
+        <Link
+          to="/mentors_startupsyoufollow"
+          style={{ textDecoration: "none" }}
+        >
+          <button className="justsomebutton">Startups You Follow</button>
+        </Link>
+        <Link to="/notifications" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">Notifications</button>
+        </Link>
+        <Link to="/settings" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">Settings</button>
+        </Link>
+        <Link to="/settingsnew" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">Settings New</button>
+        </Link>
+        <Link to="/sidenavigationbar" style={{ textDecoration: "none" }}>
+          <button className="justsomebutton">Side Navigation Bar</button>
+        </Link>
+      </div>
     </div>
   );
 }
