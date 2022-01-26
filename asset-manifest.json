@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/SInC-Website/static/css/main.241dd383.chunk.css",
-    "main.js": "/SInC-Website/static/js/main.efa9df70.chunk.js",
-    "main.js.map": "/SInC-Website/static/js/main.efa9df70.chunk.js.map",
-    "runtime-main.js": "/SInC-Website/static/js/runtime-main.d62c3802.js",
-    "runtime-main.js.map": "/SInC-Website/static/js/runtime-main.d62c3802.js.map",
-    "static/js/2.af489f1b.chunk.js": "/SInC-Website/static/js/2.af489f1b.chunk.js",
-    "static/js/2.af489f1b.chunk.js.map": "/SInC-Website/static/js/2.af489f1b.chunk.js.map",
-    "static/js/3.b36c8c8c.chunk.js": "/SInC-Website/static/js/3.b36c8c8c.chunk.js",
-    "static/js/3.b36c8c8c.chunk.js.map": "/SInC-Website/static/js/3.b36c8c8c.chunk.js.map",
+    "main.js": "/SInC-Website/static/js/main.f44f685a.chunk.js",
+    "main.js.map": "/SInC-Website/static/js/main.f44f685a.chunk.js.map",
+    "runtime-main.js": "/SInC-Website/static/js/runtime-main.ec4de69e.js",
+    "runtime-main.js.map": "/SInC-Website/static/js/runtime-main.ec4de69e.js.map",
+    "static/js/2.30b88b8c.chunk.js": "/SInC-Website/static/js/2.30b88b8c.chunk.js",
+    "static/js/2.30b88b8c.chunk.js.map": "/SInC-Website/static/js/2.30b88b8c.chunk.js.map",
+    "static/js/3.b3826574.chunk.js": "/SInC-Website/static/js/3.b3826574.chunk.js",
+    "static/js/3.b3826574.chunk.js.map": "/SInC-Website/static/js/3.b3826574.chunk.js.map",
     "index.html": "/SInC-Website/index.html",
     "static/css/main.241dd383.chunk.css.map": "/SInC-Website/static/css/main.241dd383.chunk.css.map",
-    "static/js/2.af489f1b.chunk.js.LICENSE.txt": "/SInC-Website/static/js/2.af489f1b.chunk.js.LICENSE.txt",
+    "static/js/2.30b88b8c.chunk.js.LICENSE.txt": "/SInC-Website/static/js/2.30b88b8c.chunk.js.LICENSE.txt",
     "static/media/InBetween.f457f3fe.png": "/SInC-Website/static/media/InBetween.f457f3fe.png",
     "static/media/about.4b3b945e.png": "/SInC-Website/static/media/about.4b3b945e.png",
     "static/media/amico.d1707430.png": "/SInC-Website/static/media/amico.d1707430.png",
@@ -43,16 +43,15 @@
     "static/media/processcard.a3677999.png": "/SInC-Website/static/media/processcard.a3677999.png",
     "static/media/rocket.e70fcc77.png": "/SInC-Website/static/media/rocket.e70fcc77.png",
     "static/media/rr.19188c0c.png": "/SInC-Website/static/media/rr.19188c0c.png",
-    "static/media/section2.913bd0fa.png": "/SInC-Website/static/media/section2.913bd0fa.png",
     "static/media/sinc.44f9b83c.png": "/SInC-Website/static/media/sinc.44f9b83c.png",
     "static/media/socialtree.0f711b70.png": "/SInC-Website/static/media/socialtree.0f711b70.png",
     "static/media/starbucks.97437064.png": "/SInC-Website/static/media/starbucks.97437064.png",
     "static/media/vision.2cf41156.png": "/SInC-Website/static/media/vision.2cf41156.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d62c3802.js",
-    "static/js/2.af489f1b.chunk.js",
+    "static/js/runtime-main.ec4de69e.js",
+    "static/js/2.30b88b8c.chunk.js",
     "static/css/main.241dd383.chunk.css",
-    "static/js/main.efa9df70.chunk.js"
+    "static/js/main.f44f685a.chunk.js"
   ]
 }
