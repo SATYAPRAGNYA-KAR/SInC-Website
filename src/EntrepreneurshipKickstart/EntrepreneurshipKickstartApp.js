@@ -12,18 +12,17 @@ import dp from "./images/dp.png";
 import Header from "./EntrepreneurshipKickstartHeader";
 import Footer from "./EntrepreneurshipKickstartFooter";
 import { Link } from "react-router-dom";
-import section2img from "./images/section2.png";
+// import section2img from "./images/section2.png";
 import imgtop from "./images/yellow-black-top.png";
 import imgbot from "./images/yellow-black-bottom.png";
-import ideas from './images/ideas.png';
-import ybbig from './images/yellow-black-big.png';
-import ybsmall from './images/yellow-black-small.png';
+import ideas from "./images/ideas.png";
+import ybbig from "./images/yellow-black-big.png";
+import ybsmall from "./images/yellow-black-small.png";
 const icon = "icon";
 
 function EntrepreneurshipKickstartApp() {
   return (
     <div className="entrepreneurshipkickstartApp">
-
       <div className="entrepreneurshipkickstart_header">
         <Header />
       </div>
@@ -40,30 +39,29 @@ function EntrepreneurshipKickstartApp() {
         <div className=""></div>
       </div>
 
-      <div className='ek-section2'>
+      <div className="ek-section2">
         <div className="ek-sec2-top">
           <div className="ek-sec2-top-content1">
             <div className="ek-sec2-top-heading">
               Formal Screening & Pitching
             </div>
             <div className="ek-sec2-top-desc">
-              Formal screening by the panel members and segregation based upon ready to be funded/ incubated or nurturing required
+              Formal screening by the panel members and segregation based upon
+              ready to be funded/ incubated or nurturing required
             </div>
           </div>
 
           <div className="ek-sec2-top-content2">
-            <div className="ek-sec2-top-heading">
-              Nurturing-2
-            </div>
+            <div className="ek-sec2-top-heading">Nurturing-2</div>
             <div className="ek-sec2-top-desc">
-              Mentors to be alloted, various workshops to guide, checkpoints to be put in place and startup is in a phase of making things more concrete
+              Mentors to be alloted, various workshops to guide, checkpoints to
+              be put in place and startup is in a phase of making things more
+              concrete
             </div>
           </div>
 
           <div className="ek-sec2-top-content3">
-            <div className="ek-sec2-top-heading">
-              Full Scale-2
-            </div>
+            <div className="ek-sec2-top-heading">Full Scale-2</div>
             <div className="ek-sec2-top-desc">
               Testing of MVP, Reiterations, Design completion, Public Display
             </div>
@@ -123,7 +121,6 @@ function EntrepreneurshipKickstartApp() {
               <img className="ek-sec2-img6" src={img6} alt={icon}></img>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -133,26 +130,25 @@ function EntrepreneurshipKickstartApp() {
             Launching & Pre-screening
           </div>
           <div className="ek-sec2-bottom-desc">
-            Launching of the program, after a short span of time applications will be invited.
-            Startups will be screened based upon the selection criteria listed.
+            Launching of the program, after a short span of time applications
+            will be invited. Startups will be screened based upon the selection
+            criteria listed.
           </div>
         </div>
 
         <div className="ek-sec2-bottom-content2">
-          <div className="ek-sec2-bottom-heading">
-            Nurturing-1
-          </div>
+          <div className="ek-sec2-bottom-heading">Nurturing-1</div>
           <div className="ek-sec2-bottom-desc">
-            Nurturing phase based upon the current stage of startup, end goal after the program to be decided
+            Nurturing phase based upon the current stage of startup, end goal
+            after the program to be decided
           </div>
         </div>
 
         <div className="ek-sec2-bottom-content3">
-          <div className="ek-sec2-bottom-heading">
-            Full Scale-1
-          </div>
+          <div className="ek-sec2-bottom-heading">Full Scale-1</div>
           <div className="ek-sec2-bottom-desc">
-            Developement of MVP or Primary designing of product, possibility of funding etc.
+            Developement of MVP or Primary designing of product, possibility of
+            funding etc.
           </div>
         </div>
       </div>
@@ -181,7 +177,10 @@ function EntrepreneurshipKickstartApp() {
 
             <div className="entrepreneurshipkickstartright-text">
               <div className="entrepreneurshipkickstart-green-line2"></div>
-              We<br /> help<br /> your<br /> startup!
+              We
+              <br /> help
+              <br /> your
+              <br /> startup!
             </div>
           </div>
         </div>
@@ -208,8 +207,8 @@ function EntrepreneurshipKickstartApp() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sollicitudin ullamcorper amet nisi sed a sed. Mattis at nisl
                   gravida feugiat quam. Congue etiam consectetur massa lectus
-                  interdum condimentum sapien, ac ac. Quis eget neque suscipit dis
-                  condimentum dictum.
+                  interdum condimentum sapien, ac ac. Quis eget neque suscipit
+                  dis condimentum dictum.
                 </div>
               </div>
               <div className="entrepreneurshipkickstartbox-right">
@@ -218,7 +217,10 @@ function EntrepreneurshipKickstartApp() {
                     Register
                   </button>
                 </Link>
-                <Link to="/angelnetworkmentor" style={{ textDecoration: "none" }}>
+                <Link
+                  to="/angelnetworkmentor"
+                  style={{ textDecoration: "none" }}
+                >
                   <button className="entrepreneurshipkickstartbutton2">
                     Know more
                   </button>
@@ -235,8 +237,8 @@ function EntrepreneurshipKickstartApp() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sollicitudin ullamcorper amet nisi sed a sed. Mattis at nisl
                   gravida feugiat quam. Congue etiam consectetur massa lectus
-                  interdum condimentum sapien, ac ac. Quis eget neque suscipit dis
-                  condimentum dictum.
+                  interdum condimentum sapien, ac ac. Quis eget neque suscipit
+                  dis condimentum dictum.
                 </div>
               </div>
               <div className="entrepreneurshipkickstartbox-right">
@@ -264,8 +266,8 @@ function EntrepreneurshipKickstartApp() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sollicitudin ullamcorper amet nisi sed a sed. Mattis at nisl
                   gravida feugiat quam. Congue etiam consectetur massa lectus
-                  interdum condimentum sapien, ac ac. Quis eget neque suscipit dis
-                  condimentum dictum.
+                  interdum condimentum sapien, ac ac. Quis eget neque suscipit
+                  dis condimentum dictum.
                 </div>
               </div>
               <div className="entrepreneurshipkickstartbox-right">
@@ -274,7 +276,10 @@ function EntrepreneurshipKickstartApp() {
                     Register
                   </button>
                 </Link>
-                <Link to="/angelnetworkmentor" style={{ textDecoration: "none" }}>
+                <Link
+                  to="/angelnetworkmentor"
+                  style={{ textDecoration: "none" }}
+                >
                   <button className="entrepreneurshipkickstartbutton2">
                     Know more
                   </button>
@@ -290,76 +295,123 @@ function EntrepreneurshipKickstartApp() {
               <img src={ybsmall} alt="just for design"></img>
             </div>
             <div className="entrepreneurshipkickstart-623">
-              <img src={ideas} alt="two animated characters discussing some ideas"></img>
+              <img
+                src={ideas}
+                alt="two animated characters discussing some ideas"
+              ></img>
             </div>
-
           </div>
-
-
         </div>
-        <div className='.entrepreneurshipkickstartsection7'>
-          <div className='entrepreneurshipkickstartsection7-heading'>
+        <div className=".entrepreneurshipkickstartsection7">
+          <div className="entrepreneurshipkickstartsection7-heading">
             People with us
           </div>
-          <div className='entrepreneurshipkickstartyellow-line'>
-          </div>
-          <div className='entrepreneurshipkickstartsection7-content'>
-            <div className='entrepreneurshipkickstartsection7-box'>
+          <div className="entrepreneurshipkickstartyellow-line"></div>
+          <div className="entrepreneurshipkickstartsection7-content">
+            <div className="entrepreneurshipkickstartsection7-box">
               <div className="entrepreneurshipkickstartdpdiv">
-                <img className='entrepreneurshipkickstartdp' src={dp} alt='profile picture'></img>
+                <img
+                  className="entrepreneurshipkickstartdp"
+                  src={dp}
+                  alt="profile"
+                ></img>
               </div>
-              <div className='details'>
-                <div className='entrepreneurshipkickstartdetails-heading'>Charvi</div>
-                <div className='entrepreneurshipkickstartdetails-desc'>Project Head</div>
+              <div className="details">
+                <div className="entrepreneurshipkickstartdetails-heading">
+                  Charvi
+                </div>
+                <div className="entrepreneurshipkickstartdetails-desc">
+                  Project Head
+                </div>
               </div>
             </div>
-            <div className='entrepreneurshipkickstartsection7-box'>
+            <div className="entrepreneurshipkickstartsection7-box">
               <div className="entrepreneurshipkickstartdpdiv">
-                <img className='entrepreneurshipkickstartdp' src={dp} alt='profile picture'></img>
+                <img
+                  className="entrepreneurshipkickstartdp"
+                  src={dp}
+                  alt="profile"
+                ></img>
               </div>
-              <div className='details'>
-                <div className='entrepreneurshipkickstartdetails-heading'>Charvi</div>
-                <div className='entrepreneurshipkickstartdetails-desc'>Project Head</div>
+              <div className="details">
+                <div className="entrepreneurshipkickstartdetails-heading">
+                  Charvi
+                </div>
+                <div className="entrepreneurshipkickstartdetails-desc">
+                  Project Head
+                </div>
               </div>
             </div>
-            <div className='entrepreneurshipkickstartsection7-box'>
+            <div className="entrepreneurshipkickstartsection7-box">
               <div className="entrepreneurshipkickstartdpdiv">
-                <img className='entrepreneurshipkickstartdp' src={dp} alt='profile picture'></img>
+                <img
+                  className="entrepreneurshipkickstartdp"
+                  src={dp}
+                  alt="profile"
+                ></img>
               </div>
-              <div className='entrepreneurshipkickstartdetails'>
-                <div className='entrepreneurshipkickstartdetails-heading'>Charvi</div>
-                <div className='entrepreneurshipkickstartdetails-desc'>Project Head</div>
+              <div className="entrepreneurshipkickstartdetails">
+                <div className="entrepreneurshipkickstartdetails-heading">
+                  Charvi
+                </div>
+                <div className="entrepreneurshipkickstartdetails-desc">
+                  Project Head
+                </div>
               </div>
             </div>
-            <div className='entrepreneurshipkickstartsection7-box'><div className="entrepreneurshipkickstartdpdiv">
-              <img className='entrepreneurshipkickstartdp' src={dp} alt='profile picture'></img>
-            </div>
-              <div className='entrepreneurshipkickstartdetails'>
-                <div className='entrepreneurshipkickstartdetails-heading'>Charvi</div>
-                <div className='entrepreneurshipkickstartdetails-desc'>Project Head</div>
-              </div>
-            </div>
-            <div className='entrepreneurshipkickstartsection7-box'>
+            <div className="entrepreneurshipkickstartsection7-box">
               <div className="entrepreneurshipkickstartdpdiv">
-                <img className='entrepreneurshipkickstartdp' src={dp} alt='profile picture'></img>
+                <img
+                  className="entrepreneurshipkickstartdp"
+                  src={dp}
+                  alt="profile"
+                ></img>
               </div>
-              <div className='entrepreneurshipkickstartdetails'>
-                <div className='entrepreneurshipkickstartdetails-heading'>Charvi</div>
-                <div className='entrepreneurshipkickstartdetails-desc'>Project Head</div>
+              <div className="entrepreneurshipkickstartdetails">
+                <div className="entrepreneurshipkickstartdetails-heading">
+                  Charvi
+                </div>
+                <div className="entrepreneurshipkickstartdetails-desc">
+                  Project Head
+                </div>
               </div>
             </div>
-            <div className='entrepreneurshipkickstartsection7-box'>
+            <div className="entrepreneurshipkickstartsection7-box">
               <div className="entrepreneurshipkickstartdpdiv">
-                <img className='entrepreneurshipkickstartdp' src={dp} alt='profile picture'></img>
+                <img
+                  className="entrepreneurshipkickstartdp"
+                  src={dp}
+                  alt="profile"
+                ></img>
               </div>
-              <div className='entrepreneurshipkickstartdetails'>
-                <div className='entrepreneurshipkickstartdetails-heading'>Charvi</div>
-                <div className='entrepreneurshipkickstartdetails-desc'>Project Head</div>
+              <div className="entrepreneurshipkickstartdetails">
+                <div className="entrepreneurshipkickstartdetails-heading">
+                  Charvi
+                </div>
+                <div className="entrepreneurshipkickstartdetails-desc">
+                  Project Head
+                </div>
+              </div>
+            </div>
+            <div className="entrepreneurshipkickstartsection7-box">
+              <div className="entrepreneurshipkickstartdpdiv">
+                <img
+                  className="entrepreneurshipkickstartdp"
+                  src={dp}
+                  alt="profile"
+                ></img>
+              </div>
+              <div className="entrepreneurshipkickstartdetails">
+                <div className="entrepreneurshipkickstartdetails-heading">
+                  Charvi
+                </div>
+                <div className="entrepreneurshipkickstartdetails-desc">
+                  Project Head
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
       <div className="entrepreneurshipkickstart_footer">
