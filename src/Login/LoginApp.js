@@ -1,9 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "./LoginApp.css";
 import Header from "./LoginHeader";
 import Footer from "./LoginFooter";
+import {axios} from 'axios';
+
+
 
 function LoginApp() {
+
+  const [logindetails, setLogindetails] = useState({
+    email: "iit@gmail.com",
+    password: "password",
+    token: ""
+  })
+  
+  const getData = async() => {
+  
+    try {
+      await axios.post('')
+        .then(res => {
+          setLogindetails({
+            email: res.data.email ,
+            password: res.data.password ,
+            token: res.data.token
+          });
+          console.log("Login credentials: ", res.data)
+        })
+    } catch (error) {
+      console.log("Error in posting login credentials: ", error)
+    }
+  }
+
   return (
     <div className="loginapp">
       <Header />
@@ -22,7 +49,7 @@ function LoginApp() {
                 type="text"
                 className="loginbody__box__content__input__username"
                 placeholder="abc@123"
-                name="username"
+                name={logindetails.email}
                 style={{
                   width: "15vw",
                   height: "3.5vh",
@@ -41,7 +68,7 @@ function LoginApp() {
                 type="password"
                 className="loginbody__box__content__input__password"
                 placeholder="******"
-                name="password"
+                name= {logindetails.password}
                 style={{ width: "15vw", height: "3.5vh", marginLeft: "1vw" }}
               />
             </form>
