@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeApp from "./Homepage/HomepageApp";
@@ -37,6 +37,7 @@ import RegisterPageApp from "./RegisterPage/RegisterPageApp";
 import StartupInsightApp from "./StartupInsight/StartupInsightApp";
 import EntrepreneurshipKickstartApp from "./EntrepreneurshipKickstart/EntrepreneurshipKickstartApp";
 import LoginApp from "./Login/LoginApp";
+
 // import { useState, useEffect } from "react";
 // import axios from "./axios";
 //Remember to write './axios', else the axios module will be imported and the app will crash out
@@ -55,6 +56,10 @@ function App() {
   // }, []);
   //An empty array is necessary here so that when the page loads, the function is called once and not more
   //useEffect is a hook and needs to be imported from React
+
+  useEffect(() => {
+    document.title = "SInC Site";
+  }, []);
 
   return (
     <Router>
