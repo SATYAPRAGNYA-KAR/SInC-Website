@@ -38,11 +38,19 @@ function Body() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <Link to="registerpage" style={{ textDecoration: "none" }}>
-          <div className="homebody__button2">
-            <button type="button">Contribute</button>
+        <div className="fundraiser_bottom">
+          <div className="fundraiser_bar">
+            <div className="fundraiser_bar_content"></div>
+            <div className="fundraiser_bar_percent">
+              <b>78%</b>
+            </div>
           </div>
-        </Link>
+          <Link to="registerpage" style={{ textDecoration: "none" }}>
+            <div className="homebody__button2">
+              <button type="button">Contribute</button>
+            </div>
+          </Link>
+        </div>
       </div>
       <div className="homebody-tag3">
         <div className="homebodyimg">
@@ -153,7 +161,7 @@ function Body() {
         <Link to="/chat" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">Chat Feature</button>
         </Link>
-        <Link
+        {/* <Link
           to="/entrepreneurshipkickstart"
           style={{ textDecoration: "none" }}
         >
@@ -161,7 +169,7 @@ function Body() {
         </Link>
         <Link to="/iitdangelnetwork" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">IITD Angel Network</button>
-        </Link>
+        </Link> */}
         <Link to="/listofstartups" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">List of Startups</button>
         </Link>

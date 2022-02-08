@@ -33,8 +33,19 @@ function Header() {
             Initiatives
           </span>
           <div className="homeheader__right__initiative__dropdowncontent">
-            <a href="/entrepreneurshipkickstart">Entrepreneurship Kickstart</a>
-            <a href="/iitdangelnetwork">IITD Angel Network</a>
+            <Link
+              to="/entrepreneurshipkickstart"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="homeheader__dropdownboxes">
+                Entrepreneurship Kickstart
+              </div>
+            </Link>
+            <Link to="/iitdangelnetwork" style={{ textDecoration: "none" }}>
+              <div className="homeheader__dropdownboxes">
+                IITD Angel Network
+              </div>
+            </Link>
           </div>
         </div>
         <Link to="/startupinsight" style={{ textDecoration: "none" }}>
@@ -42,9 +53,11 @@ function Header() {
             <h4 style={{ color: "white" }}>Startup Insight</h4>
           </div>
         </Link>
-        <div className="homeheader__right__team">
-          <h4 style={{ color: "white" }}>Team</h4>
-        </div>
+        <Link to="/team" style={{ textDecoration: "none" }}>
+          <div className="homeheader__right__team">
+            <h4 style={{ color: "white" }}>Team</h4>
+          </div>
+        </Link>
         <hr />
         <Link to="/contactus" style={{ textDecoration: "none" }}>
           <div className="homeheader__right__contact">

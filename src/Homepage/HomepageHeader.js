@@ -28,10 +28,8 @@ function Header() {
               Initiatives
             </span>
             <div className="homepage__initiative__dropdowncontent">
-              <a href="/entrepreneurshipkickstart">
-                Entrepreneurship Kickstart
-              </a>
-              <a href="/iitdangelnetwork">IITD Angel Network</a>
+              <div>Entrepreneurship Kickstart</div>
+              <div>IITD Angel Network</div>
             </div>
           </div>
           <span style={{ color: "white" }}>Team</span>

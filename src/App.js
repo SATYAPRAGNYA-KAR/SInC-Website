@@ -37,6 +37,7 @@ import RegisterPageApp from "./RegisterPage/RegisterPageApp";
 import StartupInsightApp from "./StartupInsight/StartupInsightApp";
 import EntrepreneurshipKickstartApp from "./EntrepreneurshipKickstart/EntrepreneurshipKickstartApp";
 import LoginApp from "./Login/LoginApp";
+import TeamApp from "./Team/TeamApp";
 
 // import { useState, useEffect } from "react";
 // import axios from "./axios";
@@ -119,6 +120,7 @@ function App() {
             element={<EntrepreneurshipKickstartApp />}
           />
           <Route path="/login" element={<LoginApp />} />
+          <Route path="/team" element={<TeamApp />} />
           <Route path="/" element={<HomeApp />} />
         </Routes>
       </div>

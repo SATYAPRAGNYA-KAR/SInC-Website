@@ -3,6 +3,7 @@ import "./AngelNetworkMentorHeader.css";
 import { BiMenuAltLeft } from "react-icons/bi";
 import sinc from "./sinc.png";
 import Avatar from "@material-ui/core/Avatar";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="angelnetworkmentorheader">
@@ -16,7 +17,9 @@ function Header() {
       </div>
       <div className="angelnetworkmentorheaderLogo">
         <div className="angelnetworkmentorheaderCellName">
-          <img src={sinc} alt="logo" />
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <img className="angelnetworkmentorsinclogo" src={sinc} alt="logo" />
+          </Link>
           <span> Student Incubation Cell</span>
         </div>
         <div className="angelnetworkmentorheaderWork">

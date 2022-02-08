@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+.angelnetworkmentorApp {
+  background-image: url("https://image.freepik.com/free-photo/white-brick-wall-textures-background_1203-6587.jpg?w=996");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .angelnetworkmentorbuttons {
   height: 110px;
   /* background-color: palevioletred; */

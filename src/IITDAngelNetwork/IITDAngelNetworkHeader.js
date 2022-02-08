@@ -4,6 +4,7 @@ import { BiMenuAltLeft } from "react-icons/bi";
 // import { CgProfile } from "react-icons/cg";
 import sinc from "./sinc.png";
 import Avatar from "@material-ui/core/Avatar";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="iitdangelnetworkheader">
@@ -17,7 +18,9 @@ function Header() {
       </div>
       <div className="iitdangelnetworkheaderLogo">
         <div className="iitdangelnetworkheaderCellName">
-          <img src={sinc} alt="logo" />
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <img className="iitdangelnetworksinclogo" src={sinc} alt="logo" />
+          </Link>
           <span> Student Incubation Cell</span>
         </div>
         <div className="iitdangelnetworkheaderWork">

@@ -2,12 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("https://i.pinimg.com/564x/45/59/fa/4559fadeaacea0e4fed0189022d31814.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .homebody-tag1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: calc(1210 / 1440 * 100vw);
   background-color: black;
   padding: 20px;
   margin: 20px;
@@ -26,14 +30,16 @@
   color: white;
   font-weight: bold;
   border-radius: 10px;
+  margin-top: calc(25 / 900 * 100vh);
   font-size: 18px;
   padding: 2px 20px;
+  cursor: pointer;
 }
 .homebody-tag2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: calc(1210 / 1440 * 100vw);
   background-color: black;
   padding: 20px;
   margin: 20px;
@@ -47,13 +53,37 @@
 .homebody-tag2 > p {
   color: white;
 }
+.fundraiser_bottom {
+  display: flex;
+  margin-top: calc(25 / 900 * 100vh);
+}
+.fundraiser_bar {
+  width: calc(920 / 1440 * 100vw);
+  height: calc(30 / 900 * 100vh);
+  border-radius: calc(10 / 1440 * 100vw);
+  background-color: #ffffff;
+  margin-top: calc(5 / 900 * 100vh);
+  margin-right: calc(4 / 1440 * 100vw);
+  display: flex;
+}
+.fundraiser_bar_content {
+  background-color: rgba(255, 255, 1, 1);
+  border-radius: calc(10 / 1440 * 100vw);
+  flex: 0.78;
+}
+.fundraiser_bar_percent {
+  color: rgba(49, 154, 150, 1);
+}
 .homebody__button2 > button {
   background-color: rgb(49, 154, 150);
+  width: calc(180 / 1440 * 100vw);
+  height: calc(43 / 900 * 100vh);
   color: white;
   font-weight: bold;
   border-radius: 10px;
   font-size: 18px;
   padding: 2px 20px;
+  cursor: pointer;
 }
 .homebody-tag3 {
   background-color: black;

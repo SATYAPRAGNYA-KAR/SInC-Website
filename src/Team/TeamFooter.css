@@ -1,0 +1,33 @@
+.teamfooter {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.teamfooter-left {
+  display: flex;
+  padding-left: 20px;
+}
+.teamspan {
+  color: white;
+}
+.teamfooter-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+.teamfooter-center > h4 {
+  padding: 0;
+  margin: 0;
+}
+.teamfooter-center > span {
+  padding: 0;
+  margin: 0;
+}
+.teamfooter-right {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
