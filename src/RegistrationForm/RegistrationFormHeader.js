@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactUsHeader.css";
+import "./RegistrationFormHeader.css";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -48,12 +48,12 @@ function Header() {
         <hr />
         <Link to="/contactus" style={{ textDecoration: "none" }}>
           <div className="faqsheader__right__contact">
-            <h4 style={{ color: "yellow" }}>Contact Us</h4>
+            <h4 style={{ color: "white" }}>Contact Us</h4>
           </div>
         </Link>
         <Link to="/faqs" style={{ textDecoration: "none" }}>
           <div className="faqsheader__right__faqs">
-            <h4 style={{ color: "white" }}>FAQ's</h4>
+            <h4 style={{ color: "yellow" }}>FAQ's</h4>
           </div>
         </Link>
         <Link to="/registerpage" style={{ textDecoration: "none" }}>

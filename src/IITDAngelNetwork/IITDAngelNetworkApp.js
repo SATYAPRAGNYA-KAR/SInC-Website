@@ -3,13 +3,17 @@ import businessDeal from "./businessDeal.png";
 import rocket from "./rocket.png";
 import invertedCommas from "./invertedCommas.png";
 import Header from "./IITDAngelNetworkHeader";
+import Footer from "./IITDAngelNetworkFooter";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link } from "react-router-dom";
 
 function IITDAngelNetworkApp() {
   return (
     <div className="iitdangelnetworkApp">
-      <Header />
+      <div className="iitdangelnetwork_header">
+        <Header/>
+      </div>
+      
       <div className="iitdangelnetworkmain-heading">IITD Angel Network</div>
       <div className="iitdangelnetworkboxes">
         <div className="iitdangelnetworkbox1">
@@ -69,6 +73,9 @@ function IITDAngelNetworkApp() {
       <Link to="/angelnetworkmentor" style={{ color: "black" }}>
         <ExpandMoreIcon />
       </Link>
+      <div className="iitdangelnetwork_footer">
+        <Footer/>
+      </div>
     </div>
   );
 }

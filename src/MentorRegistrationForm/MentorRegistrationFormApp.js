@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 import "./MentorRegistrationFormApp.css";
 import Form from "./components/MentorRegistrationFormForm";
+// import Header from "./MentorRegistrationFormHeader";
+// import Footer from "./MentorRegistrationFormFooter";
 import img from "./img.png";
 
 class MentorRegistrationFormApp extends Component {
   render() {
     return (
       <div className="mentorregistrationformAppname">
+        {/* <div className="mentorregistrationformapp_header">
+          <Header/>
+        </div> */}
         <div className="mentorregistrationformcontainer">
           <div className="mentorregistrationformheading">
             Mentor <br />
@@ -21,6 +26,9 @@ class MentorRegistrationFormApp extends Component {
           <img src={img} alt="logo" />
           <Form />
         </div>
+        {/* <div className="mentorregistrationformapp_footer">
+          <Footer/>
+        </div> */}
       </div>
     );
   }
