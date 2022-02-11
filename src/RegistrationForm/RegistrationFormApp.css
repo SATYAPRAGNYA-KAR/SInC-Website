@@ -4,10 +4,18 @@
   width: 100vw;
 }
 
-.registrationformheader {
-  height: 113px;
-  background-color: black;
-  z-index: 100;
+.registrationform_header {
+  height: calc(471 / 2638 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+}
+
+.registrationform_footer {
+  height: calc(289 / 2638 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
 }
 
 .registrationformblack-circle-left {
@@ -17,7 +25,7 @@
   background-color: black;
   position: absolute;
   left: 29px;
-  top: 164px;
+  top: 184px;
 }
 
 .registrationformgreen-circle-left {
@@ -25,7 +33,7 @@
   height: 70px;
   width: 70px;
   left: 91px;
-  top: 194px;
+  top: 214px;
   border-radius: 35px;
   background: rgba(49, 154, 150, 1);
 }
@@ -35,7 +43,7 @@
   height: 60px;
   width: 60px;
   right: 63px;
-  top: 220px;
+  top: 240px;
   border-radius: 30px;
   background: rgba(0, 0, 0, 1);
 }
@@ -45,7 +53,7 @@
   height: 30px;
   width: 30px;
   right: 125px;
-  top: 174px;
+  top: 194px;
   border-radius: 15px;
   background: rgba(49, 154, 150, 1);
 }
@@ -55,7 +63,7 @@
   height: 132px;
   width: 132px;
   right: -26px;
-  top: 87px;
+  top: 107px;
   border-radius: 66px;
   background: rgba(49, 154, 150, 1);
 }

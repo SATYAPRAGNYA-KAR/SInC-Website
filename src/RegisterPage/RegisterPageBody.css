@@ -35,6 +35,9 @@
 
   /* Height was given as 280px initially */
 }
+.registerpagebody-tag-content{
+  overflow: hidden;
+}
 .registerpagebody-tag-bottom {
   text-align: center;
   color: azure;

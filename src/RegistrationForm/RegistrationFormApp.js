@@ -1,12 +1,14 @@
 import "./RegistrationFormApp.css";
 import Form from "./components/RegistrationFormForm";
-import Header from "./components/RegistrationFormHeader";
+import Header from "./RegistrationFormHeader";
+import Footer from "./RegistrationFormFooter";
 
 function RegistrationFormApp() {
   return (
     <div className="registrationformApp">
-      <Header />
-      {/* <div className="header">Header</div> */}
+      <div className="registrationform_header">
+        <Header/>
+      </div>
 
       <div className="registrationformblack-circle-left"></div>
       <div className="registrationformgreen-circle-left"></div>
@@ -50,6 +52,9 @@ function RegistrationFormApp() {
       </div>
 
       <Form />
+      <div className="registrationform_footer">
+        <Footer/>
+      </div>
     </div>
   );
 }

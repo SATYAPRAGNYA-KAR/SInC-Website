@@ -69,7 +69,10 @@ function ContactUsApp() {
           <Form />
         </div>
       </div>
-      <Footer />
+      <div className="contactus_footer">
+        <Footer />
+      </div>
+      
     </div>
   );
 }

@@ -1,0 +1,94 @@
+.faqsapp {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.faqsapp__header {
+  height: calc(471 / 2638 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+}
+.faqscontainer {
+  background-image: url("image7.png");
+  height: calc(2167 / 2638 * 100vh);
+  background-size: 100% 100%;
+}
+.faqsapp__body {
+  height: calc(1878 / 2638 * 100vh);
+  display: flex;
+  overflow-y: scroll;
+}
+.faqsapp__bodyLeft {
+  flex: calc(773 / 3983);
+}
+.faqsapp__bodyLeftTop {
+  font-size: calc(96 / 3983 * 100vw);
+  padding-left: calc(90 / 3983 * 100vw);
+  margin-top: calc(175 / 2638 * 100vh);
+}
+.faqsapp__bodyLeft > hr {
+  width: calc(600 / 3983 * 100vw);
+  margin-left: calc(40 / 3983 * 100vw);
+  margin-top: calc(15 / 2638 * 100vh);
+  border: calc(5 / 3983 * 100vw) solid #000000;
+  background-color: #000000;
+}
+.faqsapp__bodyLeftBottom {
+  font-size: calc(64 / 3983 * 100vw);
+  padding-left: calc(90 / 3983 * 100vw);
+  margin-top: calc(98 / 2638 * 100vh);
+  padding-right: calc(100 / 3983 * 100vw);
+}
+
+.faqsapp__bodyRight > h2 {
+  font-size: calc(288 / 3983 * 100vw);
+  font-weight: bold;
+  margin-top: calc(-60 / 2638 * 100vh);
+  margin-left: calc(1050 / 3983 * 100vw);
+}
+.faqstext__container {
+  padding-left: calc(63 / 3983 * 100vw);
+  padding-right: calc(63 / 3983 * 100vw);
+  padding-top: calc(50 / 2638 * 100vh);
+  padding-bottom: calc(50 / 2638 * 100vh);
+  background-color: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: calc(55 / 3983 * 100vh);
+  display: flex;
+  flex-direction: column;
+  margin-right: calc(-1400 / 3983 * 100vw);
+  margin-left: calc(220 / 3983 * 100vw);
+  margin-bottom: calc(125 / 2638 * 100vh);
+}
+.faqsheading {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: calc(48 / 3983 * 100vw);
+}
+.faqsbody {
+  font-size: calc(48 / 3983 * 100vw);
+}
+.faqsicon__container1 {
+  width: calc(50 / 3983 * 100vw);
+  height: calc(50 / 2638 * 100vh);
+  cursor: pointer;
+}
+.faqsicon__container1 > .MuiSvgIcon-root {
+  border-radius: 50%;
+}
+.faqsapp__footer {
+  height: calc(289 / 2638 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+}
+.faqsicon__container1 :hover {
+  background-color: gray;
+}
+.faqsapp__body::-webkit-scrollbar {
+  display: none;
+}

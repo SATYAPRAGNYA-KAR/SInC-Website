@@ -1,59 +1,89 @@
-.listofstartupsheader {
+.registerheader {
+  width: 100vw;
+  height: calc(471 / 2638 * 100vh);
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  background-color: #1a1a1a;
-  color: #f1f1f1;
-  padding: 10px;
-  position: sticky;
-  top: 0px;
-  z-index: 999;
-  background-color: #1a1a1a;
+  background-color: black;
 }
-
-.listofstartupsheaderDashboard {
+.registerheader__left {
   display: flex;
   align-items: center;
 }
-.listofstartupsheaderDashboard_dashboard {
-  text-align: top;
+.registerheader__left > h2 {
+  color: #ffffff;
+  font-size: calc(95.67 / 3963 * 100vw);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: calc(40 / 3963 * 100vw);
 }
-.listofstartupsheaderLogo {
-  width: 40%;
-  align-items: center;
+.registerheaderimg__container > img {
+  width: calc(230 / 3963 * 100vw);
+  height: calc(250 / 2167 * 100vh);
 }
-.listofstartupsheaderCellName > span {
-  padding-bottom: 4px;
+.registerheaderimg__container {
+  padding: calc(10 / 3963 * 100vw);
+  cursor: pointer;
 }
-.listofstartupsheaderCellName {
-  text-align: center;
-}
-.listofstartupsheaderWork {
-  text-align: center;
-}
-.listofstartupsheaderIcon {
-  color: yellow;
-  align-items: baseline;
-}
-.listofstartupsheaderAvatar {
+.registerheader__right {
   display: flex;
   align-items: center;
-  margin-right: 10px;
 }
-.listofstartupsheaderPersonAvatar {
-  align-items: center;
-  align-content: center;
-  text-align: center;
+.registerheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.listofstartupsheaderCellName {
-  align-content: center;
-  align-items: center;
-  text-align: center;
+.registerheader__right__initiatives > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.listofstartupsheaderCellName > img {
-  width: 20px;
-  height: 20px;
+.registerheader__right__startupinsight > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.listofstartupsheaderCellName > h4 {
-  margin: auto;
+.registerheader__right__team > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__contact > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__login > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right > hr {
+  width: calc(200 / 3963 * 100vw);
+  transform: rotate(-90deg);
+  background-color: #ffffff;
+  height: calc(5 / 2167 * 100vh);
+  margin-left: calc(-100 / 3963 * 100vw);
+}
+.registerheader__right > h4:hover,
+.registerheaderimg__container:hover {
+  background: rgba(171, 171, 171, 0.3);
 }

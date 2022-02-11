@@ -1,43 +1,71 @@
 import React from "react";
 import "./ContactUsHeader.css";
-import sinc from "./sinc.png";
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="registerpageheader">
-      <div className="registerpageheader-left">
-        <img src={sinc} alt="" style={{ height: "40px", width: "40px" }} />
-        <h2
-          className="registerpageheader-content"
-          style={{ marginLeft: "10px" }}
-        >
-          Student Incubation Cell
-        </h2>
+    <div className="faqsheader">
+      <div className="faqsheader__left">
+        <Link to="/">
+          <div className="faqsheaderimg__container">
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C510BAQE16x5t0uDm4Q/company-logo_200_200/0/1568468276035?e=2159024400&v=beta&t=Kno3pclqtMRNpav1Lx1hQ4YGsuWKSFHpIISiogua5wc"
+              alt="SInC Logo"
+            />
+          </div>
+        </Link>
+        <h2>Student Incubation Cell</h2>
       </div>
-      <div className="registerpageheader-right">
-        <div className="registerpageheader-right-left">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <span style={{ color: "white" }}>Home</span>
-          </Link>
-          <Link to="/startupinsight" style={{ textDecoration: "none" }}>
-            <span style={{ color: "white" }}>Startup Insight</span>
-          </Link>
-          <span style={{ color: "white" }}>Initiatives</span>
-          <span style={{ color: "white" }}>Team</span>
+      <div className="faqsheader__right">
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className="faqsheader__right__home">
+            <h4 style={{ color: "white" }}>Home</h4>
+          </div>
+        </Link>
+        {/* <div className="faqsheader__right__initiatives"> */}
+        {/* <h4 style={{ color: "white" }}>Initiatives</h4> */}
+        <div className="faqsheader__right__initiative__dropdown">
+          <span
+            className="faqsheader__right__initiative__dropbutton"
+            style={{ color: "white" }}
+          >
+            Initiatives
+          </span>
+          <div className="faqsheader__right__initiative__dropdowncontent">
+            <a href="/entrepreneurshipkickstart">Entrepreneurship Kickstart</a>
+            <a href="/iitdangelnetwork">IITD Angel Network</a>
+          </div>
         </div>
-        <div className="registerpageheader-right-right">
-          <Link to="/contactus" style={{ textDecoration: "none" }}>
-            <span style={{ color: "white" }}>Contact Us</span>
-          </Link>
-          <Link to="/faqs" style={{ textDecoration: "none" }}>
-            <span style={{ color: "white" }}>FAQ's</span>
-          </Link>
-          <Link to="/registerpage" style={{ textDecoration: "none" }}>
-            <span style={{ color: "yellow" }}>Register</span>
-          </Link>
-          <span style={{ color: "white" }}>Login</span>
+        {/* </div> */}
+        <Link to="/startupinsight" style={{ textDecoration: "none" }}>
+          <div className="faqsheader__right__startupinsight">
+            <h4 style={{ color: "white" }}>Startup Insight</h4>
+          </div>
+        </Link>
+        <div className="faqsheader__right__team">
+          <h4 style={{ color: "white" }}>Team</h4>
         </div>
+        <hr />
+        <Link to="/contactus" style={{ textDecoration: "none" }}>
+          <div className="faqsheader__right__contact">
+            <h4 style={{ color: "yellow" }}>Contact Us</h4>
+          </div>
+        </Link>
+        <Link to="/faqs" style={{ textDecoration: "none" }}>
+          <div className="faqsheader__right__faqs">
+            <h4 style={{ color: "white" }}>FAQ's</h4>
+          </div>
+        </Link>
+        <Link to="/registerpage" style={{ textDecoration: "none" }}>
+          <div className="faqsheader__right__register">
+            <h4 style={{ color: "white" }}>Register</h4>
+          </div>
+        </Link>
+        <Link to="/login" style={{ textDecoration: "none" }}>
+          <div className="faqsheader__right__login">
+            <h4 style={{ color: "white" }}>Login</h4>
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -1,41 +1,46 @@
 import React from "react";
 import "./StartupInsightFooter.css";
-import email from "./Images/email.png";
-import f from "./Images/f.png";
-import ig from "./Images/ig.png";
-import bird from "./Images/bird.png";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Footer() {
   return (
-    <div className="startupinsightfooter">
-      <div className="startupinsightfooter-left">
-        <img src={email} alt="" />
-        <h4 className="startupinsightfooterspan" style={{ marginLeft: "10px" }}>
-          xyz@abc.com
-        </h4>
+    <div className="faqsfooter">
+      <div className="faqsfooter__left">
+        <h2>IIT Delhi, Hauz Khas, New Delhi</h2>
       </div>
-      <div className="startupinsightfooter-center">
-        <span className="startupinsightfooterspan">
-          Designed by Tech and Design Team
-        </span>
-        <span className="startupinsightfooterspan">SInC@2021</span>
-      </div>
-      <div className="startupinsightfooter-right">
-        <img
-          src={f}
-          alt=""
-          style={{ marginLeft: "10px", width: "20px", height: "20px" }}
-        />
-        <img
-          src={bird}
-          alt=""
-          style={{ marginLeft: "10px", width: "25px", height: "25px" }}
-        />
-        <img
-          src={ig}
-          alt=""
-          style={{ marginLeft: "10px", width: "25px", height: "25px" }}
-        />
+      <div className="faqsfooter__right">
+        <a href="https://www.facebook.com/sinciitd" style={{ color: "white" }}>
+          <div className="faqsfootericon__container">
+            <FacebookIcon />
+          </div>
+        </a>
+        <a
+          href="https://mobile.twitter.com/sinc_iitd"
+          style={{ color: "white" }}
+        >
+          <div className="faqsfootericon__container">
+            <TwitterIcon />
+          </div>
+        </a>
+        <a
+          href="https://www.instagram.com/sinciitd/"
+          style={{ color: "white" }}
+        >
+          <div className="faqsfootericon__container">
+            <InstagramIcon />
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/sinciitd"
+          style={{ color: "white" }}
+        >
+          <div className="faqsfootericon__container">
+            <LinkedInIcon />
+          </div>
+        </a>
       </div>
     </div>
   );
