@@ -1,60 +1,140 @@
-.iitdangelnetworkheader {
+.homeheader {
+  width: 100vw;
+  height: calc(471 / 2638 * 100vh);
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.homeheader__left {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #1a1a1a;
-  color: #f1f1f1;
-  padding: 10px;
-  position: sticky;
-  top: 0px;
-  z-index: 999;
-  background-color: #1a1a1a;
-  height: 113px;
+}
+.homeheader__left > h2 {
+  color: #ffffff;
+  font-size: calc(95.67 / 3963 * 100vw);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: calc(40 / 3963 * 100vw);
+}
+.homeheaderimg__container > img {
+  width: calc(230 / 3963 * 100vw);
+  height: calc(250 / 2167 * 100vh);
+}
+.homeheaderimg__container {
+  padding: calc(10 / 3963 * 100vw);
+  cursor: pointer;
+}
+.homeheader__right {
+  display: flex;
+  align-items: center;
+}
+.homeheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+/* Style The Dropdown Button */
+.homeheader__right__initiative__dropbutton {
+  /* background-color: #4CAF50; */
+  color: white;
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
 }
 
-.iitdangelnetworkheaderDashboard {
-  display: flex;
-  align-items: center;
+/* The container <div> - needed to position the dropdown content */
+.homeheader__right__initiative__dropdown {
+  position: relative;
+  display: inline-block;
 }
-.iitdangelnetworkheaderDashboard_dashboard {
-  text-align: top;
+
+/* Dropdown Content (Hidden by Default) */
+.homeheader__right__initiative__dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #3c3c3c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-.iitdangelnetworkheaderLogo {
-  width: 40%;
-  align-items: center;
+
+/* Links inside the dropdown */
+.homeheader__dropdownboxes {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
 }
-.iitdangelnetworkheaderCellName > span {
-  padding-bottom: 4px;
+
+/* Change color of dropdown links on hover */
+.homeheader__dropdownboxes:hover {
+  background-color: #a9a9a9;
 }
-.iitdangelnetworkheaderCellName {
-  text-align: center;
+
+/* Show the dropdown menu on hover */
+.homeheader__right__initiative__dropdown:hover
+  .homeheader__right__initiative__dropdowncontent {
+  display: block;
 }
-.iitdangelnetworkheaderWork {
-  text-align: center;
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .homepage__initiative__dropdown:hover, .homepage__initiative__dropbutton {
+  background-color: #3e8e41;
+} */
+.homeheader__right__initiatives > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.iitdangelnetworkheaderIcon {
-  color: yellow;
-  align-items: baseline;
+.homeheader__right__startupinsight > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.iitdangelnetworkheaderAvatar {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
+.homeheader__right__team > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.iitdangelnetworkheaderPersonAvatar {
-  align-items: center;
-  align-content: center;
-  text-align: center;
+.homeheader__right__contact > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.iitdangelnetworkheaderCellName {
-  align-content: center;
-  align-items: center;
-  text-align: center;
+.homeheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.iitdangelnetworksinclogo {
-  width: 20px;
-  height: 20px;
+.homeheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.iitdangelnetworkheaderCellName > h4 {
-  margin: auto;
+.homeheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.homeheader__right > hr {
+  width: calc(200 / 3963 * 100vw);
+  transform: rotate(-90deg);
+  background-color: #ffffff;
+  height: calc(5 / 2167 * 100vh);
+  margin-left: calc(-100 / 3963 * 100vw);
+}
+.homeheader__right > h4:hover,
+.homeheaderimg__container:hover {
+  background: rgba(171, 171, 171, 0.3);
 }
