@@ -1,39 +1,137 @@
-.startupinsightheader {
-  background-color: black;
+.faqsheader {
+  width: 100vw;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 10px;
 }
-.startupinsightheader-left {
-  width: 40%;
+.faqsheader__left {
   display: flex;
   align-items: center;
 }
-.startupinsightheader-right {
-  width: 60%;
+.faqsheader__left > h2 {
+  color: #ffffff;
+  font-size: calc(95.67 / 3963 * 100vw);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: calc(40 / 3963 * 100vw);
+}
+.faqsheaderimg__container > img {
+  width: calc(230 / 3963 * 100vw);
+  height: calc(250 / 2167 * 100vh);
+}
+.faqsheaderimg__container {
+  padding: calc(10 / 3963 * 100vw);
+  cursor: pointer;
+}
+.faqsheader__right {
   display: flex;
   align-items: center;
-  padding-right: 20px;
-  justify-content: space-between;
 }
-.startupinsightheader-content {
-  color: white;
+.faqsheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.startupinsightheader-right-left {
-  width: 50%;
-  padding: 10px;
+/* .faqsheader__right__initiatives > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+} */
+/* Style The Dropdown Button */
+.faqsheader__right__initiative__dropbutton {
+  /* background-color: #4CAF50; */
   color: white;
-  display: flex;
-  justify-content: space-between;
-  border-right: 2px solid white;
-  padding-right: 20px;
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
 }
-.startupinsightheader-right-right {
-  width: 50%;
-  padding: 10px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20px;
+
+/* The container <div> - needed to position the dropdown content */
+.faqsheader__right__initiative__dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.faqsheader__right__initiative__dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #3c3c3c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.faqsheader__right__initiative__dropdowncontent > a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .homepage__initiative__dropdowncontent > a:hover {
+  background-color: #f1f1f1;
+} */
+
+/* Show the dropdown menu on hover */
+.faqsheader__right__initiative__dropdown:hover
+  .faqsheader__right__initiative__dropdowncontent {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .homepage__initiative__dropdown:hover, .homepage__initiative__dropbutton {
+  background-color: #3e8e41;
+} */
+.faqsheader__right__startupinsight > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__team > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__contact > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__faqs > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right__login > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.faqsheader__right > hr {
+  width: calc(200 / 3963 * 100vw);
+  transform: rotate(-90deg);
+  background-color: #ffffff;
+  height: calc(5 / 2167 * 100vh);
+  margin-left: calc(-100 / 3963 * 100vw);
+}
+.faqsheader__right > h4:hover,
+.faqsheaderimg__container:hover {
+  background: rgba(171, 171, 171, 0.3);
 }

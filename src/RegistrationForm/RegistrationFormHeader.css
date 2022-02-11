@@ -2,6 +2,8 @@
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
+  background-color: black;
 }
 .faqsheader__left {
   display: flex;
@@ -134,4 +136,5 @@
 .faqsheader__right > h4:hover,
 .faqsheaderimg__container:hover {
   background: rgba(171, 171, 171, 0.3);
+  z-index: 100;
 }
