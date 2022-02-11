@@ -30,9 +30,11 @@ function Header() {
             <h4 style={{ color: "white" }}>Startup Insight</h4>
           </div>
         </Link>
-        <div className="registerheader__right__team">
-          <h4 style={{ color: "white" }}>Team</h4>
-        </div>
+        <Link to="/team" style={{ textDecoration: "none" }}>
+          <div className="registerheader__right__team">
+            <h4 style={{ color: "white" }}>Team</h4>
+          </div>
+        </Link>
         <hr />
         <Link to="/contactus" style={{ textDecoration: "none" }}>
           <div className="registerheader__right__contact">

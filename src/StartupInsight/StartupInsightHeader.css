@@ -1,39 +1,89 @@
-.startupinsightheader {
+.registerheader {
+  width: 100vw;
+  height: calc(471 / 2638 * 100vh);
+  display: flex;
+  justify-content: space-between;
   background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
 }
-.startupinsightheader-left {
-  width: 40%;
+.registerheader__left {
   display: flex;
   align-items: center;
 }
-.startupinsightheader-right {
-  width: 60%;
+.registerheader__left > h2 {
+  color: #ffffff;
+  font-size: calc(95.67 / 3963 * 100vw);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: calc(40 / 3963 * 100vw);
+}
+.registerheaderimg__container > img {
+  width: calc(230 / 3963 * 100vw);
+  height: calc(250 / 2167 * 100vh);
+}
+.registerheaderimg__container {
+  padding: calc(10 / 3963 * 100vw);
+  cursor: pointer;
+}
+.registerheader__right {
   display: flex;
   align-items: center;
-  padding-right: 20px;
-  justify-content: space-between;
 }
-.startupinsightheader-content {
-  color: white;
+.registerheader__right__home > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.startupinsightheader-right-left {
-  width: 50%;
-  padding: 10px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  border-right: 2px solid white;
-  padding-right: 20px;
+.registerheader__right__initiatives > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
 }
-.startupinsightheader-right-right {
-  width: 50%;
-  padding: 10px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20px;
+.registerheader__right__startupinsight > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__team > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__contact > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__register > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right__login > h4 {
+  margin-right: calc(100 / 3963 * 100vw);
+  font-size: calc(46.84 / 3963 * 100vw);
+  font-weight: 400;
+  cursor: pointer;
+}
+.registerheader__right > hr {
+  width: calc(200 / 3963 * 100vw);
+  transform: rotate(-90deg);
+  background-color: #ffffff;
+  height: calc(5 / 2167 * 100vh);
+  margin-left: calc(-100 / 3963 * 100vw);
+}
+.registerheader__right > h4:hover,
+.registerheaderimg__container:hover {
+  background: rgba(171, 171, 171, 0.3);
 }

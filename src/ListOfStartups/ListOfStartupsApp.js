@@ -3,6 +3,7 @@ import Header from "./ListOfStartupsHeader";
 import SearchBar from "./ListOfStartupsSearchBar";
 import Content from "./ListOfStartupsContent";
 // import { Routes, Route } from "react-router-dom";
+import Footer from "./ListOfStartupsFooter";
 
 function ListOfStartupsApp() {
   return (
@@ -18,6 +19,9 @@ function ListOfStartupsApp() {
         <div className="listofstartupsApp__Content">
           <Content />
         </div>
+      </div>
+      <div className="listofstartupsApp__Footer">
+        <Footer />
       </div>
     </div>
   );
