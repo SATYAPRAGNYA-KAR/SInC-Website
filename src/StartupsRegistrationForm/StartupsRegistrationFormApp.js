@@ -1,11 +1,15 @@
 import "./StartupsRegistrationFormApp.css";
 import FormStartups from "./components/StartupsRegistrationFormFormStartups";
-import Header from "./components/StartupsRegistrationFormHeader";
+import Header from "./StartupsRegistrationFormHeader";
+import Footer from "./StartupsRegistrationFormFooter";
 
 function StartupsRegistrationFormApp() {
   return (
     <div className="startupsregistrationformApp">
-      <Header />
+      <div className="startupsregistrationform_header">
+        <Header />
+      </div>
+      
       <div className="startupsregistrationformcontainer">
         <div className="startupsregistrationformgreen-circle-left"></div>
         <div className="startupsregistrationformblack-circle-left"></div>
@@ -22,6 +26,9 @@ function StartupsRegistrationFormApp() {
           <div className="startupsregistrationformunderline"></div>
           <FormStartups />
         </div>
+      </div>
+      <div className="startupsregistrationform_footer">
+        <Footer/>
       </div>
     </div>
   );

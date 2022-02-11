@@ -51,7 +51,7 @@
   height: 50px;
   width: 50px;
   left: 29px;
-  top: 182px;
+  top: 222px;
   border-radius: 25px;
   background: rgba(49, 154, 150, 1);
 }
@@ -61,7 +61,7 @@
   height: 60px;
   width: 60px;
   left: 89px;
-  top: 145px;
+  top: 185px;
   border-radius: 30px;
   background: rgba(0, 0, 0, 1);
 }
@@ -71,7 +71,7 @@
   height: 132px;
   width: 70px;
   right: 0px;
-  top: 145px;
+  top: 185px;
   border-radius: 66px 0 0 66px;
   background: rgba(49, 154, 150, 1);
 }
@@ -81,7 +81,7 @@
   height: 40px;
   width: 40px;
   right: 112px;
-  top: 237px;
+  top: 277px;
   border-radius: 20px;
   background: rgba(0, 0, 0, 1);
 }

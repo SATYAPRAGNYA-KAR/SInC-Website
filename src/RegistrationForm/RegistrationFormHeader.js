@@ -53,12 +53,12 @@ function Header() {
         </Link>
         <Link to="/faqs" style={{ textDecoration: "none" }}>
           <div className="faqsheader__right__faqs">
-            <h4 style={{ color: "yellow" }}>FAQ's</h4>
+            <h4 style={{ color: "white" }}>FAQ's</h4>
           </div>
         </Link>
         <Link to="/registerpage" style={{ textDecoration: "none" }}>
           <div className="faqsheader__right__register">
-            <h4 style={{ color: "white" }}>Register</h4>
+            <h4 style={{ color: "yellow" }}>Register</h4>
           </div>
         </Link>
         <Link to="/login" style={{ textDecoration: "none" }}>

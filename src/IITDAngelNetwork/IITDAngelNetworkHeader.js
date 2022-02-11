@@ -28,7 +28,7 @@ function Header() {
         <div className="homeheader__right__initiative__dropdown">
           <span
             className="homeheader__right__initiative__dropbutton"
-            style={{ color: "white" }}
+            style={{ color: "yellow" }}
           >
             Initiatives
           </span>

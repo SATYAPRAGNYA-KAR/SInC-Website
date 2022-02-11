@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactUsHeader.css";
+import "./StartupsRegistrationFormHeader.css";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -61,7 +61,7 @@ function Header() {
         <hr />
         <Link to="/contactus" style={{ textDecoration: "none" }}>
           <div className="homeheader__right__contact">
-            <h4 style={{ color: "yellow" }}>Contact Us</h4>
+            <h4 style={{ color: "white" }}>Contact Us</h4>
           </div>
         </Link>
         <Link to="/faqs" style={{ textDecoration: "none" }}>
@@ -71,7 +71,7 @@ function Header() {
         </Link>
         <Link to="/registerpage" style={{ textDecoration: "none" }}>
           <div className="homeheader__right__home">
-            <h4 style={{ color: "white" }}>Register</h4>
+            <h4 style={{ color: "yellow" }}>Register</h4>
           </div>
         </Link>
         <Link to="/login" style={{ textDecoration: "none" }}>
