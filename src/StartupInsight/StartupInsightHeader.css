@@ -1,38 +1,40 @@
-.faqsheader {
+.registerheader {
   width: 100vw;
+  height: calc(471 / 2638 * 100vh);
   display: flex;
   justify-content: space-between;
+  background-color: black;
 }
-.faqsheader__left {
+.registerheader__left {
   display: flex;
   align-items: center;
 }
-.faqsheader__left > h2 {
+.registerheader__left > h2 {
   color: #ffffff;
   font-size: calc(95.67 / 3963 * 100vw);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: calc(40 / 3963 * 100vw);
 }
-.faqsheaderimg__container > img {
+.registerheaderimg__container > img {
   width: calc(230 / 3963 * 100vw);
   height: calc(250 / 2167 * 100vh);
 }
-.faqsheaderimg__container {
+.registerheaderimg__container {
   padding: calc(10 / 3963 * 100vw);
   cursor: pointer;
 }
-.faqsheader__right {
+.registerheader__right {
   display: flex;
   align-items: center;
 }
-.faqsheader__right__home > h4 {
+.registerheader__right__home > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
   cursor: pointer;
 }
-/* .faqsheader__right__initiatives > h4 {
+.registerheader__right__initiatives > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
@@ -94,44 +96,44 @@
   font-weight: 400;
   cursor: pointer;
 }
-.faqsheader__right__team > h4 {
+.registerheader__right__team > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
   cursor: pointer;
 }
-.faqsheader__right__contact > h4 {
+.registerheader__right__contact > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
   cursor: pointer;
 }
-.faqsheader__right__faqs > h4 {
+.registerheader__right__register > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
   cursor: pointer;
 }
-.faqsheader__right__register > h4 {
+.registerheader__right__register > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
   cursor: pointer;
 }
-.faqsheader__right__login > h4 {
+.registerheader__right__login > h4 {
   margin-right: calc(100 / 3963 * 100vw);
   font-size: calc(46.84 / 3963 * 100vw);
   font-weight: 400;
   cursor: pointer;
 }
-.faqsheader__right > hr {
+.registerheader__right > hr {
   width: calc(200 / 3963 * 100vw);
   transform: rotate(-90deg);
   background-color: #ffffff;
   height: calc(5 / 2167 * 100vh);
   margin-left: calc(-100 / 3963 * 100vw);
 }
-.faqsheader__right > h4:hover,
-.faqsheaderimg__container:hover {
+.registerheader__right > h4:hover,
+.registerheaderimg__container:hover {
   background: rgba(171, 171, 171, 0.3);
 }

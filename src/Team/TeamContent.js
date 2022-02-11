@@ -215,66 +215,6 @@ function Content() {
               </div>
             </div>
           </div>
-          <div className="teamcontenttechnical_infocard">
-            <img
-              src={photo_small}
-              alt=""
-              style={{ width: "60%", height: "60%" }}
-            />
-            <div className="teamcontenttechnical_infocard_content">
-              <h3>Mihir Jain</h3>
-              <div className="teamcontentcoordinator_desc_position">
-                Web Development Coordinator
-              </div>
-              <div className="teamcontentcoordinator_desc_profile">
-                <img
-                  src={ig}
-                  alt=""
-                  style={{ width: "40px", height: "40px" }}
-                />
-                <img
-                  src={gh}
-                  alt=""
-                  style={{ width: "40px", height: "40px" }}
-                />
-                <img
-                  src={ln}
-                  alt=""
-                  style={{ width: "40px", height: "40px" }}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="teamcontenttechnical_infocard">
-            <img
-              src={photo_small}
-              alt=""
-              style={{ width: "60%", height: "60%" }}
-            />
-            <div className="teamcontenttechnical_infocard_content">
-              <h3>Mihir Jain</h3>
-              <div className="teamcontentcoordinator_desc_position">
-                Web Development Coordinator
-              </div>
-              <div className="teamcontentcoordinator_desc_profile">
-                <img
-                  src={ig}
-                  alt=""
-                  style={{ width: "40px", height: "40px" }}
-                />
-                <img
-                  src={gh}
-                  alt=""
-                  style={{ width: "40px", height: "40px" }}
-                />
-                <img
-                  src={ln}
-                  alt=""
-                  style={{ width: "40px", height: "40px" }}
-                />
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div className="teamcontentdesign">

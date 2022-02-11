@@ -154,14 +154,14 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="otherlinks">
+      {/* <div className="otherlinks">
         <Link to="/aboutstartup" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">About Startup</button>
         </Link>
         <Link to="/chat" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">Chat Feature</button>
-        </Link>
-        {/* <Link
+        </Link> */}
+      {/* <Link
           to="/entrepreneurshipkickstart"
           style={{ textDecoration: "none" }}
         >
@@ -170,7 +170,7 @@ function Body() {
         <Link to="/iitdangelnetwork" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">IITD Angel Network</button>
         </Link> */}
-        <Link to="/listofstartups" style={{ textDecoration: "none" }}>
+      {/* <Link to="/listofstartups" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">List of Startups</button>
         </Link>
         <Link
@@ -191,7 +191,7 @@ function Body() {
         <Link to="/sidenavigationbar" style={{ textDecoration: "none" }}>
           <button className="justsomebutton">Side Navigation Bar</button>
         </Link>
-      </div>
+      </div>*/}
     </div>
   );
 }
