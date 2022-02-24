@@ -39,7 +39,7 @@ function Header() {
             <span style={{ color: "white" }}>Contact Us</span>
           </Link>
           <Link to="/faqs" style={{ textDecoration: "none" }}>
-            <span style={{ color: "white" }}>FAQ's</span>
+            <span style={{ color: "white" }}>FAQs</span>
           </Link>
           <Link to="/registerpage" style={{ textDecoration: "none" }}>
             <span style={{ color: "white" }}>Register</span>

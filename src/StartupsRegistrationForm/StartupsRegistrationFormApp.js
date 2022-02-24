@@ -1,7 +1,7 @@
 import "./StartupsRegistrationFormApp.css";
 import FormStartups from "./components/StartupsRegistrationFormFormStartups";
-import Header from "./StartupsRegistrationFormHeader";
-import Footer from "./StartupsRegistrationFormFooter";
+import Header from "../RegisterPage/RegisterHeader";
+import Footer from "../RegisterPage/RegisterFooter";
 
 function StartupsRegistrationFormApp() {
   return (

@@ -1,0 +1,22 @@
+.homeApp{
+    display: flex;
+}
+.homeAppSideBar{
+    left: -100%;
+    position: absolute;
+    top: calc(471 / 2638 * 100vh);
+}
+.active{
+    left: 0;
+    transition: 0.2s;
+    z-index: 999;
+}
+.homeAppPage{
+    overflow-y: scroll;
+}
+.homeAppDashboard{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    z-index: 101;
+}

@@ -28,3 +28,22 @@ function ListOfStartupsApp() {
 }
 
 export default ListOfStartupsApp;
+
+// const [data_on_badges, setDataOnBadges] = useState(
+//   [
+//     {
+//       "name": "goodwork"
+//       , "date_earned": "2021-07-19"
+//       , "isEarned": false
+//     }
+//     , {
+//       "name": "good"
+//       , "date_earned": "2021-07-19"
+//       , "isEarned": false
+//     }
+//     , {
+//       "name": "good"
+//       , "date_earned": "2021-07-19"
+//       , "isEarned": false
+//     }
+//   ]

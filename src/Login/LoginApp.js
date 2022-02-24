@@ -64,7 +64,7 @@ function LoginApp() {
               <a
                 href="#0"
                 className="loginbody__box__bottom__left__forget"
-                style={{ color: "black", textDecoration: "none" }}
+                style={{ color: "white", textDecoration: "none" }}
               >
                 <i>Forgot Password?</i>
               </a>

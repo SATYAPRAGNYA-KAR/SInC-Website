@@ -53,7 +53,7 @@ function Header() {
         </Link>
         <Link to="/chat" style={{ textDecoration: "none" }}>
           <div className="chatheader__right__chat">
-            <h4 style={{ color: "white" }}>FAQ's</h4>
+            <h4 style={{ color: "white" }}>FAQs</h4>
           </div>
         </Link>
         <Link to="/registerpage" style={{ textDecoration: "none" }}>

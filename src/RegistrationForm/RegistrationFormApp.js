@@ -1,7 +1,7 @@
 import "./RegistrationFormApp.css";
 import Form from "./components/RegistrationFormForm";
-import Header from "./RegistrationFormHeader";
-import Footer from "./RegistrationFormFooter";
+import Header from "../RegisterPage/RegisterHeader";
+import Footer from "../RegisterPage/RegisterFooter";
 
 function RegistrationFormApp() {
   return (

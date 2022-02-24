@@ -3,8 +3,7 @@ import "./TeamContent.css";
 import ln from "./ln.png";
 import gh from "./gh.png";
 import ig from "./ig.png";
-import photo from "./photo.png";
-import photo_small from "./photo_small.png";
+import photo from "./photo.jpg";
 
 function Content() {
   return (
@@ -25,7 +24,7 @@ function Content() {
           <img
             src={photo}
             alt=""
-            style={{ padding: "20px", paddingLeft: "60px" }}
+            style={{ border: "10px solid yellow", borderRadius: "50%"}}
           />
         </div>
       </div>
@@ -37,9 +36,9 @@ function Content() {
         <div className="teamcontenttechnical_info">
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -67,9 +66,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%" }}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -97,9 +96,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%" }}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -127,9 +126,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -157,9 +156,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -187,9 +186,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -224,9 +223,9 @@ function Content() {
         <div className="teamcontenttechnical_info">
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -254,9 +253,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -284,9 +283,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -314,9 +313,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -344,9 +343,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>
@@ -374,9 +373,9 @@ function Content() {
           </div>
           <div className="teamcontenttechnical_infocard">
             <img
-              src={photo_small}
+              src={photo}
               alt=""
-              style={{ width: "60%", height: "60%" }}
+              style={{ width: "60%", height: "60%", border: "10px solid yellow", borderRadius: "50%"}}
             />
             <div className="teamcontenttechnical_infocard_content">
               <h3>Mihir Jain</h3>

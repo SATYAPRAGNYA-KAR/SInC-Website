@@ -1,19 +1,45 @@
 .homebody {
   display: flex;
-  flex-direction: column;
   align-items: center;
   background-image: url("https://i.pinimg.com/564x/45/59/fa/4559fadeaacea0e4fed0189022d31814.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.homebody1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.sidenavigationbarapp {
+  display: flex;
+  top: 0px;
+}
+.sidebardiv {
+  top: calc(471 / 2638 * 100vh);
+  position: absolute;
+  display: fixed;
+  height: 100vh;
+  margin-right: 20px;
+  z-index: 100;
+}
+.sidenavigationbarside {
+  flex: calc(187 / 801 * 900 / 1440);
+  height: 100%;
+  display: fixed;
+  top: 0px;
+  background-color: #424242;
+  display: flex;
+  flex-direction: column;
+}
 .homebody-tag1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(1210 / 1440 * 100vw);
+  width: calc(1210 / 1440 * 80vw);
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.8;
   padding: 20px;
   margin: 20px;
   border-radius: 40px;
@@ -40,9 +66,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(1210 / 1440 * 100vw);
+  width: calc(1210 / 1440 * 80vw);
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.8;
   padding: 20px;
   margin: 20px;
   border-radius: 40px;
@@ -57,10 +83,10 @@
 }
 .fundraiser_bottom {
   display: flex;
-  margin-top: calc(25 / 900 * 100vh);
+  margin-top: calc(25 / 900 * 80vh);
 }
 .fundraiser_bar {
-  width: calc(920 / 1440 * 100vw);
+  width: calc(920 / 1440 * 80vw);
   height: calc(30 / 900 * 100vh);
   border-radius: calc(10 / 1440 * 100vw);
   background-color: #ffffff;
@@ -78,7 +104,7 @@
 }
 .homebody__button2 > button {
   background-color: rgb(49, 154, 150);
-  width: calc(180 / 1440 * 100vw);
+  width: calc(180 / 1440 * 80vw);
   height: calc(43 / 900 * 100vh);
   color: white;
   font-weight: bold;
@@ -89,7 +115,7 @@
 }
 .homebody-tag3 {
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.8;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,7 +143,7 @@
 }
 .homebody-tag5 {
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.8;
   width: 80%;
   border-radius: 40px;
   display: flex;

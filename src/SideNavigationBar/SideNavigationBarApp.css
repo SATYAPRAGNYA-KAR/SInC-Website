@@ -3,7 +3,7 @@
 }
 .sidenavigationbarside {
   flex: calc(187 / 801 * 900 / 1440);
-  height: 100vh;
+  height: 85vh;
   background-color: #424242;
   display: flex;
   flex-direction: column;

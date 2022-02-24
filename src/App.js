@@ -15,6 +15,7 @@ import RegistrationFormApp from "./RegistrationForm/RegistrationFormApp";
 import StartupsRegistrationFormApp from "./StartupsRegistrationForm/StartupsRegistrationFormApp";
 import FAQsApp from "./FAQs/FAQsApp";
 import SettingsApp from "./Settings/SettingsApp";
+import PreIncubationPlan from "./PreIncubationPlan/PreIncubationPlanApp";
 
 import Home from "./SettingsNew/SettingsNewHome";
 import PrivacyHome from "./SettingsNew/SettingsNewPrivacyHome";
@@ -92,6 +93,7 @@ function App() {
           />
           <Route path="/angelnetworknm" element={<AngelNetworkNmApp />} />
           <Route path="/iitdangelnetwork" element={<IITDAngelNetworkApp />} />
+          <Route path="/preincubationplan" element={<PreIncubationPlan />} />
           <Route
             path="/mentorregistrationform"
             element={<MentorRegistrationFormApp />}

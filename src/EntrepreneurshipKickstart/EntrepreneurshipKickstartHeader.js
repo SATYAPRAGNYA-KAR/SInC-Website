@@ -46,6 +46,11 @@ function Header() {
                 IITD Angel Network
               </div>
             </Link>
+            <Link to="/preincubationplan" style={{ textDecoration: "none" }}>
+              <div className="homeheader__dropdownboxes">
+                Pre PreIncubationPlan
+              </div>
+            </Link>
           </div>
         </div>
         <Link to="/startupinsight" style={{ textDecoration: "none" }}>
@@ -66,7 +71,7 @@ function Header() {
         </Link>
         <Link to="/faqs" style={{ textDecoration: "none" }}>
           <div className="homeheader__right__home">
-            <h4 style={{ color: "white" }}>FAQ's</h4>
+            <h4 style={{ color: "white" }}>FAQs</h4>
           </div>
         </Link>
         <Link to="/registerpage" style={{ textDecoration: "none" }}>

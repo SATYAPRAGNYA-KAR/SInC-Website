@@ -67,7 +67,7 @@ font-family: 'Montserrat', sans-serif; */
   border-radius: 5px;
 
   box-sizing: border-box;
-  padding: 30px 40px 30px 40px;
+  padding: 30px 40px 0px 40px;
   text-align: center;
 
   font-family: Helvetica;
@@ -170,3 +170,163 @@ font-family: 'Montserrat', sans-serif; */
   background-color: #000000;
   display: flex;
 }
+
+
+
+@media only screen and (max-width: 1150px) {
+  .startupinsighttop-heading {
+    font-size: 90px;
+  }
+  
+  .startupinsightbottom-heading {
+    font-size: 90px;
+  }
+  
+  .startupinsightright-box {
+    position: absolute;
+    width: 40%;
+    height: 470px;
+    top: 210px;
+    
+    padding: 30px 30px 30px 30px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .startupinsightbottom{
+    display: flex;
+    justify-content: center;
+    padding: 100px 20px;
+  }
+
+  .startupinsightbox1,
+.startupinsightbox2,
+.startupinsightbox3,
+.startupinsightbox4,
+.startupinsightbox5,
+.startupinsightbox6,
+.startupinsightbox7,
+.startupinsightbox8,
+.startupinsightbox9 {
+  width: 433px;
+  height: 280px;
+  padding: 30px 10px 20px 30px;
+  border: 1px solid white;
+}
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .startupinsighttop-heading {
+    position: absolute;
+    width: 884px;
+    height: 277px;
+    left: 5%;
+    top: 210px;
+  
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 146px;
+  
+    color: #000000;
+  }
+  
+  .startupinsightbottom-heading {
+    position: absolute;
+    width: 884px;
+    height: 277px;
+    left: 5%;
+    top: 306px;
+  
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 146px;
+  
+    color: #000000;
+  }
+  
+  .startupinsightright-box {
+    position: absolute;
+    width: 40%;
+    height: fit-content;
+    top: 210px;
+    
+    padding: 30px 20px 20px 20px;
+    font-size: 20px;
+    line-height: 22px;
+  
+  }
+  
+  .startupinsightright-box-register > button {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .startupinsighttop-heading {
+    position: absolute;
+    width: 884px;
+    height: 277px;
+    left: 8%;
+    top: 190px;
+  
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 146px;
+  
+    color: #000000;
+  }
+  
+  .startupinsightbottom-heading {
+    position: absolute;
+    width: 884px;
+    height: 277px;
+    left: 8%;
+    top: 286px;
+  
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 146px;
+  
+    color: #000000;
+  }
+  
+  .startupinsightright-box {
+    /* position: absolute; */
+    position: relative;
+    /* top: 50%; */
+    /* left: 50%; */
+    margin-top: -40px;
+    width: 450px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    align-self: center;
+    border-bottom-right-radius: 10px;
+    /* width: 40%; */
+    /* width: 50%; */
+    height: fit-content;
+    top: 170px;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 28px;
+
+    box-shadow: 20px 20px 10px grey;
+  
+  }
+  
+  .startupinsightright-box-register > button {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+

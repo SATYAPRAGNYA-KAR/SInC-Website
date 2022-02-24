@@ -1,5 +1,6 @@
 import "./AngelNetworkInvestorApp.css";
 import Header from "./AngelNetworkInvestorHeader";
+import Footer from "./AngelNetworkInvestorFooter";
 import img1 from "./images/img1.png";
 import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
@@ -9,7 +10,10 @@ import { Link } from "react-router-dom";
 function AngelNetworkInvestorApp() {
   return (
     <div className="angelnetworkinvestorApp">
+      <div className="angelnetworkinvestor_header">
       <Header />
+      </div>
+      
       <div className="angelnetworkinvestorbuttons">
         <div className="angelnetworkinvestorbutton1">
           <Link to="/angelnetworkmentor">
@@ -155,6 +159,9 @@ function AngelNetworkInvestorApp() {
             <img src={img4} alt="" />
           </div>
         </div>
+      </div>
+      <div className="angelnetworkinvestor_footer">
+      <Footer />
       </div>
     </div>
   );

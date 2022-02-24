@@ -7,7 +7,8 @@
   flex: calc(1878 / 2638 * 100vh);
   justify-content: center;
   align-items: center;
-  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  background-image: url("./Login\ Page\ Background\ Image.jpg");
+  background-size: 100% 100%;
 }
 .loginbody__box {
   width: 30%;
@@ -15,37 +16,40 @@
   background-color: #ffffff;
   border-radius: calc(50 / 3963 * 100vw);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+  opacity: 0.8;
   display: flex;
   flex-direction: column;
   overflow: hidden; /* For the Border Radius to be visible even after adding the background color, use overflow: hidden; */
 }
+
 .loginbody__box__title {
   flex: 0.25;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3.5em;
-  background-color: #01ff70;
+  color: yellow;
 }
 .loginbody__box__content {
   flex: 0.5;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffdc00;
 }
 .loginbody__box__content__form__label1 {
   font-size: 1.5em;
+  color: #ffffff;
 }
 .loginbody__box__content__form__label2 {
   font-size: 1.5em;
+  color: #ffffff;
 }
 .loginbody__box__bottom {
   flex: 0.25;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #39cccc;
 }
 .loginbody__box__content__input__username::-webkit-input-placeholder {
   font-style: italic;
@@ -56,6 +60,7 @@
 }
 .loginbody__box__bottom__left__checkbox__label {
   font-size: 1.25em;
+  color: #ffffff;
 }
 .loginbody__box__bottom__left__forget {
   font-size: 1em;
@@ -64,9 +69,35 @@
   /* background: #f0c14b;
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29; */
-  background-color: #ff851b;
-  color: #111;
+  background-color: rgb(49, 154, 150);
+  color: #ffffff;
+  border-radius: 2vh;
   cursor: pointer;
   font-size: 1.5em;
   padding: 2vh 2vw 2vh 2vw;
+}
+@media screen and (max-width: 950px) {
+  .loginbody__box {
+    width: 50%;
+  }
+  .loginbody__box__title {
+    font-size: 2.5em;
+  }
+  .loginbody__box__content__form__label1 {
+    font-size: 1.25em;
+  }
+  .loginbody__box__content__form__label2 {
+    font-size: 1.25em;
+  }
+  .loginbody__box__bottom__left__checkbox__label {
+    font-size: 1em;
+  }
+  .loginbody__box__bottom__right__button {
+    border-radius: 15%;
+    font-size: 1.5em;
+    padding: 1vh 0.5vw 1vh 0.5vw;
+  }
+  .loginbody__box__content__input__username::-webkit-input-placeholder {
+    font-size: 12px;
+  }
 }

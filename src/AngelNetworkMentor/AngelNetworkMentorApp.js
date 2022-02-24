@@ -1,5 +1,6 @@
 import "./AngelNetworkMentorApp.css";
-import Header from "./AngelNetworkMentorHeader";
+import Header from "../AngelNetworkInvestor/AngelNetworkInvestorHeader";
+import Footer from "../AngelNetworkInvestor/AngelNetworkInvestorFooter";
 import img1 from "./images/img1.png";
 import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
@@ -8,7 +9,9 @@ import {Link} from 'react-router-dom';
 function AngelNetworkMentorApp() {
   return (
     <div className="angelnetworkmentorApp">
-      <Header />
+      <div className="angelnetworkmentor_header">
+        <Header/>
+      </div>
       <div className="angelnetworkmentorbuttons">
         <div className="angelnetworkmentorbutton1">
           <Link to='/angelnetworkmentor'><button>Mentors</button></Link>
@@ -126,6 +129,9 @@ function AngelNetworkMentorApp() {
             <img src={img3} alt="" />
           </div>
         </div>
+      </div>
+      <div className="angelnetworkmentor_footer">
+        <Footer/>
       </div>
     </div>
   );
