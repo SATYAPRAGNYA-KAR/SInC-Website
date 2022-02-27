@@ -1,6 +1,7 @@
 .loginapp {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 .loginbody {
   display: flex;
