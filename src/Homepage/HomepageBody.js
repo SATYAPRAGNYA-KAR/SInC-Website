@@ -116,13 +116,16 @@ function Body() {
               <h1>Our Mission</h1>
               <br />
               <p>
-                sit amet porttitor eget dolor morbi non arcu risus quis varius
-                quam quisque id diam vel quam elementum pulvinar etiam non quam
-                lacus suspendisse faucibus interdum posuere lorem ipsum dolor
-                sit amet consectetur adipiscing elit duis tristique sollicitudin
-                nibh sit amet commodo nulla facilisi nullam vehicula ipsum a
-                arcu cursus vitae congue mauris rhoncus aenean vel elit
-                scelerisque mauris pellentesque
+                Our mission is to empower every student on campus who aims high to turn their 
+                ideas into a real-world startup in every manner feasible and assist them in 
+                making a smooth transition through each stage of the process. As they say, "It's
+                not about ideas, it's about making ideas happen", and we are committed to 
+                paving the path for them with every step they take. Our motto is to create an ecosystem 
+                that encourages students to explore their ideas freely by fostering constructive 
+                discussions with professors, industry veterans, investors, and peers. 
+                We aspire to aid all budding entrepreneurs at IIT Delhi to become established,
+                successful and independent entrepreneurs.
+
               </p>
             </div>
             <div
@@ -150,13 +153,13 @@ function Body() {
               <h1>Our Vision</h1>
               <br />
               <p>
-                sit amet porttitor eget dolor morbi non arcu risus quis varius
-                quam quisque id diam vel quam elementum pulvinar etiam non quam
-                lacus suspendisse faucibus interdum posuere lorem ipsum dolor
-                sit amet consectetur adipiscing elit duis tristique sollicitudin
-                nibh sit amet commodo nulla facilisi nullam vehicula ipsum a
-                arcu cursus vitae congue mauris rhoncus aenean vel elit
-                scelerisque mauris pellentesque
+                We want IIT Delhi to become the flag bearer, not just in India but across the world.
+                We provide students a plethora of amenities, including mentorship, 
+                incubation space(of which most of the startups are bereft of), the much-needed legal expertise,
+                which is as imperative as anything to launch a successful startup and funds. We connect students
+                with industry experts and investors, provide incubation facilities and easy access to resources 
+                for product creation, and make them pitch-ready. We encourage individuals to engage in design thinking,
+                planful ideation and foster the self-inculcation of new ideas.
               </p>
             </div>
           </div>
