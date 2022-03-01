@@ -101,13 +101,10 @@ function Body() {
               <h1>About Us</h1>
               <br />
               <p>
-                sit amet porttitor eget dolor morbi non arcu risus quis varius
-                quam quisque id diam vel quam elementum pulvinar etiam non quam
-                lacus suspendisse faucibus interdum posuere lorem ipsum dolor
-                sit amet consectetur adipiscing elit duis tristique sollicitudin
-                nibh sit amet commodo nulla facilisi nullam vehicula ipsum a
-                arcu cursus vitae congue mauris rhoncus aenean vel elit
-                scelerisque mauris pellentesque
+                Well!, we construct roadmaps and keep to the deadlines we set. We never back 
+                down and always follow through on our promises. We believe in transparency; 
+                thus, our startup members and acquaintances are always kept up to date on 
+                the latest events and happenings.
               </p>
             </div>
           </div>
