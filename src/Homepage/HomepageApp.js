@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./HomepageApp.css";
 // import Header from "./HomepageHeader";
-import Bodyy from './Body';
+import Body from './Body';
 import Navbar from './Navbar';
 import Header from "./HomeHeader";
-import Body from "./HomepageBody";
+// import Body from "./HomepageBody";
 import Footer from "./HomeFooter";
 import SideNavigationBarApp from "./SideNavigationBarApp"
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
@@ -38,7 +38,7 @@ export default class HomeApp extends Component {
         </div> */}
         <div className="homeAppPage">
           <Navbar />
-          <Bodyy />
+          <Body/>
           <Footer />
         </div>
       </div>
