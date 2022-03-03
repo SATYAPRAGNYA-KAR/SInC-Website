@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./HomepageApp.css";
 // import Header from "./HomepageHeader";
+import Bodyy from './Body';
+import Navbar from './Navbar';
 import Header from "./HomeHeader";
 import Body from "./HomepageBody";
 import Footer from "./HomeFooter";
@@ -10,33 +12,33 @@ import $ from 'jquery';
 
 export default class HomeApp extends Component {
 
-  jQueryCode = () => {
-    $('.homeAppDashboard').on('click', function(){
-      $('.homeAppSideBar').addClass('active');
-    });
+  // jQueryCode = () => {
+  //   $('.homeAppDashboard').on('click', function(){
+  //     $('.homeAppSideBar').addClass('active');
+  //   });
 
-    $('.sidenavigationbarclose').on('click', function () {
-      $('.homeAppSideBar').removeClass('active');
-    });
-  }
+  //   $('.sidenavigationbarclose').on('click', function () {
+  //     $('.homeAppSideBar').removeClass('active');
+  //   });
+  // }
 
-  componentDidMount(){
-    this.jQueryCode();
-  }
+  // componentDidMount(){
+  //   this.jQueryCode();
+  // }
 
   render() {
     return (
       <div className="homeApp">
         {/* <Header /> */}
-        <div className="homeAppDashboard">
+        {/* <div className="homeAppDashboard">
           <MenuRoundedIcon sx={{ fontSize: 60 }} />
-        </div>
-        <div className="homeAppSideBar">
+        </div> */}
+        {/* <div className="homeAppSideBar">
           <SideNavigationBarApp />
-        </div>
+        </div> */}
         <div className="homeAppPage">
-          <Header />
-          <Body />
+          <Navbar />
+          <Bodyy />
           <Footer />
         </div>
       </div>
