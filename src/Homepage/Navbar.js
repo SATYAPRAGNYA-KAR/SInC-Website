@@ -4,7 +4,7 @@ import React from 'react'
 import './Navbar.css';
 import { Container, Form,NavDropdown, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-const Topbar = () => {
+const Navbar = () => {
   return (
     
     <>
@@ -42,4 +42,4 @@ const Topbar = () => {
   )
 }
 
-export default Topbar;
+export default Navbar;
