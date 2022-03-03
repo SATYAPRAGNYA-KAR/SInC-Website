@@ -7,6 +7,7 @@ import MentorsStartUpsYouFollowApp from "./Mentors_StartUpsYouFollow/Mentors_Sta
 import ChatApp from "./Chat_Feature/Chat_FeatureApp";
 import NotificationsApp from "./Notifications/NotificationsApp";
 import ContactUsApp from "./ContactUs/ContactUsApp";
+import Blog from "./Blog/BlogApp"
 import AngelNetworkInvestorApp from "./AngelNetworkInvestor/AngelNetworkInvestorApp";
 import AngelNetworkMentorApp from "./AngelNetworkMentor/AngelNetworkMentorApp";
 import AngelNetworkNmApp from "./AngelNetworkNm/AngelNetworkNmApp";
@@ -125,6 +126,9 @@ function App() {
           <Route path="/login" element={<LoginApp />} />
           <Route path="/team" element={<TeamApp />} />
           <Route path="/" element={<HomeApp />} />
+
+          <Route path="/blog" element={<Blog />} />
+
         </Routes>
       </div>
     </Router>
