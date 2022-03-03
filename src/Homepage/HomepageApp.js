@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./HomepageApp.css";
 // import Header from "./HomepageHeader";
-import Body from './Body';
-import Topbar from './Navbar';
+import Body from "./Body";
+import Topbar from "./Navbar";
 import Header from "./HomeHeader";
 // import Body from "./HomepageBody";
 import Footer from "./HomeFooter";
@@ -38,7 +38,7 @@ export default class HomeApp extends Component {
         </div> */}
         <div className="homeAppPage">
           <Topbar />
-          <Body/>
+          <Body />
           <Footer />
         </div>
       </div>
