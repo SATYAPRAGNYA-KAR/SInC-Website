@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./HomepageApp.css";
 // import Header from "./HomepageHeader";
 import Body from './Body';
-import Navbar from './Navbar';
+import Topbar from './Navbar';
 import Header from "./HomeHeader";
 // import Body from "./HomepageBody";
 import Footer from "./HomeFooter";
@@ -37,7 +37,7 @@ export default class HomeApp extends Component {
           <SideNavigationBarApp />
         </div> */}
         <div className="homeAppPage">
-          <Navbar />
+          <Topbar />
           <Body/>
           <Footer />
         </div>
