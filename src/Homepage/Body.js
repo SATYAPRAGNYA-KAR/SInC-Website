@@ -11,7 +11,7 @@ const Body = () => {
     <div className="homebody">
         
      <div >
-     {/* <br></br> */}
+     <br></br><br></br><br></br>
         <div className="homebody-tag1" style={{marginLeft:'auto',marginRight:'auto',width:'70%'}}>
             
           <h3 style={{color:'yellow',textAlign:'center'}}>Entrepreneurship Challenge</h3>
