@@ -1,4 +1,4 @@
-#collasible-nav-dropdown{
+ #collasible-nav-dropdown{
     color: white;
     font-size: 18px;
     margin-right: 25px;
@@ -68,6 +68,17 @@ color:white;
     #navLinkTeam{
            border-right : none;
     }
+    #navLink{
+        margin-bottom: 15px;
+        /* border-bottom: 1px solid #313131; */
+    }
+    #navLinkTeam{
+    margin-bottom: 15px;
+    /* border-bottom: 1px solid #313131; */
+ }
+ #collasible-nav-dropdown{
+    margin-bottom: 15px;
+}
 }
 
 @media screen and (max-width:635px) {
