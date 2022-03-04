@@ -5,6 +5,7 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 100%;
 }
 .homebody1 {
   display: flex;
@@ -187,6 +188,21 @@
   cursor: pointer;
   font-size: 1.5em;
 }
+
+@media screen and (max-width:1151px) {
+  .homebody__button2 > button {
+    font-size: 15px;
+    padding: 0px 5px;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .homebody__button2 > button {
+    font-size: 16px;
+    padding: 2px 15px;
+  }
+  }
+
 
 @media screen and (max-width:490px) {
   .homebody-tag3 {
