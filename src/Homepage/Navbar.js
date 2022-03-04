@@ -8,7 +8,7 @@ const Topbar = () => {
   return (
     
     <>
-       <Navbar expand="lg" style={{backgroundColor:'black'}}>
+       <Navbar fixed="top" expand="lg" style={{backgroundColor:'black'}}>
        <Container>
        <Link to="/">
           <div className="homeheaderimg">
