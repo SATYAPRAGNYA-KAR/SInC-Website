@@ -7,25 +7,46 @@ import photo from "./photo.jpg";
 
 function Content() {
   return (
+    
     <div className="teamcontent">
+       <br></br><br></br><br></br><br></br>
       <div className="teamcontentcoordinator">
         <div className="teamcontentcoordinator_desc">
-          <h1>Yaman Garg</h1>
+          {/* <h1>Yaman Garg</h1>
           <div className="teamcontentcoordinator_desc_position">
             Web Development Coordinator
-          </div>
-          <div className="teamcontentcoordinator_desc_profile">
+          </div> */}
+          {/* <div className="teamcontentcoordinator_desc_profile">
+            <img src={ig} alt="" style={{}} />
+            <img src={gh} alt="" style={{}} />
+            <img src={ln} alt="" style={{}} />
+          </div> */}
+        
+          <div className="container-fluid">
+            <div className="row">
+               <div className="col-md-6">
+                <h1>Nitesh Saini</h1>
+                {/* <hr></hr> */}
+                <center><h5>Web Development Coordinator</h5></center>
+                <div className="teamcontentcoordinator_desc_profile">
             <img src={ig} alt="" style={{}} />
             <img src={gh} alt="" style={{}} />
             <img src={ln} alt="" style={{}} />
           </div>
-        </div>
-        <div className="teamcontentcoordinator_pic">
-          <img
+                </div>
+                <div className="col-md-6">
+               <center> <img
             src={photo}
             alt=""
             style={{ border: "10px solid yellow", borderRadius: "50%"}}
           />
+          </center>
+                  </div>
+              </div>  
+          </div>
+        </div>
+        <div className="teamcontentcoordinator_pic">
+          
         </div>
       </div>
 
