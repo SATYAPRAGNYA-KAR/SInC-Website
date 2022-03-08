@@ -9,7 +9,7 @@ function Content() {
   return (
     
     <div className="teamcontent">
-       <br></br><br></br><br></br><br></br>
+       <br></br><br></br><br></br>
       <div className="teamcontentcoordinator">
         <div className="teamcontentcoordinator_desc">
           {/* <h1>Yaman Garg</h1>
