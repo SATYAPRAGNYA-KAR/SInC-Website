@@ -77,3 +77,9 @@
 .teamcontentcoordinator_desc_profile img {
   padding: 5px 20px;
 }
+
+@media screen and (max-width:376px) {
+  .teamcontentcoordinator {
+    padding: 0px;
+  }
+}
