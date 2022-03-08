@@ -2,12 +2,13 @@ import "./TeamApp.css";
 import Header from "./TeamHeader";
 import Footer from "./TeamFooter";
 import Content from "./TeamContent";
+import Topbar from "./Navbar";
 
 function TeamApp() {
   return (
     <div className="teamApp">
       <div className="teamApp_Header">
-        <Header />
+        <Topbar />
       </div>
       <div className="teamApp_Content">
         <Content />
