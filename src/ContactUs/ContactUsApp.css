@@ -22,10 +22,9 @@
 .contact-us-box {
   display: flex;
   flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .contact-us-heading {
@@ -99,7 +98,7 @@
 }
 
 .contactussocial-media > a > img {
-  padding: 0 18px 0 18px;
+  padding: 0 8px 0 8px;
 }
 
 .contactusright-box {
@@ -129,8 +128,11 @@
 }
 
 .contactussocialtree {
-  position: relative;
-  top: -38px;
+  width: 100%;
+  /* position: relative; */
+  /* top: -38px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contactus_footer {
