@@ -22,8 +22,10 @@
 .contact-us-box {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
   margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .contact-us-heading {
