@@ -12,7 +12,7 @@ function StartupInsightApp() {
       <div className="startupinsight_header">
         <Header />
       </div>
-      
+
       <img
         id="startupinsightblackborder"
         src={blackborder}

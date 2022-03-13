@@ -32,7 +32,8 @@ function Header() {
               <div>IITD Angel Network</div>
             </div>
           </div>
-          <span style={{ color: "white" }}>Team</span>
+          <span style={{ color: "white" }}>Team</span>{" "}
+          {/*Remove Team from the dropdown option */}
         </div>
         <div className="homeheader-right-right">
           <Link to="/contactus" style={{ textDecoration: "none" }}>
