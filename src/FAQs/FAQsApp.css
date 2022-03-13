@@ -59,10 +59,19 @@
   border-radius: calc(55 / 3983 * 100vh);
   display: flex;
   flex-direction: column;
-  margin-right: calc(-1400 / 3983 * 100vw);
-  margin-left: calc(220 / 3983 * 100vw);
+  /* margin-right: calc(-1400 / 3983 * 100vw);
+  margin-left: calc(220 / 3983 * 100vw); */
   margin-bottom: calc(125 / 2638 * 100vh);
 }
+
+#faqq{
+  margin-top:6rem;
+}
+
+#faq{
+  margin-top: 6rem;
+}
+
 .faqsheading {
   display: flex;
   justify-content: space-between;
@@ -73,7 +82,7 @@
   font-size: calc(48 / 3983 * 100vw);
 }
 .faqsicon__container1 {
-  width: calc(50 / 3983 * 100vw);
+  /* width: calc(50 / 3983 * 100vw); */
   height: calc(50 / 2638 * 100vh);
   cursor: pointer;
 }
@@ -91,4 +100,11 @@
 }
 .faqsapp__body::-webkit-scrollbar {
   display: none;
+}
+
+
+@media screen and (max-width: 766px) {
+  #faqq{
+    margin-top: 0px;
+  }
 }
