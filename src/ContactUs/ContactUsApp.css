@@ -8,7 +8,7 @@
 
 .contactusApp {
   width: 100vw;
-  height: 100vh;
+/*   height: 100vh; */
   box-sizing: border-box;
 
   background-image: url("./images/backgroundphone.png");
@@ -128,9 +128,8 @@
 }
 
 .contactussocialtree {
-  width: 100%;
-  /* position: relative; */
-  /* top: -38px; */
+height: 250px;
+    object-fit: cover;
   margin-left: auto;
   margin-right: auto;
 }
