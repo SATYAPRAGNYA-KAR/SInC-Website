@@ -14,6 +14,7 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow-y: scroll;
 }
 
 .iitdangelnetworkmain-heading {
@@ -36,7 +37,7 @@
 .iitdangelnetworkbox1,
 .iitdangelnetworkbox2 {
   width: 612px;
-  height: 330px;
+  height: 350px;
   background: linear-gradient(180deg, #35454a 0%, #263238 100%);
   border: 1px solid rgba(0, 0, 0, 1);
   border-radius: 15px;
@@ -141,10 +142,74 @@
   transform: rotate(180deg);
 }
 
-
 .iitdangelnetwork_footer {
   height: calc(289 / 2638 * 100vh);
   width: 100vw;
   background-color: #000000;
   display: flex;
+}
+@media only screen and (max-width: 780px){
+  .iitdangelnetworkbox1, .iitdangelnetworkbox2{
+    height: 500px;
+  }
+  .iitdangelnetworkbox1-image{
+    margin-top: 93px;
+  }
+  .iitdangelnetworkbox2-image{
+    margin-top: 93px;
+  }
+}
+@media only screen and (max-width: 720px){
+  .iitdangelnetworkinviting-our-alumni{
+    padding: 30px 30px 30px 30px;
+  }
+}
+@media only screen and (max-width: 608px){
+  .iitdangelnetworkopening-quotes{
+    right: 200px;
+  }
+  .iitdangelnetworkclosing-quotes{
+    left: 180px;
+  }
+}
+@media only screen and (max-width: 510px){
+  .iitdangelnetworkthe-line{
+    font-size: 1em;
+  }
+  .iitdangelnetworkopening-quotes{
+    right: 130px;
+    width: 50px;
+    height: 50px;
+    top: 35px;
+  }
+  .iitdangelnetworkclosing-quotes{
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    top: -35px;
+  }
+  .MuiSvgIcon-root{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 470px){
+  .iitdangelnetworkbox1, .iitdangelnetworkbox2{
+    width:280px ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .iitdangelnetworkbox-text-heading{
+    font-size: 1.3em;
+  }
+  .iitdangelnetworkbox-text-content{
+    font-size: 1.1em;
+  }
+  .iitdangelnetworkinviting-our-alumni{
+    font-size: 1.2em;
+  }
+  .iitdangelnetworkmain-heading{
+    font-size: 2em;
+  }
 }

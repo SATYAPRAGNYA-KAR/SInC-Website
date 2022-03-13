@@ -11,9 +11,9 @@ function IITDAngelNetworkApp() {
   return (
     <div className="iitdangelnetworkApp">
       <div className="iitdangelnetwork_header">
-        <Header/>
+        <Header />
       </div>
-      
+
       <div className="iitdangelnetworkmain-heading">IITD Angel Network</div>
       <div className="iitdangelnetworkboxes">
         <div className="iitdangelnetworkbox1">
@@ -74,7 +74,7 @@ function IITDAngelNetworkApp() {
         <ExpandMoreIcon />
       </Link>
       <div className="iitdangelnetwork_footer">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
