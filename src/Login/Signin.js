@@ -11,7 +11,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import swal from 'sweetalert';
 import './LoginApp.css';
 
-import Header from "./LoginHeader";
+import Header from "./Navbar";
 import Footer from "./LoginFooter";
 
 const useStyles = makeStyles((theme) => ({

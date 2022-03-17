@@ -4,6 +4,7 @@
   justify-content: space-between;
   background: linear-gradient(rgb(64, 64, 64), rgb(190, 190, 190));
   height: calc(1878 / 2638 * 100vh);
+  position: relative;
 }
 .registerpagebody-tag {
   display: flex;

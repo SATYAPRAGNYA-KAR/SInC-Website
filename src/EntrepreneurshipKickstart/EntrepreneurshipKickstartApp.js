@@ -9,7 +9,8 @@ import processcard from "./images/processcard.png";
 import amico from "./images/amico.png";
 import bulb from "./images/bulb.png";
 import dp from "./images/dp.png";
-import Header from "./EntrepreneurshipKickstartHeader";
+import Header from "./Navbar";
+import "./Navbar.css"
 import Footer from "./EntrepreneurshipKickstartFooter";
 import { Link } from "react-router-dom";
 // import section2img from "./images/section2.png";

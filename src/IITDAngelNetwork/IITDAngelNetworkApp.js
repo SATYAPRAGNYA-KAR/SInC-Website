@@ -2,7 +2,7 @@ import "./IITDAngelNetworkApp.css";
 import businessDeal from "./businessDeal.png";
 import rocket from "./rocket.png";
 import invertedCommas from "./invertedCommas.png";
-import Header from "./IITDAngelNetworkHeader";
+import Header from "./Navbar";
 import Footer from "./IITDAngelNetworkFooter";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link } from "react-router-dom";
