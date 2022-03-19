@@ -7,7 +7,7 @@ import MentorsStartUpsYouFollowApp from "./Mentors_StartUpsYouFollow/Mentors_Sta
 import ChatApp from "./Chat_Feature/Chat_FeatureApp";
 import NotificationsApp from "./Notifications/NotificationsApp";
 import ContactUsApp from "./ContactUs/ContactUsApp";
-import Blog from "./Blog/BlogApp"
+import Blog from "./Blog/BlogApp";
 import AngelNetworkInvestorApp from "./AngelNetworkInvestor/AngelNetworkInvestorApp";
 import AngelNetworkMentorApp from "./AngelNetworkMentor/AngelNetworkMentorApp";
 import AngelNetworkNmApp from "./AngelNetworkNm/AngelNetworkNmApp";
@@ -41,6 +41,8 @@ import StartupInsightApp from "./StartupInsight/StartupInsightApp";
 import EntrepreneurshipKickstartApp from "./EntrepreneurshipKickstart/EntrepreneurshipKickstartApp";
 import LoginApp from "./Login/LoginApp";
 import TeamApp from "./Team/TeamApp";
+
+import Dashboard from "./Dashboard/Dashboard";
 
 // import { useState, useEffect } from "react";
 // import axios from "./axios";
@@ -129,6 +131,7 @@ function App() {
 
           <Route path="/blog" element={<Blog />} />
 
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>
