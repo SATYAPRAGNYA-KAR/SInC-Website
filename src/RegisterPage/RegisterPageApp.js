@@ -1,5 +1,5 @@
 import "./RegisterPageApp.css";
-import Header from "./RegisterHeader";
+import Header from "./Navbar";
 import Body from "./RegisterPageBody";
 import Footer from "./RegisterFooter";
 

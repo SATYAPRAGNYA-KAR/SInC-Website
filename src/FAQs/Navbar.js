@@ -22,7 +22,7 @@ const Topbar = () => {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toggelButton"/>
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav style={{marginLeft:'auto'}} >
-      <Link id="navLink"  style={{color:'yellow'}} to='/'>Home</Link>
+      <Link id="navLink"  style={{color:'white'}} to='/'>Home</Link>
       <NavDropdown id="navLink" title="Initiatives" id="collasible-nav-dropdown">
         <Link style={{marginBottom: '10px', color:'black', textDecoration:'none',}} to='/entrepreneurshipkickstart'>Entrepreneurship<br></br>Kickstart<br></br><br></br></Link>
         <Link style={{marginBottom: '10px', color:'black', textDecoration:'none',}} to='/iitdangelnetwork'>IITD Angel <br></br> Network <br></br><br></br></Link>
@@ -31,7 +31,7 @@ const Topbar = () => {
       <Link id="navLink" to="/startupinsight">Startup Insight</Link>
       <Link id="navLinkTeam"  to="/team">Team</Link>
       <Link id="navLink" to="/contactus" >Contact Us</Link>
-      <Link id="navLink" to="/faqs">FAQ's</Link>
+              <Link id="navLink" style={{ color: 'yellow' }} to="/faqs">FAQ's</Link>
       <Link id="navLink" to="/registerpage">Register</Link>
       <Link id="navLink" to="/login">Login</Link>
     </Nav>

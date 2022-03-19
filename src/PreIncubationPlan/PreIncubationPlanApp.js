@@ -2,7 +2,8 @@ import "./PreIncubationPlanApp.css";
 import businessDeal from "./businessDeal.png";
 import rocket from "./rocket.png";
 import invertedCommas from "./invertedCommas.png";
-import Header from "./PreIncubationPlanHeader";
+import Header from "./Navbar";
+import "./Navbar.css"
 import Footer from "./PreIncubationPlanFooter";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link } from "react-router-dom";

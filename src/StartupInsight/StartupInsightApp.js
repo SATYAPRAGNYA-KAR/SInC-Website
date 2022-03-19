@@ -1,7 +1,7 @@
 import "./StartupInsightApp.css";
 import blackborder from "./Images/blackborder.png";
 import symbol from "./Images/symbol.png";
-import Header from "./StartupInsightHeader";
+import Header from "./Navbar";
 import Footer from "./StartupInsightFooter";
 // import Footer from './Footer';
 import { Link } from "react-router-dom";
