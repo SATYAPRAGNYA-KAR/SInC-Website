@@ -77,55 +77,140 @@ export default function Signin() {
   return (
     <div className="loginapp">
     <Header />
-    <Grid container className="loginbody">
-        
-      <CssBaseline />
+    <div container className="loginbody">
+        <div className='loginbody__box'>
+      {/* <CssBaseline /> */}
       {/* <Header/> */}
       {/* <Grid item xs={false} md={7} className={classes.image} /> */}
-      <Grid item xs={12} md={5} component={Paper} elevation={6} square>
-        <div className={classes.paper}>
-          <Avatar className={classes.avatar}>
+      {/* <Grid item xs={12} md={5} component={Paper} elevation={6} square> */}
+        {/* <div className={classes.paper}> */}
+          {/* <Avatar className={classes.avatar}>
             <LockOutlinedIcon />
-          </Avatar>
-          <Typography component="h1" variant="h5">
+          </Avatar> */}
+          {/* <Typography component="h1" variant="h5">
             Sign in
-          </Typography>
-          <form className={classes.form} noValidate onSubmit={handleSubmit}>
-            <TextField
-              variant="outlined"
-              margin="normal"
-              required
-              fullWidth
-              id="email"
-              name="email"
-              label="Email Address"
-              onChange={e => setUserName(e.target.value)}
-            />
-            <TextField
-              variant="outlined"
-              margin="normal"
-              required
-              fullWidth
-              id="password"
-              name="password"
-              label="Password"
-              type="password"
-              onChange={e => setPassword(e.target.value)}
-            />
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-              Sign In
-            </Button>
-          </form>
-        </div>
-      </Grid>
-      
-    </Grid>
+          </Typography> */}
+          <div className="loginbody__box__title">Login</div>
+          <div className="loginbody__box__content">
+            {/* <form className={classes.form} noValidate onSubmit={handleSubmit}> */}
+            <form className="loginbody__box__content__form" noValidate onSubmit={handleSubmit}>
+              <label
+                className="loginbody__box__content__form__label1"
+                for="username"
+              >
+                E-Mail:
+              </label>
+              <input 
+                className="loginbody__box__content__input__username"
+                placeholder="abc@123"
+                style={{
+                  width: "15vw",
+                  height: "3.5vh",
+                  marginLeft: "3.1vw",
+                  marginBottom: "2vh",
+                }}
+                // variant="outlined"
+                // margin="normal"
+                // required
+                // fullWidth
+                id="email"
+                name="email"
+                label="Email Address"
+                onChange={e => setUserName(e.target.value)}
+              />
+              {/* <TextField
+                variant="outlined"
+                margin="normal"
+                required
+                fullWidth
+                id="email"
+                name="email"
+                label="Email Address"
+                onChange={e => setUserName(e.target.value)}
+              /> */}
+              <br />
+              <label
+                className="loginbody__box__content__form__label2"
+                for="password"
+              >
+                Password:
+              </label>
+              {/* <TextField
+                variant="outlined"
+                margin="normal"
+                required
+                fullWidth
+                id="password"
+                name="password"
+                label="Password"
+                type="password"
+                onChange={e => setPassword(e.target.value)}
+              /> */}
+              <input
+                className="loginbody__box__content__input__password"
+                placeholder="******"
+                style={{ width: "15vw", height: "3.5vh", marginLeft: "1vw" }}
+                // variant="outlined"
+                // margin="normal"
+                // required
+                // fullWidth
+                id="password"
+                name="password"
+                label="Password"
+                type="password"
+                onChange={e => setPassword(e.target.value)}
+              />
+              <div className="loginbody__box__bottom">
+                <div className="loginbody__box__bottom__left">
+                  <input
+                    type="checkbox"
+                    className="loginbody__box__bottom__left__checkbox"
+                    name="remember"
+                    value="remember"
+                  />
+                  <label
+                    className="loginbody__box__bottom__left__checkbox__label"
+                    for="remember"
+                  >
+                    Remember Me
+                  </label>
+                  <br />
+                  <a
+                    href="#0"
+                    className="loginbody__box__bottom__left__forget"
+                    style={{ color: "white", textDecoration: "none" }}
+                  >
+                    <i>Forgot Password?</i>
+                  </a>
+                </div>
+                <div className="loginbody__box__bottom__right">
+                  <button
+                    type="submit"
+                    // fullWidth
+                    // variant="contained"
+                    // color="primary"
+                    // className={classes.submit}
+                    className="loginbody__box__bottom__right__button" 
+                    style = {{
+                      backgroundColor: "rgb(49, 154, 150)",
+                      color: "#ffffff",
+                      borderRadius: "2vh",
+                      cursor: "pointer",
+                      fontSize: "1.5em",
+                      padding: "2vh 2vw 2vh 2vw"
+                    }}
+                  >
+                    Login
+                  </button>
+                </div>
+              </div>
+            </form>
+            </div>
+
+        {/* </div> */}
+      {/* </Grid> */}
+      </div>
+    </div>
     <Footer/>
     </div>
   );
