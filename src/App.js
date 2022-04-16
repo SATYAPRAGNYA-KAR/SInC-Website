@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeApp from "./Homepage/HomepageApp";
-import Hbody from "./Homepage/Hbody";
+// import Hbody from "./Homepage/Hbody";
 import Hbody2 from "./Homepage/Hbody2";
 import MentorsStartUpsYouFollowApp from "./Mentors_StartUpsYouFollow/Mentors_StartUpsYouFollowApp";
 import ChatApp from "./Chat_Feature/Chat_FeatureApp";
