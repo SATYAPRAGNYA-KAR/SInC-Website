@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); 
 
 .bg-img{
   background-image: url('./Images/IITDelhi.jpg');
@@ -32,8 +32,31 @@
   
   position: absolute;
   top: 77%;
-  left: 47%;
+  left: 46%;
   color: #fff;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+.btn-explore{
+  background-color: rgb(255, 255, 0);
+    font-size: 20px;
+}
+
+.aboutus{
+  font-size: 4rem;
+    color: black;
+    border-bottom: 4px solid #241c15;
+    width: max-content
+}
+
+.aboutus-h5{
+  font-size: 1.8rem;
+    line-height: 3.3rem;
+    margin-left: 40px;
+    margin-right: 40px
 }
 
 .brasil {
