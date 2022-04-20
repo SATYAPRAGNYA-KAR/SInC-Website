@@ -136,8 +136,38 @@ height: 250px;
 
 .contactus_footer {
   margin-top: 0px;
-  height: calc(289 / 2638 * 100vh);
+  height: 20px;
   width: 100vw;
   background-color: #000000;
   display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  
+  .contactusApp{
+    background: none;
+    margin-top: -40px;
+
+    /* padding: 0 10px; */
+  }
+
+  .contactussocial-media {
+    position: absolute;
+    right: 13px;
+    top: 490px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #00848c; */
+    align-items: center;
+    /* justify-items: center; */
+
+  }
+  .contactussocial-media > a > img {
+    padding: 10px 4px 0 4px;
+  }
+
+  .contact-us-box {
+    margin-bottom: 10px;
+  }
+  
 }
