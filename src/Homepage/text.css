@@ -46,17 +46,24 @@
 }
 
 .aboutus{
-  font-size: 4rem;
+  font-size: 3.0rem;
     color: black;
-    border-bottom: 4px solid #241c15;
-    width: max-content
+     
 }
 
 .aboutus-h5{
-  font-size: 1.8rem;
-    line-height: 3.3rem;
+  font-size: 1.7rem;
+    line-height: 2.8rem;
     margin-left: 40px;
     margin-right: 40px
+}
+
+.bg-contact{
+  background-image: url('./Images/nasa-1lfI7wkGWZ4-unsplash.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  height: 70vh;
+  width: 100%;
 }
 
 .brasil {
