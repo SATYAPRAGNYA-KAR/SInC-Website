@@ -52,7 +52,8 @@ const Hbody2 = () => {
                    <div className='col-md-6' style={{marginBottom:'auto',marginTop:'auto'}}>
                    <textarea class="form-control" style={{background:'transparent'}} id="exampleFormControlTextarea1" rows="6" placeholder='Message'></textarea>
                      </div>
-                <button class="btn btn-primary btn-block mt-2" >Send Message</button>
+                <button class="btn btn-primary btn-block mt-2" style={{background: 'transparent',
+    border: '1px solid #514b4b'}} >Send Message</button>
                </div>
            </div>
   
