@@ -160,7 +160,7 @@ function FAQsApp() {
                 <h3>Q: What is the Startup Incubation Cell?
 </h3>
                 <div className="faqsicon__container1">
-                  <ExpandLessIcon />
+                  <ExpandMoreIcon />
                 </div>
               </div>
               <div className="faqsbody">
@@ -178,7 +178,7 @@ function FAQsApp() {
               </div>
             <div className="faqsbody">
                 <p>
-                  A: The Student Incubation Cell is essentially a pre-incubation program for students of IIT Delhi. As a part of this, all students with executable ideas will be provided funds, incubation spaces & mentorship to develop their ideas into startups over a course of 5-6 months.
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
                 </p>
               </div>
             </div>
@@ -189,13 +189,10 @@ function FAQsApp() {
                   <ExpandMoreIcon />
                 </div>
               </div>
-            </div>
-            <div className="faqstext__container">
-              <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
-                <div className="faqsicon__container1">
-                  <ExpandMoreIcon />
-                </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
               </div>
             </div>
             <div className="faqstext__container">
@@ -205,13 +202,10 @@ function FAQsApp() {
                   <ExpandMoreIcon />
                 </div>
               </div>
-            </div>
-            <div className="faqstext__container">
-              <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
-                <div className="faqsicon__container1">
-                  <ExpandMoreIcon />
-                </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
               </div>
             </div>
             <div className="faqstext__container">
@@ -221,13 +215,10 @@ function FAQsApp() {
                   <ExpandMoreIcon />
                 </div>
               </div>
-            </div>
-            <div className="faqstext__container">
-              <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
-                <div className="faqsicon__container1">
-                  <ExpandMoreIcon />
-                </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
               </div>
             </div>
             <div className="faqstext__container">
@@ -237,13 +228,10 @@ function FAQsApp() {
                   <ExpandMoreIcon />
                 </div>
               </div>
-            </div>
-            <div className="faqstext__container">
-              <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
-                <div className="faqsicon__container1">
-                  <ExpandMoreIcon />
-                </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
               </div>
             </div>
             <div className="faqstext__container">
@@ -252,6 +240,63 @@ function FAQsApp() {
                 <div className="faqsicon__container1">
                   <ExpandMoreIcon />
                 </div>
+              </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
+              </div>
+            </div>
+            <div className="faqstext__container">
+              <div className="faqsheading">
+                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <div className="faqsicon__container1">
+                  <ExpandMoreIcon />
+                </div>
+              </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
+              </div>
+            </div>
+            <div className="faqstext__container">
+              <div className="faqsheading">
+                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <div className="faqsicon__container1">
+                  <ExpandMoreIcon />
+                </div>
+              </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
+              </div>
+            </div>
+            <div className="faqstext__container">
+              <div className="faqsheading">
+                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <div className="faqsicon__container1">
+                  <ExpandMoreIcon />
+                </div>
+              </div>
+                <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
+              </div>
+            </div>
+            <div className="faqstext__container">
+              <div className="faqsheading">
+                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <div className="faqsicon__container1">
+                  <ExpandMoreIcon />
+                </div>
+              </div>
+                  <div className="faqsbody">
+                <p>
+                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                </p>
               </div>
             
             </div>
