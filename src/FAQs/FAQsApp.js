@@ -192,7 +192,7 @@ function FAQsApp() {
               </div>
                 <div className="faqsbody">
                 <p>
-                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                A: Any new business that applies an innovative solution. The solution can be either technological or a unique business model.
                 </p>
               </div>
             </div>
@@ -205,7 +205,7 @@ function FAQsApp() {
               </div>
                 <div className="faqsbody">
                 <p>
-                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                A: An idea, investment, and time are all that are required to launch a startup. As a startup, you'll need to work on several fronts at once in order to get investment or be able to bootstrap your startup.
                 </p>
               </div>
             </div>
@@ -218,7 +218,7 @@ function FAQsApp() {
               </div>
                 <div className="faqsbody">
                 <p>
-                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                 A: Preparation, an effective business plan, and the ability to place yourself in a market that promises long-term exponential development are some of the characteristics of successful startup companies.
                 </p>
               </div>
             </div>
@@ -231,7 +231,8 @@ function FAQsApp() {
               </div>
                 <div className="faqsbody">
                 <p>
-                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                A: It all relies on your business concept and desired scale. 
+The initial funding will go towards product development, team members, and technology. As you grow, you'll need to budget for location, research, and marketing. Before you begin looking for investors, you'll need to conduct research, create a business plan, and construct a prototype of your product.
                 </p>
               </div>
             </div>
@@ -244,7 +245,7 @@ function FAQsApp() {
               </div>
                 <div className="faqsbody">
                 <p>
-                 A: We provide a platform for startups to glow. We aim to provide all the necessary requirements for you to start a start-up. It is a platform, to promote design thinking, planful ideations & support budding entrepreneurs at IIT Delhi to become established, successful and independent entrepreneurs.
+                  A: When it comes to what you need to know, basic business principles apply. From a business-centric viewpoint, you will need to know your target audience, conduct market research, find investors, register and pick a location (you can also choose to be location independent), and develop a product that stands out from the market.
                 </p>
               </div>
             </div>
