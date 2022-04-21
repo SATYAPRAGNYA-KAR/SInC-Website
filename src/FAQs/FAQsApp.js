@@ -157,15 +157,15 @@ function FAQsApp() {
             <h2  id="faqq" style={{textAlign:'center'}}>FAQs</h2>
             <div className="faqstext__container">
               <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <h3>Q: What is the Startup Incubation Cell?
+</h3>
                 <div className="faqsicon__container1">
                   <ExpandLessIcon />
                 </div>
               </div>
               <div className="faqsbody">
                 <p>
-                  We provide a platform for startups to glow. We aim to provide
-                  all necessary requirements for you to start a start up.
+                  A: The Student Incubation Cell is essentially a pre-incubation program for students of IIT Delhi. As a part of this, all students with executable ideas will be provided funds, incubation spaces & mentorship to develop their ideas into startups over a course of 5-6 months.
                 </p>
               </div>
             </div>
