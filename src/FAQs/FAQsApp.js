@@ -184,7 +184,8 @@ function FAQsApp() {
             </div>
             <div className="faqstext__container">
               <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <h3>Q: What is a Startup?
+</h3>
                 <div className="faqsicon__container1">
                   <ExpandMoreIcon />
                 </div>
@@ -197,7 +198,7 @@ function FAQsApp() {
             </div>
             <div className="faqstext__container">
               <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <h3>Q: How do you start a startup?</h3>
                 <div className="faqsicon__container1">
                   <ExpandMoreIcon />
                 </div>
@@ -210,7 +211,7 @@ function FAQsApp() {
             </div>
             <div className="faqstext__container">
               <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <h3>Q: Why do Startups succeed?</h3>
                 <div className="faqsicon__container1">
                   <ExpandMoreIcon />
                 </div>
@@ -223,7 +224,7 @@ function FAQsApp() {
             </div>
             <div className="faqstext__container">
               <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <h3>Q: What are the costs of a Startup?</h3>
                 <div className="faqsicon__container1">
                   <ExpandMoreIcon />
                 </div>
@@ -236,7 +237,7 @@ function FAQsApp() {
             </div>
             <div className="faqstext__container">
               <div className="faqsheading">
-                <h3>Q. What is the purpose of SInC IITD?</h3>
+                <h3>Q: What do startups need to know?</h3>
                 <div className="faqsicon__container1">
                   <ExpandMoreIcon />
                 </div>
