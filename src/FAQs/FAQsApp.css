@@ -88,6 +88,19 @@
 }
 .faqsicon__container1 > .MuiSvgIcon-root {
   border-radius: 50%;
+}@media screen and (max-width: 766px) {
+  #faqq{
+    margin-top: 0px;
+  }
+  .faqsheading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: calc(48 / 3983 * 100vw);
+  }
+  .faqsbody {
+    font-size: calc(148 / 3983 * 100vw);
+  }
 }
 .faqsapp__footer {
   height: calc(289 / 2638 * 100vh);
@@ -102,9 +115,63 @@
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  #faqq{
+    margin-top: 80px;
+  }
+  .faqsheading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: calc(48 / 3983 * 100vw);
+  }
+  .faqsbody {
+    font-size: 20px;
+  }
+}
 
 @media screen and (max-width: 766px) {
   #faqq{
     margin-top: 0px;
+  }
+  .faqsapp__bodyLeftTop {
+    font-size: calc(170 / 3983 * 100vw);
+  }
+  
+  .faqsapp__bodyLeftBottom {
+    font-size: calc(120 / 3983 * 100vw);
+    margin-top: calc(70 / 2638 * 100vh);
+  }
+  .faqsheading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: calc(48 / 3983 * 100vw);
+  }
+  .faqsbody {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #faqq{
+    margin-top: 0px;
+  }
+  .faqsapp__bodyLeftTop {
+    font-size: calc(196 / 3983 * 100vw);
+  }
+  
+  .faqsapp__bodyLeftBottom {
+    font-size: calc(164 / 3983 * 100vw);
+    margin-top: calc(70 / 2638 * 100vh);
+  }
+  .faqsheading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: calc(48 / 3983 * 100vw);
+  }
+  .faqsbody {
+    font-size: calc(148 / 3983 * 100vw);
   }
 }
