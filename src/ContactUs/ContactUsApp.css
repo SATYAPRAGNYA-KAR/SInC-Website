@@ -147,8 +147,18 @@ height: 250px;
   .contactusApp{
     background: none;
     margin-top: -40px;
-
     /* padding: 0 10px; */
+  }
+
+  .contact-us-heading {
+    align-self: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .contact-us-box{
+    padding: 7vw 5vw;
   }
 
   .contactussocial-media {
@@ -168,6 +178,9 @@ height: 250px;
 
   .contact-us-box {
     margin-bottom: 10px;
+  }
+  .contactusright-box {
+    width: 80%;
   }
   
 }
