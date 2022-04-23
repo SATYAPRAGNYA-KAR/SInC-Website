@@ -8,7 +8,7 @@ const Hbody2 = () => {
       <Topbar/>
       <div class="brasil" data-text="Student Incubation Cell">Student Incubation Cell</div> 
       <center><h1 className='head'>IIT DELHI</h1></center>
-      <h1 className='head2'><i>“ CREATING JOB CREATORS ”</i></h1>
+      <h1 className='head2'>“ CREATING JOB CREATORS ”</h1>
       <h1 className='head3'><a className='btn btn-explore'><b>What We Do?</b></a></h1>
       <div className='container-fluid bg-img p-0'>
       <div className='container-fluid nopadding' style={{height: "100%",

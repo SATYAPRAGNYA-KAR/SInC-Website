@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); 
 
 .bg-img{
   background-image: url('./Images/IITDelhi.jpg');
@@ -15,24 +15,33 @@
 
 .head{
   font-size: 5rem;
+  /* font-size: 6vw; */
     position: absolute;
-    top: 45%;
+    /* top: 45%; */
+    margin-top:300px;
     left: 40%;
     color: #ffff00;
 }
+
 .head2{
   font-size: 2.5rem;
   position: absolute;
-  top: 63%;
-  left: 35%;
+  font-style: italic;
+  /* top: 63%; */
+  margin-top:420px;
+  /* left: 35%; */
+  width: 100%;
+  text-align:center;
   color: #fff;
 }
 .head3{
   /* font-size: 1.rem; */
-  
   position: absolute;
-  top: 77%;
-  left: 46%;
+  /* top: 77%; */
+  /* left: 46%; */
+  width:100%;
+  margin-top: 520px;
+  text-align: center;
   color: #fff;
 }
 
@@ -49,6 +58,7 @@
   font-size: 4rem;
     color: black;
     border-bottom: 4px solid #241c15;
+    margin-left:40px;
     width: max-content
 }
 
@@ -56,7 +66,7 @@
   font-size: 1.8rem;
     line-height: 3.3rem;
     margin-left: 40px;
-    margin-right: 40px
+    margin-right: 40px;
 }
 
 .brasil {
@@ -65,11 +75,13 @@
    color: #ffff00;
   text-align: center;
   font-size: 5.5rem;
-  max-width: 1200px;
+  width:100vw;
+  /* max-width: 1200px; */
   margin: 0 auto;
   position: absolute;
-    top: 27%;
-    left: 20%;
+    /* top: 27%; */
+    /* left: 20%; */
+    margin-top:170px;
     z-index: 7;
     font-family: 'Montserrat', sans-serif;
 }
@@ -89,6 +101,73 @@
   text-shadow: -1px 0 red;
   background: rgba(0, 0, 0, 0);
   animation: brasil-anim-2 1s infinite linear alternate-reverse;
+}
+
+@media (max-width:1100px){
+  .head{
+    font-size: 6vw;
+    margin-top:300px;
+  }
+
+  /* .bg-img{
+    height: 650px;
+  } */
+
+  .brasil{
+    font-size: 8vw;
+    /* top:20%; */
+    /* margin-top:100px; */
+  }
+
+  .head2{
+    font-size: 5vw;
+    /* top:20%; */
+    margin-top: 400px;
+  }
+
+  .head3{
+    margin-top:490px;
+  }
+
+}
+
+@media (max-width:700px){
+  .head{
+    font-size: 6vw;
+    margin-top:310px;
+  }
+
+  .brasil{
+    font-size: 8vw;
+    /* top:20%; */
+    /* margin-top:100px; */
+    margin-top: 230px;
+  }
+
+  /* .bg-img{
+    height: 550px;
+  } */
+
+  .head2{
+    font-size: 5vw;
+    /* top:20%; */
+    margin-top:380px;
+  }
+
+  .head3{
+    margin-top:460px;
+  }
+
+  .about{
+    margin-left:1rem;
+  }
+
+  .aboutus-h5{
+    font-size:4vw;
+    line-height:2rem;
+    margin-left:1rem;
+    margin-right:1rem;
+  }
 }
 
 /*   */
