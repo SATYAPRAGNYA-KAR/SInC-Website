@@ -34,3 +34,8 @@
 .homefootericon__container :hover {
   background: rgba(171, 171, 171, 0.3);
 }
+
+@media screen and (max-width: 500px) {
+  .homefooter {
+  }
+}
