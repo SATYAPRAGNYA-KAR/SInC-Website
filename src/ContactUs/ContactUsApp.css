@@ -177,10 +177,17 @@ height: 250px;
   }
 
   .contact-us-box {
-    margin-bottom: 10px;
+    margin-bottom: 80px;
   }
   .contactusright-box {
     width: 80%;
+  }
+
+  .contactus_footer {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    
   }
   
 }

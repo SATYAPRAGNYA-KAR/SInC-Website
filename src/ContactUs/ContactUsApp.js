@@ -5,7 +5,7 @@
 import "./ContactUsApp.css";
 import Form from "./components/ContactUsForm";
 import Header from "./ContactUsHeader";
-import Footer from "./ContactUsFooter";
+import Footer from "../Login/LoginFooter";
 import Topbar from './Navbar';
 // import bphone from "./images/backgroundphone.png";
 import facebook from "./images/facebook.png";

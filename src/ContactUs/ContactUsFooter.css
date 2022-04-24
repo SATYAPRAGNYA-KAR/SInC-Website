@@ -35,7 +35,38 @@
   background: rgba(171, 171, 171, 0.3);
 }
 
+
 @media screen and (max-width: 500px) {
   .homefooter {
+    width: 100vw;
+    height: calc(190 / 2638 * 100vh);
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
   }
+  .homefooter__left {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-self: center;
+  }
+  .homefooter__left > h2 {
+    font-size: calc(150 / 3963 * 100vw);
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  .homefootericon__container {
+    /* padding: calc(10 / 3963 * 100vw); */
+    /* margin-right: calc(90 / 3963 * 100vw); */
+    justify-content: center;
+    /* height: 100%; */
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+  }
+  .homefootericon__container > .MuiSvgIcon-root {
+    /* height: calc(250 / 2167 * 100vh); */
+    width: calc(220 / 3963 * 100vw);
+  }
+  
 }

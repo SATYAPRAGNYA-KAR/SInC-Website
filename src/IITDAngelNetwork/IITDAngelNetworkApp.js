@@ -3,7 +3,7 @@ import businessDeal from "./businessDeal.png";
 import rocket from "./rocket.png";
 import invertedCommas from "./invertedCommas.png";
 import Header from "./Navbar";
-import Footer from "./IITDAngelNetworkFooter";
+import Footer from "../Login/LoginFooter";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link } from "react-router-dom";
 

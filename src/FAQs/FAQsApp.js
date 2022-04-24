@@ -2,7 +2,7 @@ import React from "react";
 import "./FAQsApp.css";
 // import Header from "./FAQsHeader";
 import Topbar from "./Navbar";
-import Footer from "./FAQsFooter";
+import Footer from "../Login/LoginFooter";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
