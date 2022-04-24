@@ -3,7 +3,7 @@ import Topbar from './Navbar'
 import './text.css'
 import { Link } from 'react-router-dom'
 import { Form,Button } from 'react-bootstrap'
-import Footer from './HomeFooter'
+import Footer from '../Login/LoginFooter'
 
 const Hbody2 = () => {
   return (

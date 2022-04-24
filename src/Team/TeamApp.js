@@ -1,6 +1,6 @@
 import "./TeamApp.css";
 import Header from "./TeamHeader";
-import Footer from "./TeamFooter";
+import Footer from "../Login/LoginFooter";
 import Content from "./TeamContent";
 import Topbar from "./Navbar";
 

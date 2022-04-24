@@ -1,5 +1,5 @@
 .startupinsightheader {
-  width: 100vw;
+  width: 100%;
   height: calc(471 / 2638 * 100vh);
   display: flex;
   justify-content: space-between;
