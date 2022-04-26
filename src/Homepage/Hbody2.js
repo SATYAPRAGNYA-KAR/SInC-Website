@@ -12,7 +12,7 @@ const Hbody2 = () => {
       <div class="brasil" data-text="Student Incubation Cell">Student Incubation Cell</div> 
       <center><h1 className='head'>IIT DELHI</h1></center>
       <h1 className='head2'>“ CREATING JOB CREATORS ”</h1>
-      <h1 className='head3'><a className='btn btn-explore'><b>What We Do?</b></a></h1>
+      <h1 className='head3'><a className='btn btn-explore' href="#whatwedo"><b>What We Do?</b></a></h1>
       <div className='container-fluid bg-img p-0'>
       <div className='container-fluid nopadding' style={{height: "100%",
    width: "100%",
@@ -20,7 +20,7 @@ const Hbody2 = () => {
        </div>
 
       </div>
-      <div className='container-fluid'>
+      <div className='container-fluid' id="whatwedo">
       {/* <div class="vl"></div> */}
          <center><h1 className='mt-5 mb-4 aboutus'>WHAT IS SInC ?</h1></center>
          <div className='container'>
