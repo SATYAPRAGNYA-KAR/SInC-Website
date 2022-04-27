@@ -41,7 +41,7 @@ function Header() {
                 Entrepreneurship Kickstart
               </div>
             </Link>
-            <Link to="/PreIncubationPlan" style={{ textDecoration: "none" }}>
+            <Link to="/iitdangelnetwork" style={{ textDecoration: "none" }}>
               <div className="homeheader__dropdownboxes">
                 IITD Angel Network
               </div>

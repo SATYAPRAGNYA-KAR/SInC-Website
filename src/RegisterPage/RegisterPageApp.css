@@ -1,11 +1,4 @@
 .registerpageApp {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-}
-
-.registerpage_footer {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
 }
