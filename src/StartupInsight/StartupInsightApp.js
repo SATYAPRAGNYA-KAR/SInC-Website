@@ -9,10 +9,10 @@ import { Link } from "react-router-dom";
 function StartupInsightApp() {
   return (
     <div className="startupinsightApp">
-      <div className="startupinsight_header">
-        <Header />
-      </div>
-
+      {/* <div className="startupinsight_header">
+        
+      </div> */}
+      <Header />
       <img
         id="startupinsightblackborder"
         src={blackborder}
