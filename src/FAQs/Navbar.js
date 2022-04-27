@@ -29,7 +29,7 @@ const Topbar = () => {
         <Link  style={{marginBottom: '10px', color:'black', textDecoration:'none',}} to='/preincubationplan'>Pre PreIncubation <br></br> Plan<br></br></Link>
       </NavDropdown>
       <Link id="navLink" to="/startupinsight">Startup Insight</Link>
-      <Link id="navLinkTeam"  to="/team">Team</Link>
+      <Link id="navLink"  to="/team">Team</Link>
       <Link id="navLink" to="/contactus" >Contact Us</Link>
               <Link id="navLink" style={{ color: 'yellow' }} to="/faqs">FAQ's</Link>
       <Link id="navLink" to="/registerpage">Register</Link>
