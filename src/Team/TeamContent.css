@@ -78,6 +78,19 @@
   padding: 5px 20px;
 }
 
+@media screen and (max-width:450px) {
+  /* .teamcontentcoordinator {
+    padding: 0px;
+  } */
+  .teamcontenttechnical_infocard {
+    width: 70vw; 
+  }
+
+  .teamcontentcoordinator {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width:376px) {
   .teamcontentcoordinator {
     padding: 0px;

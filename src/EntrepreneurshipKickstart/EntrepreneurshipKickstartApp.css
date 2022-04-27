@@ -472,3 +472,22 @@
   top: 95px;
   right: 320px;
 }
+
+@media screen and (max-width: 500px) {
+  .entrepreneurshipkickstartApp{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+  .entrepreneurshipkickstart_header {
+    width: 100vw;
+    height: auto;
+  }
+  .entrepreneurshipkickstart_footer {
+    height: auto;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+  }
+
+}

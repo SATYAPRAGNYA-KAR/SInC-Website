@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  overflow: hidden;
 }
 .loginbody {
   display: flex;
@@ -109,4 +110,165 @@
   .loginbody__box__content__input__username::-webkit-input-placeholder {
     font-size: 12px;
   }
+}
+
+
+@media screen and (max-width: 500px) {
+  .loginapp {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  /* .loginbody {
+    display: flex;
+    flex: calc(1878 / 2638 * 100vh);
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Login\ Page\ Background\ Image.jpg");
+    background-size: 100% 100%;
+  } */
+  .loginbody__box {
+    width: 90vw;
+  }
+  
+  .loginbody__box__title {
+    flex: 0.25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: yellow;
+    margin-bottom: 80px;
+  }
+  .loginbody__box__content {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+  }
+  .loginbody__box__content__form__label1 {
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  .loginbody__box__content__form__label2 {
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  .loginbody__box__bottom {
+    margin-top: -10px;
+    flex: 0.25;
+    display: flex;
+    /* width: 200%; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    /* position: relative; */
+    /* margin: 0 -30px; */
+    /* bottom: -180px; */
+  }
+  .loginbody__box__content__input__username::-webkit-input-placeholder {
+    font-style: italic;
+  }
+  .loginbody__box__bottom__left__checkbox {
+    margin-right: 0.5vw;
+    margin-bottom: 15vh;
+  }
+  .loginbody__box__bottom__left__checkbox__label {
+    font-size: 1.25em;
+    color: #ffffff;
+  }
+  .loginbody__box__bottom__left__forget {
+    font-size: 1em;
+  }
+  .loginbody__box__bottom__right__button {
+    /* background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29; */
+    background-color: aquamarine;
+    background-color: rgb(49, 154, 150);
+    color: #ffffff;
+    
+    border-radius: 2vh;
+    cursor: pointer;
+    font-size: 4.5em;
+    padding: 1vw 1vw 1vw 1vw;
+    margin-bottom: 15vh;
+  }
+  .loginbody__box {
+    width: 85vw;
+    height: 450px;
+    padding: 0;
+  }
+  .loginbody__box__title {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+
+  .loginbody__box__content {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginbody__box__content__form__label1 {
+    font-size: 1.5em;
+    
+    color: #ffffff;
+  }
+  .loginbody__box__content__form__label2 {
+    
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  .loginbody__box__bottom {
+
+    margin-top: -10px;
+    flex: 0.25;
+    display: flex;
+    /* width: 200%; */
+    /* justify-content: space-between; */
+    align-items: center;
+    /* background-color: red; */
+    /* position: relative; */
+    /* margin: 0 -30px; */
+    /* bottom: -180px; */
+  }
+
+  .loginbody__box__content__input__username {
+    font-style: italic;
+    width: 59%;
+    
+  }
+  .loginbody__box__content__input__username::-webkit-input-placeholder {
+    font-style: italic;
+    
+  }
+  .loginbody__box__bottom__left__checkbox {
+    margin-right: 0.5vw;
+    margin-bottom: 15vh;
+  }
+  .loginbody__box__bottom__left__checkbox__label {
+    font-size: 1.25em;
+    color: #ffffff;
+  }
+  .loginbody__box__bottom__left__forget {
+    font-size: 1em;
+  }
+  .loginbody__box__bottom__right__button {
+    /* background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29; */
+    background-color: aquamarine;
+    background-color: rgb(49, 154, 150);
+    color: #ffffff;
+    
+    border-radius: 2vh;
+    cursor: pointer;
+    font-size: 4.5em;
+    padding: 1vw 1vw 1vw 1vw;
+    margin-bottom: 15vh;
+  }
+  
 }

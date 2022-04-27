@@ -2,17 +2,17 @@ import "./StartupInsightApp.css";
 import blackborder from "./Images/blackborder.png";
 import symbol from "./Images/symbol.png";
 import Header from "./Navbar";
-import Footer from "./StartupInsightFooter";
+import Footer from "../Login/LoginFooter";
 // import Footer from './Footer';
 import { Link } from "react-router-dom";
 
 function StartupInsightApp() {
   return (
     <div className="startupinsightApp">
-      <div className="startupinsight_header">
-        <Header />
-      </div>
-
+      {/* <div className="startupinsight_header">
+        
+      </div> */}
+      <Header />
       <img
         id="startupinsightblackborder"
         src={blackborder}

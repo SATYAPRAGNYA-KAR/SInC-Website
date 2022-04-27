@@ -277,7 +277,7 @@ font-family: 'Montserrat', sans-serif; */
 
   .startupinsightbottom-heading {
     position: absolute;
-    width: 884px;
+    width: 84px;
     height: 277px;
     left: 8%;
     top: 286px;
@@ -358,9 +358,12 @@ font-family: 'Montserrat', sans-serif; */
     top: -400px;
   }
   .startupinsight_footer {
-    position: relative;
-    top: -400px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
   }
+
+
 }
 @media screen and (max-width: 420px) {
   .startupinsighttop-heading,
