@@ -141,7 +141,7 @@ const Hbody2 = () => {
        </div>
       </div>
      
-      {/* <Footer/> */}
+       <Footer/> 
   
       </>
    
