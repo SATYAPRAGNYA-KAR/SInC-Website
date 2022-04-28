@@ -1,6 +1,7 @@
  import React from 'react'
 import Topbar from './Navbar'
 import './text.css'
+import symbol from "../StartupInsight/Images/symbol.png"
 import { Link } from 'react-router-dom'
 import { Form,Button } from 'react-bootstrap'
 import Footer from '../Login/LoginFooter'
@@ -22,7 +23,7 @@ const Hbody2 = () => {
       </div>
       <div className='container-fluid' id="whatwedo">
       {/* <div class="vl"></div> */}
-         <center><h1 className='mt-5 mb-4 aboutus'>WHAT IS SInC ?</h1></center>
+         <center><h1 className='mt-5 mb-4 aboutus' style={{marginLeft:'auto',marginRight:'auto'}}>WHAT IS SInC ?</h1></center>
          <div className='container'>
           <h5 className='aboutus-h5 mb-3'> The Student Incubation Cell, IIT Delhi is formed with an intent to promote design thinking, planful ideation and support budding Entrepreneurs at IIT DELHI who can make a mark on the world map through their vision, next-generation technology, and services by leading from the front.Our mission is to empower every student in the campus in every way possible who aim high to translate their ideas into real-world Startup and to help in a smooth transition in every phase of this journey. As they say “It’s not about ideas, it’s about making ideas happen and we are committed to pave the way with every step one takes.
           <br></br> <br></br> Well! we construct roadmaps and keep to the deadlines we set. We never back 
@@ -35,34 +36,113 @@ const Hbody2 = () => {
       </div>
       <div className='container-fluid bg-contact p-0'>
       <div className='container-fluid nopadding' style={{height: "100%",
-   width: "100%",
-   background: "#000000cf"}}>
-       <div className='container mt-5'>
-          
-          <center> <div className='col-md-8 mt-5'>
-           <div className='container-fluid mt-5'>
-               <br></br><br></br>
-           <center><h1 className='mt-5 mb-3' style={{color:'white'}}>Get In Touch</h1></center>
-               <div className='row'>
-                   <div className='col-md-6'>
-                   <Form.Control className='mt-4 mb-4'  style={{background:'transparent'}} type="email" placeholder="Name" />
-                   <Form.Control  className='mt-4 mb-4' style={{background:'transparent'}} type="email" placeholder="Email" />
-                   <Form.Control  className='mt-4 mb-4' style={{background:'transparent'}} type="email" placeholder="Subject" />
-                   </div>
-                   <div className='col-md-6' style={{marginBottom:'auto',marginTop:'auto'}}>
-                   <textarea class="form-control" style={{background:'transparent'}} id="exampleFormControlTextarea1" rows="6" placeholder='Message'></textarea>
-                     </div>
-                <button class="btn btn-primary btn-block mt-2" style={{background: 'transparent',
-    border: '1px solid #514b4b'}} >Send Message</button>
-               </div>
-           </div>
-  
-           </div>
-           </center>
-       </div>
+   width: "100%", 
+    background: "#000000cf"}}>
+        <div className='container mt-5'>
+          <br></br><br></br>
+          <h1 style={{color:'white'}}>Startup-Insight</h1>
+          <br></br>
+          <h7 className='mt-3' style={{color:'white'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas. Tincidunt nunc pulvinar sapien et.or sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas. Tincidunt nunc pulvinar sapien et. Neque viverra justo nec ultrices dui</h7>
+          <center><Link className='btn mt-3' style={{background:'black', color:'white'}} to='/registerpage'>Register Now</Link></center>
+          <div className="startupinsightbottom">
+         
+        <div className="startupinsightbox2">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox9">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox4">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox5">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox6">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox9">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox8">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox9">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className="startupinsightbox7">
+          <div className="startupinsightbox-heading">YONO</div>
+          <div className="startupinsightbox-symbol">
+            
+          </div>
+          <div className="startupinsightbox-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      </div>
+       </div> 
        </div>
       </div>
-      <Footer/>
+     
+      {/* <Footer/> */}
+  
       </>
    
   )
