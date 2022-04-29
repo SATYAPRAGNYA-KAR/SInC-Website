@@ -5,6 +5,7 @@ import symbol from "../StartupInsight/Images/symbol.png"
 import { Link } from 'react-router-dom'
 import { Form,Button } from 'react-bootstrap'
 import Footer from '../Login/LoginFooter'
+import Startup_card from './Startup_card'
 
 const Hbody2 = () => {
   return (
@@ -153,6 +154,12 @@ const Hbody2 = () => {
               </div>
           </div>
         </div>
+      </div>
+
+      <div className='container-fluid mt-5' style={{background:'azure'}}>
+        <br></br>
+        <center><h1>Events</h1></center>
+        <Startup_card/>
       </div>
      
        <Footer/> 
