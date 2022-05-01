@@ -11,7 +11,7 @@ function BlogBody() {
         <div className="blogbody-content">
             <div className="blog-post">
                 <div className="blog-post-img">
-                    <img src={photo} style={{height: '100%', width: '100%'}}/>
+                    <img src={photo}/>
                 </div>
                 <div className="blog-post-info">
                     <div className="blog-post-info-date">
@@ -27,7 +27,7 @@ function BlogBody() {
             </div>
             <div className="blog-post">
                 <div className="blog-post-img">
-                    <img src={photo} style={{ height: '100%', width: '100%' }} />
+                    <img src={photo} />
                 </div>
                 <div className="blog-post-info">
                     <div className="blog-post-info-date">
