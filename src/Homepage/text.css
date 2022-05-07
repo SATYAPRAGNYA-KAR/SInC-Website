@@ -70,10 +70,10 @@
 }
 
 .bg-contact{
-  background-image: url('./Images/nasa-1lfI7wkGWZ4-unsplash.jpg');
+  background-image: url('./Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg');
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  height: 70vh;
+  height: auto;
   width: 100%;
 }
 
