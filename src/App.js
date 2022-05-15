@@ -1,4 +1,4 @@
- import React, { useEffect } from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -9,7 +9,7 @@ import MentorsStartUpsYouFollowApp from "./Mentors_StartUpsYouFollow/Mentors_Sta
 import ChatApp from "./Chat_Feature/Chat_FeatureApp";
 import NotificationsApp from "./Notifications/NotificationsApp";
 import ContactUsApp from "./ContactUs/ContactUsApp";
-import Blog from "./Blog/BlogApp"
+import Blog from "./Blog/BlogApp";
 import AngelNetworkInvestorApp from "./AngelNetworkInvestor/AngelNetworkInvestorApp";
 import AngelNetworkMentorApp from "./AngelNetworkMentor/AngelNetworkMentorApp";
 import AngelNetworkNmApp from "./AngelNetworkNm/AngelNetworkNmApp";
@@ -41,14 +41,17 @@ import ListOfStartupsApp from "./ListOfStartups/ListOfStartupsApp";
 import RegisterPageApp from "./RegisterPage/RegisterPageApp";
 import StartupInsightApp from "./StartupInsight/StartupInsightApp";
 import EntrepreneurshipKickstartApp from "./EntrepreneurshipKickstart/EntrepreneurshipKickstartApp";
-import LoginApp from "./Login/LoginApp";
+import Login from "./LoginSystem/pages/Login";
+import Signup from "./LoginSystem/pages/Signup";
+import Dashboard from "./Dashboard/Dashboard";
+import { connect } from "react-redux";
 import TeamApp from "./Team/TeamApp";
 
 // import { useState, useEffect } from "react";
 // import axios from "./axios";
 //Remember to write './axios', else the axios module will be imported and the app will crash out
 
-function App() {
+function App({ checked }) {
   // const [people, setPeople] = useState([]);
   // useEffect(() => {
   //   async function fetchData() {
@@ -70,72 +73,89 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Routes>
-          <Route path="/listofstartups" element={<ListOfStartupsApp />} />
+        {checked && (
+          <Routes>
+            <Route path="/listofstartups" element={<ListOfStartupsApp />} />
 
-          <Route path="/aboutstartup" element={<Summary />} />
-          <Route path="/aboutstartup/Team" element={<Team />} />
-          <Route path="/aboutstartup/Financials" element={<Financials />} />
-          <Route path="/aboutstartup/Business" element={<Business />} />
-          <Route path="/aboutstartup/Requirements" element={<Requirements />} />
-          {/* Written elements={<>} instead of element={<>} and so rendering wasn't happening */}
+            <Route path="/aboutstartup" element={<Summary />} />
+            <Route path="/aboutstartup/Team" element={<Team />} />
+            <Route path="/aboutstartup/Financials" element={<Financials />} />
+            <Route path="/aboutstartup/Business" element={<Business />} />
+            <Route
+              path="/aboutstartup/Requirements"
+              element={<Requirements />}
+            />
+            {/* Written elements={<>} instead of element={<>} and so rendering wasn't happening */}
 
-          <Route
-            path="/mentors_startupsyoufollow"
-            element={<MentorsStartUpsYouFollowApp />}
-          />
-          <Route path="/chat" element={<ChatApp />} />
-          <Route path="/notifications" element={<NotificationsApp />} />
-          <Route path="/contactus" element={<ContactUsApp />} />
-          <Route
-            path="/angelnetworkinvestor"
-            element={<AngelNetworkInvestorApp />}
-          />
-          <Route
-            path="/angelnetworkmentor"
-            element={<AngelNetworkMentorApp />}
-          />
-          <Route path="/angelnetworknm" element={<AngelNetworkNmApp />} />
-          <Route path="/iitdangelnetwork" element={<IITDAngelNetworkApp />} />
-          <Route path="/preincubationplan" element={<PreIncubationPlan />} />
-          <Route
-            path="/mentorregistrationform"
-            element={<MentorRegistrationFormApp />}
-          />
-          <Route path="/registrationform" element={<RegistrationFormApp />} />
-          <Route
-            path="/startupsregistrationform"
-            element={<StartupsRegistrationFormApp />}
-          />
-          <Route path="/faqs" element={<FAQsApp />} />
-          <Route path="/settings" element={<SettingsApp />} />
+            <Route
+              path="/mentors_startupsyoufollow"
+              element={<MentorsStartUpsYouFollowApp />}
+            />
+            <Route path="/chat" element={<ChatApp />} />
+            <Route path="/notifications" element={<NotificationsApp />} />
+            <Route path="/contactus" element={<ContactUsApp />} />
+            <Route
+              path="/angelnetworkinvestor"
+              element={<AngelNetworkInvestorApp />}
+            />
+            <Route
+              path="/angelnetworkmentor"
+              element={<AngelNetworkMentorApp />}
+            />
+            <Route path="/angelnetworknm" element={<AngelNetworkNmApp />} />
+            <Route path="/iitdangelnetwork" element={<IITDAngelNetworkApp />} />
+            <Route path="/preincubationplan" element={<PreIncubationPlan />} />
+            <Route
+              path="/mentorregistrationform"
+              element={<MentorRegistrationFormApp />}
+            />
+            <Route path="/registrationform" element={<RegistrationFormApp />} />
+            <Route
+              path="/startupsregistrationform"
+              element={<StartupsRegistrationFormApp />}
+            />
+            <Route path="/faqs" element={<FAQsApp />} />
+            <Route path="/settings" element={<SettingsApp />} />
 
-          <Route path="/settingsnew" element={<Home />} />
-          <Route path="/settingsnew/privacypath" element={<PrivacyHome />} />
-          <Route path="/settingsnew/passwordpath" element={<PasswordHome />} />
-          <Route path="/settingsnew/deletepath" element={<DeleteHome />} />
-          <Route path="/settingsnew/friendpath" element={<FriendHome />} />
-          <Route path="/settingsnew/historypath" element={<HistoryHome />} />
-          <Route path="/settingsnew/infopath" element={<InfoHome />} />
+            <Route path="/settingsnew" element={<Home />} />
+            <Route path="/settingsnew/privacypath" element={<PrivacyHome />} />
+            <Route
+              path="/settingsnew/passwordpath"
+              element={<PasswordHome />}
+            />
+            <Route path="/settingsnew/deletepath" element={<DeleteHome />} />
+            <Route path="/settingsnew/friendpath" element={<FriendHome />} />
+            <Route path="/settingsnew/historypath" element={<HistoryHome />} />
+            <Route path="/settingsnew/infopath" element={<InfoHome />} />
 
-          <Route path="/sidenavigationbar" element={<SideNavigationBarApp />} />
-          <Route path="/registerpage" element={<RegisterPageApp />} />
-          <Route path="/startupinsight" element={<StartupInsightApp />} />
-          <Route
-            path="/entrepreneurshipkickstart"
-            element={<EntrepreneurshipKickstartApp />}
-          />
-          <Route path="/login" element={<LoginApp />} />
-          <Route path="/team" element={<TeamApp />} />
-          <Route path="/" element={<Hbody2 />} />
+            <Route
+              path="/sidenavigationbar"
+              element={<SideNavigationBarApp />}
+            />
+            <Route path="/registerpage" element={<RegisterPageApp />} />
+            <Route path="/startupinsight" element={<StartupInsightApp />} />
+            <Route
+              path="/entrepreneurshipkickstart"
+              element={<EntrepreneurshipKickstartApp />}
+            />
+            <Route path="/team" element={<TeamApp />} />
+            <Route path="/" element={<Hbody2 />} />
 
-          <Route path="/blog" element={<Blog />} />
+            <Route path="/blog" element={<Blog />} />
 
-        </Routes>
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+          </Routes>
+        )}
       </div>
     </Router>
   );
 }
 
-export default App;
+const mapStateToProps = ({ session }) => ({
+  checked: session.checked,
+});
+
+export default connect(mapStateToProps)(App);
 // axios is a package that'll make http requests super simple
