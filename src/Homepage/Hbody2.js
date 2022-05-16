@@ -5,7 +5,7 @@ import symbol from "../StartupInsight/Images/symbol.png"
 import { Link } from 'react-router-dom'
 import { Form,Button } from 'react-bootstrap'
 import Footer from './HomeFooter'
-import Footer from '../Login/LoginFooter'
+// import Footer from '../Login/LoginFooter'
 import Startup_card from './Startup_card'
 
 const Hbody2 = () => {
@@ -148,10 +148,11 @@ const Hbody2 = () => {
           <center><h3 className='mt-3 mb-2' style={{color:'black'}}>Want To Learn More About INCUBATION CELL ? </h3></center><br></br>
           <div className='row mt-3'>
             <div className='col-md-6'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DPzs3Nb4MhQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/DPzs3Nb4MhQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <br/>
             <div className='col-md-6'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FzMfzUKd-gw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/FzMfzUKd-gw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
         </div>

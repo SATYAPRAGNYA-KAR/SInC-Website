@@ -54,3 +54,10 @@
 .card .content .btn button:hover{
   transform: scale(0.9);
 }
+
+@media screen and (max-width: 420px){
+  .slider{
+    display: flex;
+    flex-direction: column;
+  }
+}

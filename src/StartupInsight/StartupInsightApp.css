@@ -361,6 +361,11 @@ font-family: 'Montserrat', sans-serif; */
     position: relative;
     top: -400px;
   }
+  .startupinsightbottom{
+    margin-top:320px;
+    /* margin-bottom: -320px; */
+    padding-bottom: -320px;
+  }
 }
 @media screen and (max-width: 420px) {
   .startupinsighttop-heading,
