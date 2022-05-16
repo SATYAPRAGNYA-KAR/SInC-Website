@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import { Form,Button } from 'react-bootstrap'
 import Footer from '../Login/LoginFooter'
 import Startup_card from './Startup_card'
+import Typical from 'react-typical'
 
 const Hbody2 = () => {
   return (
@@ -13,7 +14,24 @@ const Hbody2 = () => {
       <Topbar/>
       <div class="brasil" data-text="Student Incubation Cell">Student Incubation Cell</div> 
       <center><h1 className='head'>IIT DELHI</h1></center>
-      <h1 className='head2'>“ CREATING JOB CREATORS ”</h1>
+      <h1 className='head2'>
+        <p className="head2-p">
+        "CREATING{" "}
+        <Typical 
+          loop={Infinity}
+          wrapper='b'
+          steps={[
+              'JOB CREATORS',
+              8000,
+              'ENTREPRENEURS',
+              8000,
+              'MONEY MAKERS',
+              8000,
+            ]}
+          />
+          "
+        </p>
+      </h1>
       <h1 className='head3'><a className='btn btn-explore' href="#whatwedo"><b>What We Do?</b></a></h1>
       <div className='container-fluid bg-img p-0'>
       <div className='container-fluid nopadding' style={{height: "100%",
