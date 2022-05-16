@@ -5,7 +5,7 @@ import Body from "./Body";
 import Topbar from "./Navbar";
 import Header from "./HomeHeader";
 // import Body from "./HomepageBody";
-import Footer from "../Login/LoginFooter";
+import Footer from "./HomeFooter";
 import SideNavigationBarApp from "./SideNavigationBarApp"
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import $ from 'jquery';
@@ -39,10 +39,7 @@ export default class HomeApp extends Component {
         <div className="homeAppPage">
           <Topbar />
           <Body />
-          <div className="home_footer">
-            <Footer />
-          </div>
-          
+          <Footer />
         </div>
       </div>
     );

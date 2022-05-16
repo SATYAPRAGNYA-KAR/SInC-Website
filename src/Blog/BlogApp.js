@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from "./Header"
-import Footer from "../Login/LoginFooter";
+import Footer from "./Footer"
 import Body from "./BlogBody"
 
 function BlogApp() {

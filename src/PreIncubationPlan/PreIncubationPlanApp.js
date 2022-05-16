@@ -3,61 +3,57 @@ import businessDeal from "./businessDeal.png";
 import rocket from "./rocket.png";
 import invertedCommas from "./invertedCommas.png";
 import Header from "./Navbar";
-import Footer from "../Login/LoginFooter";
+import "./Navbar.css"
+import Footer from "./PreIncubationPlanFooter";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link } from "react-router-dom";
 
-function PreIncubationPlanApp() {
+function preincubplanApp() {
   return (
-    <div className="PreIncubationPlanApp">
-      <div className="PreIncubationPlan_header">
-        <Header />
+    <div className="preincubplanApp">
+      <div className="preincubplan_header">
+        <Header/>
       </div>
-
-      <div className="PreIncubationPlanmain-heading">Pre Incubation Plan</div>
-      <div className="PreIncubationPlanboxes">
-        <div className="PreIncubationPlanbox1">
-          <div className="PreIncubationPlanbox-text">
-            <div className="PreIncubationPlanbox-text-heading">Introduction</div>
-            <div className="PreIncubationPlanbox-text-content">
-              An initiative to connect the IITD Startup Community (Mentors,
-              Investors and startups) and bridge the gap between the ones
-              seeking help and the ones willing to help.
+      
+      <div className="preincubplanmain-heading">Pre Incubation Plan</div>
+      <div className="preincubplanboxes">
+        <div className="preincubplanbox1">
+          <div className="preincubplanbox-text">
+            <div className="preincubplanbox-text-heading">Introduction</div>
+            <div className="preincubplanbox-text-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus in hac habitasse platea. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Morbi leo urna molestie at elementum eu facilisis. 
             </div>
           </div>
-          <div className="PreIncubationPlanbox1-image">
+          <div className="preincubplanbox1-image">
             <img src={businessDeal} alt="Two people shaking hands" />
           </div>
         </div>
-        <div className="PreIncubationPlanbox2">
-          <div className="PreIncubationPlanbox-text">
-            <div className="PreIncubationPlanbox-text-heading">
-              Relation with Entrepreneurship Kickstart
+        <div className="preincubplanbox2">
+          <div className="preincubplanbox-text">
+            <div className="preincubplanbox-text-heading">
+            Lorem Ipsum dolor sit amet, consectetur
             </div>
-            <div className="PreIncubationPlanbox-text-content">
-              Alumni in the IITD Angel Network interested in helping startups at
-              nascent stages can help us to implement the initiative by being a
-              mentor, or donating to nurturing funds. Mentioned below is a
-              detailed description.
+            <div className="preincubplanbox-text-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus in hac habitasse platea. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Morbi leo urna 
             </div>
           </div>
-          <div className="PreIncubationPlanbox2-image">
+          <div className="preincubplanbox2-image">
             <img src={rocket} alt="Two people shaking hands" />
           </div>
         </div>
       </div>
-      <div className="PreIncubationPlaninviting-our-alumni">
+      <div className="preincubplaninviting-our-alumni">
         Inviting our alumni to be a part of of the initiative that is going to
         change the way entrepreneurship is looked at in the campus.
       </div>
 
-      <div className="PreIncubationPlanline-under-quotes">
+      <div className="preincubplanline-under-quotes">
         <img
-          className="PreIncubationPlanopening-quotes"
+          className="preincubplanopening-quotes"
           src={invertedCommas}
           alt="beginning inverted commas"
         />
-        <div className="PreIncubationPlanthe-line">
+        <div className="preincubplanthe-line">
           IT’S NOT ABOUT IDEAS,
           <br />
           IT’S ABOUT MAKING
@@ -65,7 +61,7 @@ function PreIncubationPlanApp() {
           IDEAS HAPPEN.
         </div>
         <img
-          className="PreIncubationPlanclosing-quotes"
+          className="preincubplanclosing-quotes"
           src={invertedCommas}
           alt="ending inverted commas"
         />
@@ -73,11 +69,11 @@ function PreIncubationPlanApp() {
       <Link to="/angelnetworkmentor" style={{ color: "black" }}>
         <ExpandMoreIcon />
       </Link>
-      <div className="PreIncubationPlan_footer">
-        <Footer />
+      <div className="preincubplan_footer">
+        <Footer/>
       </div>
     </div>
   );
 }
 
-export default PreIncubationPlanApp;
+export default preincubplanApp;

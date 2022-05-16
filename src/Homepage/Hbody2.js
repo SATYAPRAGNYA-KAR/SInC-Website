@@ -4,7 +4,7 @@ import './text.css'
 import symbol from "../StartupInsight/Images/symbol.png"
 import { Link } from 'react-router-dom'
 import { Form,Button } from 'react-bootstrap'
-import Footer from '../Login/LoginFooter'
+import Footer from './HomeFooter'
 import Startup_card from './Startup_card'
 import Typical from 'react-typical'
 
@@ -40,7 +40,7 @@ const Hbody2 = () => {
        </div>
 
       </div>
-      <div className='container-fluid' id="whatwedo">
+      <div className='container-fluid'>
       {/* <div class="vl"></div> */}
          <center><h1 className='mt-5 mb-4 aboutus' style={{marginLeft:'auto',marginRight:'auto'}}>WHAT IS SInC ?</h1></center>
          <div className='container'>
