@@ -1,0 +1,35 @@
+.registerpagefooter {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.registerpagefooter-left {
+  display: flex;
+  padding-left: 20px;
+}
+.registerpagefooterspan {
+  color: white;
+}
+.registerpagefooter-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+.registerpagefooter-center > h4 {
+  padding: 0;
+  margin: 0;
+}
+.registerpagefooter-center > span {
+  padding: 0;
+  margin: 0;
+}
+.registerpagefooter-right {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}

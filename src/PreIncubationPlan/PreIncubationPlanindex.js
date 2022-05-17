@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./PreIncubationPlanindex.css";
-import PreIncubationPlanApp from "./PreIncubationPlanApp";
-import reportWebVitals from "./PreIncubationPlanreportWebVitals";
+import "./IITDAngelNetworkindex.css";
+import IITDAngelNetworkApp from "./IITDAngelNetworkApp";
+import reportWebVitals from "./IITDAngelNetworkreportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <PreIncubationPlanApp />
+    <IITDAngelNetworkApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

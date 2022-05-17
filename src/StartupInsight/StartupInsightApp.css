@@ -92,6 +92,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .startupinsightbottom {
   padding: 70px 9%;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -143,8 +144,8 @@ font-family: 'Montserrat', sans-serif; */
 
 .startupinsightbox-symbol {
   position: relative;
-  left: 85%;
-  top: -22%;
+  left: 30%;
+  top: -18%;
 }
 
 .startupinsightbox-text {
@@ -277,7 +278,7 @@ font-family: 'Montserrat', sans-serif; */
 
   .startupinsightbottom-heading {
     position: absolute;
-    width: 84px;
+    width: 884px;
     height: 277px;
     left: 8%;
     top: 286px;
@@ -358,12 +359,12 @@ font-family: 'Montserrat', sans-serif; */
     top: -400px;
   }
   .startupinsight_footer {
-    height: auto;
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    top: -400px;
   }
-
-
+  .startupinsightbottom{
+    margin-top:400px;
+  }
 }
 @media screen and (max-width: 420px) {
   .startupinsighttop-heading,

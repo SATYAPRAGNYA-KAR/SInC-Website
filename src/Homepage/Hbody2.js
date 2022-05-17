@@ -4,8 +4,9 @@ import './text.css'
 import symbol from "../StartupInsight/Images/symbol.png"
 import { Link } from 'react-router-dom'
 import { Form,Button } from 'react-bootstrap'
-import Footer from '../Login/LoginFooter'
+import Footer from './HomeFooter'
 import Startup_card from './Startup_card'
+import Typical from 'react-typical'
 
 const Hbody2 = () => {
   return (
@@ -13,7 +14,24 @@ const Hbody2 = () => {
       <Topbar/>
       <div class="brasil" data-text="Student Incubation Cell">Student Incubation Cell</div> 
       <center><h1 className='head'>IIT DELHI</h1></center>
-      <h1 className='head2'>“ CREATING JOB CREATORS ”</h1>
+      <h1 className='head2'>
+        <p className="head2-p">
+        "CREATING{" "}
+        <Typical 
+          loop={Infinity}
+          wrapper='b'
+          steps={[
+              'JOB CREATORS',
+              8000,
+              'ENTREPRENEURS',
+              8000,
+              'MONEY MAKERS',
+              8000,
+            ]}
+          />
+          "
+        </p>
+      </h1>
       <h1 className='head3'><a className='btn btn-explore' href="#whatwedo"><b>What We Do?</b></a></h1>
       <div className='container-fluid bg-img p-0'>
       <div className='container-fluid nopadding' style={{height: "100%",
@@ -22,7 +40,7 @@ const Hbody2 = () => {
        </div>
 
       </div>
-      <div className='container-fluid' id="whatwedo">
+      <div className='container-fluid'>
       {/* <div class="vl"></div> */}
          <center><h1 className='mt-5 mb-4 aboutus' style={{marginLeft:'auto',marginRight:'auto'}}>WHAT IS SInC ?</h1></center>
          <div className='container'>
@@ -147,10 +165,11 @@ const Hbody2 = () => {
           <center><h3 className='mt-3 mb-2' style={{color:'black'}}>Want To Learn More About INCUBATION CELL ? </h3></center><br></br>
           <div className='row mt-3'>
             <div className='col-md-6'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DPzs3Nb4MhQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/DPzs3Nb4MhQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <br/>
             <div className='col-md-6'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FzMfzUKd-gw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/FzMfzUKd-gw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
         </div>
