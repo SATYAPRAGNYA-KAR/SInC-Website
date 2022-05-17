@@ -33,7 +33,7 @@ import { signupUser } from "./../auth/actions/userActions";
 import { useNavigate } from "react-router-dom";
 
 import Topbar from "../components/Navbar";
-import Footer from "../components/HomeFooter";
+import Footer from "../../Homepage/HomeFooter"
 
 const Signup = ({ signupUser }) => {
   const history = useNavigate();

@@ -35,7 +35,7 @@ import { useNavigate } from "react-router-dom";
 // import { Helmet } from "react-helmet";
 
 import Topbar from "../components/Navbar";
-import Footer from "../components/HomeFooter";
+import Footer from "../../Homepage/HomeFooter"
 
 const Login = ({ loginUser }) => {
   const history = useNavigate();
