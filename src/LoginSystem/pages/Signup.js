@@ -14,6 +14,7 @@ import {
   StyledContainer,
 } from "./../components/Styles";
 import Logo from "./../assets/Butterfly.png";
+import SInC from "./../assets/sinc.png";
 
 //Formik
 import { Formik, Form } from "formik";
@@ -37,7 +38,7 @@ const Signup = ({ signupUser }) => {
     <StyledContainer>
       <div>
         <StyledFormArea>
-          <Avatar image={Logo} />
+          <Avatar image={SInC} />
           <StyledTitle color={colors.theme} size={30}>
             Member Signup
           </StyledTitle>

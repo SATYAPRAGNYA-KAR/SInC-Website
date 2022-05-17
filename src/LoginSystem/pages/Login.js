@@ -14,6 +14,7 @@ import {
   StyledContainer,
 } from "./../components/Styles";
 import Logo from "./../assets/Butterfly.png";
+import SInC from "./../assets/sinc.png";
 
 //Formik
 import { Formik, Form } from "formik";
@@ -31,13 +32,21 @@ import { connect } from "react-redux";
 import { loginUser } from "./../auth/actions/userActions";
 import { useNavigate } from "react-router-dom";
 
+// import { Helmet } from "react-helmet";
+
 const Login = ({ loginUser }) => {
   const history = useNavigate();
   return (
     <StyledContainer>
       <div>
+        {/* <Helmet>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+            rel="stylesheet"
+          />
+        </Helmet> */}
         <StyledFormArea>
-          <Avatar image={Logo} />
+          <Avatar image={SInC} />
           <StyledTitle color={colors.theme} size={30}>
             Member Login
           </StyledTitle>
