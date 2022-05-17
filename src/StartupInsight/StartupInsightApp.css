@@ -92,6 +92,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .startupinsightbottom {
   padding: 70px 9%;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -143,8 +144,8 @@ font-family: 'Montserrat', sans-serif; */
 
 .startupinsightbox-symbol {
   position: relative;
-  left: 85%;
-  top: -22%;
+  left: 30%;
+  top: -18%;
 }
 
 .startupinsightbox-text {
@@ -362,9 +363,7 @@ font-family: 'Montserrat', sans-serif; */
     top: -400px;
   }
   .startupinsightbottom{
-    margin-top:320px;
-    /* margin-bottom: -320px; */
-    padding-bottom: -320px;
+    margin-top:400px;
   }
 }
 @media screen and (max-width: 420px) {

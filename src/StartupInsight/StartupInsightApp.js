@@ -9,17 +9,17 @@ import { Link } from "react-router-dom";
 function StartupInsightApp() {
   return (
     <div className="startupinsightApp">
-      <div className="startupinsight_header">
+      <div className="startupinsightheader">
         <Header />
       </div>
 
-      <img
+      {/* <img
         id="startupinsightblackborder"
         src={blackborder}
         alt="just some design"
-      ></img>
+      ></img> */}
 
-      <div className="startupinsighttop-heading">Lorem</div>
+      {/* <div className="startupinsighttop-heading">Lorem</div>
       <div className="startupinsightbottom-heading">Consecteur</div>
 
       <div className="startupinsightright-box">
@@ -37,7 +37,7 @@ function StartupInsightApp() {
             <button>Register</button>
           </div>
         </Link>
-      </div>
+      </div> */}
 
       <div className="startupinsightbottom">
         <div className="startupinsightbox1">
