@@ -22,6 +22,7 @@ export const StyledContainer = styled.div`
   margin: 0;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -120,7 +121,7 @@ export const StyledLabel = styled.p`
 export const StyledFormArea = styled.div`
   background-color: ${(props) => props.bg || colors.light1};
   text-align: center;
-  padding: 45px 55px;
+  padding: 30px 55px;
 `;
 export const StyledFormButton = styled.button`
   padding: 10px;

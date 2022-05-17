@@ -1,0 +1,132 @@
+ #collasible-nav-dropdown{
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+#toggelButton{
+    background-color: yellow;
+    font-size: 19px;
+}
+#NavbarBrand{
+    color:white;
+    font-size:30px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.homeheaderimg img{
+    width: 70px;
+    height: 70px;
+    margin-left: -60px;
+}
+
+#navLink{
+color:white;
+ margin-right:25px;
+ font-size: 18px;
+ margin-top: 7px;
+ text-decoration: none;
+}
+
+#navLinkTeam{
+    color:white;
+     margin-right:25px;
+      font-size: 18px;
+       border-right : 4px solid;
+       width: 85px;
+       margin-top: 7px;
+       text-decoration: none;
+}
+
+@media screen and (max-width:1197px) {
+    #navLink{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    #navLinkTeam{
+        font-size: 15px;
+        margin-left: 0px;
+ }
+ #collasible-nav-dropdown{
+
+    font-size: 15px;
+
+}
+ #NavbarBrand{
+     font-size: 25px;
+ }
+ .homeheaderimg img{
+    width: 60px;
+    height: 60px;
+}
+
+}
+
+
+@media screen and (max-width:992px) {
+    #navLinkTeam{
+           border-right : none;
+    }
+    #navLink{
+        margin-bottom: 15px;
+        /* border-bottom: 1px solid #313131; */
+    }
+    #navLinkTeam{
+    margin-bottom: 15px;
+    /* border-bottom: 1px solid #313131; */
+ }
+ #collasible-nav-dropdown{
+    margin-bottom: 15px;
+}
+}
+
+@media screen and (max-width:635px) {
+    .homeheaderimg img{
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .homeheaderimg img{
+        margin-left: 0px;
+        width: 40px;
+        height: 40px;
+    }
+    
+#NavbarBrand{
+    font-size:25px;
+}
+#toggelButton{
+    font-size: 15px;
+}
+
+}
+@media screen and (max-width:419px) {
+    .homeheaderimg img{
+        margin-left: 0px;
+        width: 26px;
+        height: 26px;
+    }
+    
+#NavbarBrand{
+    font-size:18px;
+}
+#toggelButton{
+    font-size: 9px;
+}
+
+}
+@media screen and (max-width:320px) {
+    .homeheaderimg img{
+        margin-left: 0px;
+        width: 22px;
+        height: 22px;
+    }
+    
+#NavbarBrand{
+    font-size:16px;
+}
+#toggelButton{
+    font-size: 7px;
+}
+
+}

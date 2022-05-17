@@ -32,11 +32,15 @@ import { connect } from "react-redux";
 import { signupUser } from "./../auth/actions/userActions";
 import { useNavigate } from "react-router-dom";
 
+import Topbar from "../components/Navbar";
+import Footer from "../components/HomeFooter";
+
 const Signup = ({ signupUser }) => {
   const history = useNavigate();
   return (
     <StyledContainer>
-      <div>
+      <Topbar />
+      <div style={{ marginTop: "15vh" }}>
         <StyledFormArea>
           <Avatar image={SInC} />
           <StyledTitle color={colors.theme} size={30}>
@@ -122,6 +126,7 @@ const Signup = ({ signupUser }) => {
         </StyledFormArea>
         <CopyrightText>All Rights Reserved &copy;2022</CopyrightText>
       </div>
+      <Footer />
     </StyledContainer>
   );
 };

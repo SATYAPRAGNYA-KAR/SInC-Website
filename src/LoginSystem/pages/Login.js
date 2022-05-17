@@ -34,11 +34,15 @@ import { useNavigate } from "react-router-dom";
 
 // import { Helmet } from "react-helmet";
 
+import Topbar from "../components/Navbar";
+import Footer from "../components/HomeFooter";
+
 const Login = ({ loginUser }) => {
   const history = useNavigate();
   return (
     <StyledContainer>
-      <div>
+      <Topbar />
+      <div style={{ marginTop: "15vh" }}>
         {/* <Helmet>
           <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
@@ -103,6 +107,7 @@ const Login = ({ loginUser }) => {
         </StyledFormArea>
         <CopyrightText>All Rights Reserved &copy;2022</CopyrightText>
       </div>
+      <Footer />
     </StyledContainer>
   );
 };
